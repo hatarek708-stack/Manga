@@ -1,0 +1,2688 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مانجا هب - قراءة المانجا أونلاين</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+                    colors: {
+                        primary: '#7C3AED',
+                        secondary: '#EC4899',
+                        accent: '#F59E0B',
+                        dark: {
+                            900: '#0B0B1A',
+                            800: '#14142E',
+                            700: '#1E1E42',
+                            600: '#282856',
+                            500: '#32326A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background: #0B0B1A;
+            color: #E8E8F0;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #14142E;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            border-radius: 10px;
+        }
+
+        /* ===== GLASSMORPHISM ===== */
+        .glass {
+            background: rgba(30, 30, 66, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(124, 58, 237, 0.12);
+        }
+
+        .glass-light {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .fade-up {
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .float-animation {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        /* ===== NAVBAR ===== */
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1000;
+            background: rgba(11, 11, 26, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(124, 58, 237, 0.1);
+            transition: all 0.3s ease;
+            height: 64px;
+        }
+
+        .navbar.scrolled {
+            background: rgba(11, 11, 26, 0.96);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ===== MANGA CARD ===== */
+        .manga-card {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            background: rgba(30, 30, 66, 0.4);
+            border: 1px solid rgba(124, 58, 237, 0.06);
+        }
+
+        .manga-card:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 20px 60px rgba(124, 58, 237, 0.25);
+            border-color: rgba(124, 58, 237, 0.2);
+        }
+
+        .manga-card .cover-wrap {
+            position: relative;
+            aspect-ratio: 2.5/3.5;
+            background: #1A1A2E;
+            overflow: hidden;
+        }
+
+        .manga-card .cover-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .manga-card:hover .cover-wrap img {
+            transform: scale(1.05);
+        }
+
+        .manga-card .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(11, 11, 26, 0.92) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.35s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 14px;
+        }
+
+        .manga-card:hover .overlay {
+            opacity: 1;
+        }
+
+        .manga-card .info {
+            padding: 12px 14px 14px;
+        }
+
+        .manga-card .info .title {
+            font-weight: 700;
+            font-size: 14px;
+            color: #fff;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .manga-card .info .meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #8080AA;
+            margin-top: 4px;
+        }
+
+        /* ===== BADGES ===== */
+        .badge-new {
+            background: linear-gradient(135deg, #EC4899, #F472B6);
+            color: #fff;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 10px;
+            border-radius: 50px;
+            display: inline-block;
+        }
+
+        .badge-status {
+            padding: 2px 12px;
+            border-radius: 50px;
+            font-size: 10px;
+            font-weight: 700;
+            display: inline-block;
+        }
+
+        .badge-status.ongoing {
+            background: rgba(16, 185, 129, 0.2);
+            color: #34D399;
+            border: 1px solid rgba(16, 185, 129, 0.25);
+        }
+
+        .badge-status.completed {
+            background: rgba(124, 58, 237, 0.2);
+            color: #A78BFA;
+            border: 1px solid rgba(124, 58, 237, 0.25);
+        }
+
+        .badge-status.hiatus {
+            background: rgba(245, 158, 11, 0.2);
+            color: #FBBF24;
+            border: 1px solid rgba(245, 158, 11, 0.25);
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-primary {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            color: #fff;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(124, 58, 237, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
+        }
+
+        /* ===== CHIPS ===== */
+        .chip {
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(124, 58, 237, 0.15);
+            background: rgba(124, 58, 237, 0.06);
+            color: #A78BFA;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .chip:hover,
+        .chip.active {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            color: #fff;
+            border-color: transparent;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(124, 58, 237, 0.25);
+        }
+
+        /* ===== SEARCH ===== */
+        .search-input {
+            background: rgba(30, 30, 66, 0.7);
+            border: 2px solid rgba(124, 58, 237, 0.12);
+            border-radius: 14px;
+            padding: 10px 18px 10px 44px;
+            color: #fff;
+            font-size: 14px;
+            width: 100%;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: #7C3AED;
+            box-shadow: 0 0 25px rgba(124, 58, 237, 0.15);
+        }
+
+        .search-input::placeholder {
+            color: #4A4A6A;
+        }
+
+        /* ===== STATS ===== */
+        .stat-card {
+            background: rgba(30, 30, 66, 0.5);
+            border: 1px solid rgba(124, 58, 237, 0.06);
+            border-radius: 16px;
+            padding: 18px 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: rgba(124, 58, 237, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #fff;
+        }
+
+        .stat-card .label {
+            color: #60608A;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .stat-card .icon {
+            font-size: 22px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        /* ===== GRIDS ===== */
+        .manga-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 16px;
+        }
+
+        .popular-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .cats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 14px;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            padding: 100px 0 50px;
+            background: radial-gradient(ellipse at 20% 50%, rgba(124, 58, 237, 0.1) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 50%, rgba(236, 72, 153, 0.06) 0%, transparent 60%);
+        }
+
+        .hero-title {
+            font-size: 3.2rem;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        .hero-sub {
+            font-size: 1.1rem;
+            color: #8080AA;
+            max-width: 480px;
+        }
+
+        .hero-image {
+            width: 240px;
+            height: 310px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(236, 72, 153, 0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 30px 80px rgba(124, 58, 237, 0.2);
+            border: 1px solid rgba(124, 58, 237, 0.1);
+        }
+
+        .hero-image .badge {
+            position: absolute;
+            bottom: 14px;
+            right: 14px;
+            background: linear-gradient(135deg, #EC4899, #F472B6);
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        /* ===== POPULAR ITEM ===== */
+        .popular-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 10px 14px;
+            border-radius: 12px;
+            background: rgba(30, 30, 66, 0.3);
+            border: 1px solid rgba(124, 58, 237, 0.06);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .popular-item:hover {
+            background: rgba(124, 58, 237, 0.08);
+            border-color: rgba(124, 58, 237, 0.15);
+            transform: translateX(-4px);
+        }
+
+        .popular-item .rank {
+            font-size: 18px;
+            font-weight: 900;
+            color: #4A4A6A;
+            min-width: 28px;
+        }
+
+        .popular-item .rank.gold {
+            color: #F59E0B;
+        }
+        .popular-item .rank.silver {
+            color: #94A3B8;
+        }
+        .popular-item .rank.bronze {
+            color: #D97706;
+        }
+
+        .popular-item .thumb {
+            width: 44px;
+            height: 60px;
+            border-radius: 8px;
+            object-fit: cover;
+            background: #1A1A2E;
+            flex-shrink: 0;
+        }
+
+        .popular-item .info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .popular-item .info .title {
+            font-weight: 700;
+            color: #fff;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .popular-item .info .meta {
+            font-size: 12px;
+            color: #60608A;
+            display: flex;
+            gap: 12px;
+            margin-top: 2px;
+        }
+
+        /* ===== SECTION TITLE ===== */
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .section-title i {
+            color: #7C3AED;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .section-header .more {
+            color: #7C3AED;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .section-header .more:hover {
+            color: #A78BFA;
+        }
+
+        /* ===== MOBILE MENU ===== */
+        .mobile-menu {
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            background: rgba(11, 11, 26, 0.98);
+            backdrop-filter: blur(20px);
+            transform: translateX(100%);
+            transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 80px 24px 24px;
+        }
+
+        .mobile-menu.open {
+            transform: translateX(0);
+        }
+
+        /* ===== TOAST ===== */
+        .toast-wrap {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9999;
+            pointer-events: none;
+        }
+
+        .toast {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 14px;
+            font-weight: 700;
+            font-size: 14px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            transform: translateY(80px);
+            opacity: 0;
+            transition: all 0.4s ease;
+            pointer-events: all;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .toast.success {
+            background: linear-gradient(135deg, #10B981, #059669);
+        }
+
+        .toast.error {
+            background: linear-gradient(135deg, #EF4444, #DC2626);
+        }
+
+        .toast.warning {
+            background: linear-gradient(135deg, #F59E0B, #D97706);
+        }
+
+        /* ===== SCROLL TOP ===== */
+        .scroll-top {
+            position: fixed;
+            bottom: 24px;
+            left: 24px;
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            color: #fff;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            z-index: 500;
+            box-shadow: 0 8px 30px rgba(124, 58, 237, 0.35);
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: scale(0.8);
+            pointer-events: none;
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: all;
+        }
+
+        .scroll-top:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 40px rgba(124, 58, 237, 0.5);
+        }
+
+        /* ===== CHAPTER ITEM ===== */
+        .chapter-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-right: 3px solid transparent;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .chapter-item:hover {
+            background: rgba(124, 58, 237, 0.06);
+            border-right-color: #7C3AED;
+        }
+
+        .chapter-item.read {
+            opacity: 0.5;
+        }
+
+        .chapter-item .num {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(124, 58, 237, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            color: #A78BFA;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 80px 0 30px;
+            }
+
+            .hero-title {
+                font-size: 2.2rem;
+                text-align: center;
+            }
+
+            .hero-sub {
+                font-size: 1rem;
+                max-width: 100%;
+                text-align: center;
+            }
+
+            .hero .flex-wrap {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .hero .flex-wrap .gap-4 {
+                justify-content: center;
+            }
+
+            .hero-image {
+                width: 180px;
+                height: 230px;
+                margin-top: 20px;
+            }
+
+            .manga-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .stat-card {
+                padding: 14px;
+            }
+
+            .stat-card .number {
+                font-size: 1.4rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+
+            .popular-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .manga-card .info .title {
+                font-size: 12px;
+            }
+
+            .manga-card .info .meta {
+                font-size: 10px;
+            }
+
+            .btn-primary,
+            .btn-secondary {
+                padding: 8px 16px;
+                font-size: 12px;
+            }
+
+            .chip {
+                font-size: 11px;
+                padding: 4px 12px;
+            }
+
+            .search-input {
+                font-size: 13px;
+                padding: 8px 14px 8px 38px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 1.8rem;
+            }
+
+            .manga-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+
+            .stat-card {
+                padding: 10px;
+            }
+
+            .stat-card .number {
+                font-size: 1.2rem;
+            }
+
+            .stat-card .label {
+                font-size: 11px;
+            }
+
+            .hero-image {
+                width: 150px;
+                height: 190px;
+            }
+
+            .popular-item {
+                padding: 8px 12px;
+            }
+
+            .popular-item .thumb {
+                width: 36px;
+                height: 48px;
+            }
+
+            .popular-item .info .title {
+                font-size: 12px;
+            }
+
+            .popular-item .info .meta {
+                font-size: 10px;
+            }
+        }
+
+        /* ===== LOADING ===== */
+        #loading {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: #0B0B1A;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.6s ease;
+        }
+
+        #loading.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 4px solid rgba(124, 58, 237, 0.15);
+            border-top-color: #7C3AED;
+            animation: spin 0.8s linear infinite;
+        }
+
+        .loader-text {
+            margin-top: 16px;
+            color: #60608A;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        /* ===== NAV LINK ===== */
+        .nav-link {
+            color: #8080AA;
+            transition: color 0.3s ease;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            position: relative;
+            padding: 4px 0;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #7C3AED, #EC4899);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: #fff;
+        }
+
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        /* ===== TEXT GRADIENT ===== */
+        .text-gradient {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ===== PAGE SECTIONS ===== */
+        .page-section {
+            display: none;
+            padding-top: 64px;
+            min-height: 100vh;
+        }
+
+        .page-section.active {
+            display: block;
+            animation: fadeUp 0.5s ease;
+        }
+
+        /* ===== CHAPTER SELECT ===== */
+        .chapter-select {
+            background: rgba(30, 30, 66, 0.7);
+            border: 1px solid rgba(124, 58, 237, 0.12);
+            border-radius: 10px;
+            padding: 7px 14px;
+            color: #fff;
+            font-size: 13px;
+            font-family: 'Cairo', sans-serif;
+            outline: none;
+            cursor: pointer;
+            min-width: 120px;
+        }
+
+        .chapter-select:focus {
+            border-color: #7C3AED;
+        }
+
+        .chapter-select option {
+            background: #14142E;
+            color: #fff;
+        }
+
+        /* ===== READER ===== */
+        .reader-image {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 4px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* ===== READER SETTINGS ===== */
+        .reader-settings {
+            position: fixed;
+            top: 72px;
+            left: 16px;
+            z-index: 100;
+            background: rgba(20, 20, 46, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(124, 58, 237, 0.12);
+            border-radius: 16px;
+            padding: 18px 20px;
+            width: 220px;
+            display: none;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .reader-settings.open {
+            display: block;
+            animation: fadeUp 0.3s ease;
+        }
+
+        .reader-settings .group {
+            margin-bottom: 12px;
+        }
+
+        .reader-settings .group:last-child {
+            margin-bottom: 0;
+        }
+
+        .reader-settings .label {
+            font-size: 11px;
+            color: #8080AA;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .reader-settings .options {
+            display: flex;
+            gap: 4px;
+        }
+
+        .reader-settings .options button {
+            flex: 1;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(124, 58, 237, 0.1);
+            background: rgba(30, 30, 66, 0.5);
+            color: #8080AA;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 600;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .reader-settings .options button.active {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            color: #fff;
+            border-color: transparent;
+        }
+
+        .reader-settings .colors {
+            display: flex;
+            gap: 6px;
+        }
+
+        .reader-settings .colors button {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .reader-settings .colors button:hover,
+        .reader-settings .colors button.active {
+            border-color: #7C3AED;
+            transform: scale(1.1);
+        }
+
+        /* ===== SWIPE HINT ===== */
+        .swipe-hint {
+            position: fixed;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(124, 58, 237, 0.9);
+            backdrop-filter: blur(10px);
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 700;
+            z-index: 500;
+            animation: fadeUp 0.5s ease, fadeOut 0.5s ease 2.8s forwards;
+            box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
+            pointer-events: none;
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                transform: translateX(-50%) translateY(20px);
+            }
+        }
+
+        /* ===== READER HEADER ===== */
+        #readerHeader {
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        #readerHeader.hidden {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        /* ===== SEARCH RESULTS ===== */
+        .search-results {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            left: 0;
+            margin-top: 8px;
+            background: rgba(20, 20, 46, 0.96);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(124, 58, 237, 0.1);
+            border-radius: 14px;
+            overflow: hidden;
+            max-height: 280px;
+            overflow-y: auto;
+            display: none;
+            z-index: 50;
+        }
+
+        .search-results.show {
+            display: block;
+        }
+
+        .search-results .result-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 14px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .search-results .result-item:hover {
+            background: rgba(124, 58, 237, 0.08);
+        }
+
+        .search-results .result-item img {
+            width: 36px;
+            height: 50px;
+            border-radius: 6px;
+            object-fit: cover;
+            background: #1A1A2E;
+            flex-shrink: 0;
+        }
+
+        .search-results .result-item .title {
+            font-weight: 600;
+            font-size: 13px;
+            color: #fff;
+        }
+
+        .search-results .result-item .sub {
+            font-size: 11px;
+            color: #60608A;
+        }
+
+        /* ===== AUTH MODAL ===== */
+        .auth-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            z-index: 3000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.35s ease;
+        }
+
+        .auth-overlay.open {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .auth-modal {
+            background: #14142E;
+            border: 1px solid rgba(124, 58, 237, 0.15);
+            border-radius: 24px;
+            padding: 28px 24px;
+            max-width: 400px;
+            width: 92%;
+            transform: translateY(20px) scale(0.95);
+            transition: transform 0.35s ease;
+            position: relative;
+        }
+
+        .auth-overlay.open .auth-modal {
+            transform: translateY(0) scale(1);
+        }
+
+        .auth-modal .close {
+            position: absolute;
+            top: 14px;
+            left: 18px;
+            background: none;
+            border: none;
+            color: #60608A;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .auth-modal .close:hover {
+            color: #fff;
+        }
+
+        .auth-modal .tabs {
+            display: flex;
+            gap: 4px;
+            background: rgba(30, 30, 66, 0.4);
+            border-radius: 12px;
+            padding: 4px;
+            margin-bottom: 18px;
+        }
+
+        .auth-modal .tabs button {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 10px;
+            background: transparent;
+            color: #60608A;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .auth-modal .tabs button.active {
+            background: linear-gradient(135deg, #7C3AED, #EC4899);
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(124, 58, 237, 0.25);
+        }
+
+        .auth-modal .input {
+            width: 100%;
+            padding: 10px 14px;
+            border-radius: 12px;
+            border: 2px solid rgba(124, 58, 237, 0.1);
+            background: rgba(30, 30, 66, 0.5);
+            color: #fff;
+            font-size: 14px;
+            font-family: 'Cairo', sans-serif;
+            transition: all 0.3s ease;
+            outline: none;
+            margin-bottom: 10px;
+        }
+
+        .auth-modal .input:focus {
+            border-color: #7C3AED;
+            box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
+        }
+
+        .auth-modal .input::placeholder {
+            color: #4A4A6A;
+        }
+
+        .auth-modal .error {
+            color: #EF4444;
+            font-size: 12px;
+            margin-top: 2px;
+            display: none;
+        }
+
+        .auth-modal .error.show {
+            display: block;
+        }
+
+        .auth-modal .divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 14px 0;
+            color: #4A4A6A;
+            font-size: 12px;
+        }
+
+        .auth-modal .divider::before,
+        .auth-modal .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: rgba(124, 58, 237, 0.08);
+        }
+
+        .auth-modal .google-btn {
+            width: 100%;
+            padding: 10px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.04);
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .auth-modal .google-btn:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        /* ===== PROGRESS BAR ===== */
+        .progress-track {
+            width: 100%;
+            height: 3px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 6px;
+        }
+
+        .progress-track .fill {
+            height: 100%;
+            background: linear-gradient(90deg, #7C3AED, #EC4899);
+            border-radius: 4px;
+            transition: width 0.6s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== LOADING ===== -->
+    <div id="loading">
+        <div class="loader"></div>
+        <div class="loader-text">جاري تحميل المكتبة...</div>
+    </div>
+
+    <!-- ===== TOAST ===== -->
+    <div class="toast-wrap" id="toastWrap">
+        <div class="toast" id="toast"></div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-3 cursor-pointer" onclick="navigateTo('home')">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20">
+                    <i class="fas fa-crown text-white text-sm"></i>
+                </div>
+                <span class="text-lg font-black text-gradient hidden sm:inline">مانجا هب</span>
+            </div>
+
+            <!-- Desktop Nav -->
+            <div class="hidden md:flex items-center gap-6">
+                <a class="nav-link active" onclick="navigateTo('home')" data-page="home">
+                    <i class="fas fa-home ml-1"></i> الرئيسية
+                </a>
+                <a class="nav-link" onclick="navigateTo('library')" data-page="library">
+                    <i class="fas fa-book-open ml-1"></i> المكتبة
+                </a>
+                <a class="nav-link" onclick="navigateTo('categories')" data-page="categories">
+                    <i class="fas fa-grid-2 ml-1"></i> التصنيفات
+                </a>
+                <a class="nav-link" onclick="navigateTo('bookmarks')" data-page="bookmarks">
+                    <i class="fas fa-heart ml-1"></i> المفضلة
+                </a>
+            </div>
+
+            <!-- Search Desktop -->
+            <div class="hidden md:flex items-center flex-1 max-w-xs mx-4">
+                <div class="relative w-full">
+                    <input type="text" id="searchInput" placeholder="ابحث عن مانجا..."
+                    class="search-input" oninput="debounceSearch(this.value)" />
+                    <i class="fas fa-search absolute right-3 top-1/2 -translate-y-1/2 text-[#4A4A6A] text-sm"></i>
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex items-center gap-2">
+                <button onclick="openAuth()"
+                class="hidden md:flex w-9 h-9 rounded-full glass items-center justify-center text-[#8080AA] hover:text-white transition"
+                id="authBtn">
+                <i class="fas fa-user text-sm"></i>
+            </button>
+            <button onclick="toggleMobile()" class="md:hidden text-white text-xl">
+                <i class="fas fa-bars" id="menuIcon"></i>
+            </button>
+        </div>
+
+    </div>
+</nav>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+    <button onclick="toggleMobile()" class="absolute top-4 left-4 text-2xl text-white">
+        <i class="fas fa-xmark"></i>
+    </button>
+    <div class="flex flex-col gap-4">
+        <div class="relative mb-2">
+            <input type="text" id="mobileSearch" placeholder="ابحث عن مانجا..."
+            class="search-input" oninput="debounceSearch(this.value, true)" />
+            <i class="fas fa-search absolute right-3 top-1/2 -translate-y-1/2 text-[#4A4A6A] text-sm"></i>
+            <div class="search-results" id="mobileSearchResults"></div>
+        </div>
+        <a class="text-lg font-semibold flex items-center gap-3 cursor-pointer text-white hover:text-primary transition"
+        onclick="navigateTo('home'); toggleMobile();">
+        <i class="fas fa-home w-8 text-center text-primary"></i> الرئيسية
+    </a>
+    <a class="text-lg font-semibold flex items-center gap-3 cursor-pointer text-white hover:text-primary transition"
+    onclick="navigateTo('library'); toggleMobile();">
+    <i class="fas fa-book-open w-8 text-center text-primary"></i> المكتبة
+</a>
+<a class="text-lg font-semibold flex items-center gap-3 cursor-pointer text-white hover:text-primary transition"
+onclick="navigateTo('categories'); toggleMobile();">
+<i class="fas fa-grid-2 w-8 text-center text-primary"></i> التصنيفات
+</a>
+<a class="text-lg font-semibold flex items-center gap-3 cursor-pointer text-white hover:text-primary transition"
+onclick="navigateTo('bookmarks'); toggleMobile();">
+<i class="fas fa-heart w-8 text-center text-primary"></i> المفضلة
+</a>
+<hr class="border-[#1E1E42]" />
+<a class="text-lg font-semibold flex items-center gap-3 cursor-pointer text-white hover:text-primary transition"
+onclick="openAuth(); toggleMobile();">
+<i class="fas fa-user w-8 text-center text-primary"></i> حسابي
+</a>
+</div>
+</div>
+
+<!-- ===== MAIN ===== -->
+<main>
+
+    <!-- ===== HOME ===== -->
+    <section id="page-home" class="page-section active">
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex flex-wrap items-center gap-8 lg:gap-12">
+                    <div class="flex-1 min-w-[280px]">
+                        <h1 class="hero-title">
+                            اقرأ <span class="text-gradient">المانجا</span>
+                            <br />بكل سهولة
+                        </h1>
+                        <p class="hero-sub mt-4">
+                            اكتشف آلاف المانجات المترجمة بجودة عالية. تابع أحدث الفصول،
+                            واحفظ مفضلاتك، واستمتع بتجربة قراءة فريدة.
+                        </p>
+                        <div class="flex flex-wrap gap-4 mt-6">
+                            <button class="btn-primary" onclick="navigateTo('library')">
+                                <i class="fas fa-play"></i> ابدأ القراءة
+                            </button>
+                            <button class="btn-secondary" onclick="navigateTo('categories')">
+                                <i class="fas fa-compass"></i> استكشف
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex-shrink-0 float-animation">
+                        <div class="hero-image">
+                            <div class="text-center">
+                                <i class="fas fa-crown text-5xl text-primary/30 mb-3"></i>
+                                <p class="text-white font-bold text-lg">مانجا هب</p>
+                                <p class="text-[#60608A] text-sm">المكتبة العربية</p>
+                            </div>
+                            <div class="badge">
+                                <i class="fas fa-star ml-1"></i> جديد
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="max-w-7xl mx-auto px-4 -mt-6">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="icon text-primary"><i class="fas fa-book"></i></span>
+                    <div class="number" id="statManga">—</div>
+                    <div class="label">مانجا متاحة</div>
+                </div>
+                <div class="stat-card">
+                    <span class="icon text-secondary"><i class="fas fa-list"></i></span>
+                    <div class="number" id="statChapters">—</div>
+                    <div class="label">فصل منشور</div>
+                </div>
+                <div class="stat-card">
+                    <span class="icon text-emerald-400"><i class="fas fa-users"></i></span>
+                    <div class="number" id="statReaders">—</div>
+                    <div class="label">قارئ مسجّل</div>
+                </div>
+                <div class="stat-card">
+                    <span class="icon text-amber-400"><i class="fas fa-clock"></i></span>
+                    <div class="number">24/7</div>
+                    <div class="label">تحديث مستمر</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Categories -->
+        <div class="max-w-7xl mx-auto px-4 py-10">
+            <div class="section-title">
+                <i class="fas fa-fire"></i> التصنيفات الشائعة
+            </div>
+            <div class="flex flex-wrap gap-3" id="quickCats"></div>
+        </div>
+
+        <!-- Latest Updates -->
+        <div class="max-w-7xl mx-auto px-4 pb-6">
+            <div class="section-header">
+                <div class="section-title" style="margin-bottom:0;">
+                    <i class="fas fa-clock"></i> آخر التحديثات
+                </div>
+                <span class="more" onclick="navigateTo('library')">
+                    عرض الكل <i class="fas fa-arrow-left"></i>
+                </span>
+            </div>
+            <div class="manga-grid" id="latestGrid"></div>
+        </div>
+
+        <!-- Popular -->
+        <div class="max-w-7xl mx-auto px-4 pb-6">
+            <div class="section-header">
+                <div class="section-title" style="margin-bottom:0;">
+                    <i class="fas fa-crown text-amber-400"></i> الأكثر قراءة
+                </div>
+                <span class="more" onclick="navigateTo('library')">
+                    عرض الكل <i class="fas fa-arrow-left"></i>
+                </span>
+            </div>
+            <div class="popular-grid" id="popularGrid"></div>
+        </div>
+
+        <!-- Continue Reading -->
+        <div class="max-w-7xl mx-auto px-4 pb-16" id="continueSection">
+            <div class="section-title">
+                <i class="fas fa-history text-emerald-400"></i> أكمل القراءة
+            </div>
+            <div class="manga-grid" id="historyGrid"></div>
+        </div>
+
+    </section>
+
+    <!-- ===== LIBRARY ===== -->
+    <section id="page-library" class="page-section">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+                <div>
+                    <h1 class="text-3xl font-black"><i class="fas fa-book-open text-primary ml-2"></i>المكتبة</h1>
+                    <p class="text-[#60608A] text-sm">تصفح جميع المانجا المتاحة</p>
+                </div>
+                <div class="flex flex-wrap gap-3">
+                    <select id="sortSelect" class="chapter-select" onchange="filterLibrary()">
+                        <option value="latest">الأحدث</option>
+                        <option value="popular">الأكثر قراءة</option>
+                        <option value="name">أبجدي</option>
+                        <option value="rating">الأعلى تقييماً</option>
+                    </select>
+                    <select id="statusFilter" class="chapter-select" onchange="filterLibrary()">
+                        <option value="all">الكل</option>
+                        <option value="ongoing">مستمرة</option>
+                        <option value="completed">مكتملة</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-6" id="libraryChips"></div>
+            <div class="manga-grid" id="libraryGrid"></div>
+            <div class="text-center mt-8" id="loadMoreWrap">
+                <button class="btn-primary" onclick="loadMore()">
+                    <i class="fas fa-plus"></i> تحميل المزيد
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CATEGORIES ===== -->
+    <section id="page-categories" class="page-section">
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <h1 class="text-3xl font-black mb-8"><i class="fas fa-grid-2 text-primary ml-2"></i>التصنيفات</h1>
+            <div class="cats-grid" id="catsGrid"></div>
+        </div>
+    </section>
+
+    <!-- ===== DETAILS ===== -->
+    <section id="page-details" class="page-section">
+        <div class="relative h-48 md:h-64 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-dark-900/50 to-dark-900 z-10"></div>
+            <div id="mangaBanner" class="w-full h-full" style="background:linear-gradient(135deg,rgba(124,58,237,0.2),rgba(236,72,153,0.2))"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 relative z-20" style="margin-top:-5rem;">
+            <div class="flex flex-col md:flex-row gap-6">
+                <!-- Cover -->
+                <div class="flex-shrink-0 mx-auto md:mx-0">
+                    <div id="mangaCover" class="w-36 h-52 md:w-44 md:h-64 rounded-2xl overflow-hidden shadow-2xl border-2 border-primary/20">
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="flex-1 text-center md:text-right">
+                    <div class="flex flex-wrap gap-2 justify-center md:justify-start mb-3" id="mangaTags"></div>
+                    <h1 id="mangaTitle" class="text-2xl md:text-3xl font-black mb-1"></h1>
+                    <p id="mangaAlt" class="text-[#60608A] text-sm mb-3"></p>
+
+                    <div class="flex items-center gap-4 justify-center md:justify-start mb-3">
+                        <div class="flex items-center gap-1" id="mangaStars"></div>
+                        <span id="mangaRating" class="text-amber-400 font-bold"></span>
+                        <span class="text-[#60608A] text-sm">(<span id="mangaVotes"></span> تقييم)</span>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3 justify-center md:justify-start mb-4">
+                        <div class="glass px-4 py-2 rounded-lg text-sm flex items-center gap-2">
+                            <i class="fas fa-eye text-primary"></i> <span id="mangaViews"></span>
+                        </div>
+                        <div class="glass px-4 py-2 rounded-lg text-sm flex items-center gap-2">
+                            <i class="fas fa-book text-emerald-400"></i> <span id="mangaChapters"></span> فصل
+                        </div>
+                        <div id="mangaStatus" class="glass px-4 py-2 rounded-lg text-sm"></div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3 justify-center md:justify-start mb-4">
+                        <button id="readBtn" class="btn-primary">
+                            <i class="fas fa-play"></i> ابدأ القراءة
+                        </button>
+                        <button id="bookmarkBtn" class="btn-secondary" onclick="toggleBookmark()">
+                            <i class="far fa-heart"></i> أضف للمفضلة
+                        </button>
+                        <button class="btn-secondary" onclick="shareManga()">
+                            <i class="fas fa-share-nodes"></i>
+                        </button>
+                    </div>
+
+                    <div class="glass rounded-xl p-4">
+                        <h3 class="font-bold text-lg mb-2 flex items-center gap-2">
+                            <i class="fas fa-circle-info text-primary"></i> القصة
+                        </h3>
+                        <p id="mangaDesc" class="text-[#C0C0D0] leading-relaxed text-sm"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chapters -->
+            <div class="mt-8">
+                <div class="glass rounded-xl p-6">
+                    <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
+                        <h2 class="text-xl font-bold flex items-center gap-2">
+                            <i class="fas fa-list text-primary"></i> قائمة الفصول
+                        </h2>
+                        <div class="flex items-center gap-3">
+                            <button class="text-sm font-semibold text-white transition" onclick="sortChapters('desc')" id="sortDesc">
+                                <i class="fas fa-arrow-down-wide-short ml-1"></i> الأحدث
+                            </button>
+                            <button class="text-sm text-[#60608A] hover:text-white transition" onclick="sortChapters('asc')" id="sortAsc">
+                                <i class="fas fa-arrow-up-short-wide ml-1"></i> الأقدم
+                            </button>
+                        </div>
+                    </div>
+                    <div id="chaptersList" class="space-y-1 max-h-96 overflow-y-auto"></div>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="mt-8 pb-16">
+                <div class="glass rounded-xl p-6">
+                    <h2 class="text-xl font-bold flex items-center gap-2 mb-4">
+                        <i class="fas fa-comments text-primary"></i> التعليقات (<span id="commentCount">0</span>)
+                    </h2>
+                    <div id="mcStatus" class="mb-4"></div>
+                    <div id="mcInput" style="display:none;" class="mb-6">
+                        <div class="flex gap-3">
+                            <div id="mcAvatar" class="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-sm flex-shrink-0 overflow-hidden"></div>
+                            <div class="flex-1">
+                                <textarea id="commentText" placeholder="شاركنا رأيك في هذه المانجا..." rows="3"
+                                class="search-input resize-none"></textarea>
+                                <div class="flex items-center justify-between mt-3 flex-wrap gap-2">
+                                    <div class="star-rating flex gap-1" id="commentRating">
+                                        <span class="star" data-rating="1" onclick="setCommentRating(1)">★</span>
+                                        <span class="star" data-rating="2" onclick="setCommentRating(2)">★</span>
+                                        <span class="star" data-rating="3" onclick="setCommentRating(3)">★</span>
+                                        <span class="star" data-rating="4" onclick="setCommentRating(4)">★</span>
+                                        <span class="star" data-rating="5" onclick="setCommentRating(5)">★</span>
+                                    </div>
+                                    <button class="btn-primary" onclick="addComment()">
+                                        <i class="fas fa-paper-plane"></i> إرسال
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="commentsList" class="space-y-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== READER ===== -->
+    <section id="page-reader" class="page-section" style="padding-top:0;">
+
+        <!-- Reader Header -->
+        <div class="fixed top-0 right-0 left-0 z-40 glass py-2 px-4 flex items-center justify-between"
+        id="readerHeader" style="border-bottom:1px solid rgba(124,58,237,0.08);">
+        <button class="text-white hover:text-primary transition text-lg" onclick="goBackReader()">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+        <div class="text-center">
+            <div id="readerTitle" class="text-sm font-bold"></div>
+            <div id="readerChapter" class="text-xs text-[#60608A]"></div>
+        </div>
+        <button class="text-[#60608A] hover:text-white transition text-lg" onclick="toggleReaderSettings()">
+            <i class="fas fa-sliders"></i>
+        </button>
+    </div>
+
+    <!-- Reader Settings -->
+    <div class="reader-settings" id="readerSettings">
+        <div class="group">
+            <span class="label">عرض الصور</span>
+            <div class="options">
+                <button class="active" onclick="setReaderMode('vertical', this)">عمودي</button>
+                <button onclick="setReaderMode('horizontal', this)">أفقي</button>
+            </div>
+        </div>
+        <div class="group">
+            <span class="label">خلفية</span>
+            <div class="colors">
+                <button style="background:#0B0B1A;" onclick="setReaderBg('#0B0B1A', this)" class="active"></button>
+                <button style="background:#1A1A2E;" onclick="setReaderBg('#1A1A2E', this)"></button>
+                <button style="background:#2A2A4A;" onclick="setReaderBg('#2A2A4A', this)"></button>
+                <button style="background:#F5F5F5;" onclick="setReaderBg('#F5F5F5', this)"></button>
+            </div>
+        </div>
+        <div class="group" style="margin-bottom:0;">
+            <span class="label">اختصارات</span>
+            <div style="font-size:10px;color:#4A4A6A;line-height:1.8;">
+                <div>← → التنقل بين الفصول</div>
+                <div>Esc العودة</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chapter Nav Top -->
+    <div class="pt-20 pb-3 px-4">
+        <div class="max-w-3xl mx-auto flex items-center justify-between gap-2">
+            <button class="btn-secondary text-sm px-4 py-2" onclick="navChapter(1)">
+                <i class="fas fa-chevron-right"></i> السابق
+            </button>
+            <select class="chapter-select" id="chapterSelect" onchange="jumpChapter(this.value)"></select>
+            <button class="btn-secondary text-sm px-4 py-2" onclick="navChapter(-1)">
+                التالي <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Reader Content -->
+    <div id="readerContent" class="max-w-3xl mx-auto px-4 pb-4"></div>
+
+    <!-- Chapter Nav Bottom -->
+    <div class="max-w-3xl mx-auto px-4 pb-16">
+        <div class="flex items-center justify-between gap-2">
+            <button class="btn-secondary text-sm px-6 py-3" onclick="navChapter(1)">
+                <i class="fas fa-chevron-right"></i> السابق
+            </button>
+            <button class="btn-secondary text-sm px-6 py-3" onclick="navChapter(-1)">
+                التالي <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== BOOKMARKS ===== -->
+<section id="page-bookmarks" class="page-section">
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <h1 class="text-3xl font-black mb-2"><i class="fas fa-heart text-secondary ml-2"></i>المفضلة</h1>
+        <p class="text-[#60608A] mb-8">مانجا قمت بإضافتها إلى المفضلة</p>
+        <div class="manga-grid" id="bookmarksGrid"></div>
+    </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="glass mt-8" style="border-top:1px solid rgba(124,58,237,0.06);">
+    <div class="max-w-7xl mx-auto px-4 py-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20">
+                        <i class="fas fa-crown text-white"></i>
+                    </div>
+                    <span class="text-xl font-bold text-gradient">مانجا هب</span>
+                </div>
+                <p class="text-[#60608A] text-sm leading-relaxed">
+                    منصتك المفضلة لقراءة المانجا بجودة عالية وترجمة احترافية.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-bold text-white mb-4">روابط سريعة</h3>
+                <ul class="space-y-2 text-[#60608A] text-sm">
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="navigateTo('home')">الرئيسية</a></li>
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="navigateTo('library')">المكتبة</a></li>
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="navigateTo('categories')">التصنيفات</a></li>
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="navigateTo('bookmarks')">المفضلة</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-white mb-4">التصنيفات</h3>
+                <ul class="space-y-2 text-[#60608A] text-sm">
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="filterByCategory('أكشن')">أكشن</a></li>
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="filterByCategory('رومانسي')">رومانسي</a></li>
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="filterByCategory('كوميدي')">كوميدي</a></li>
+                    <li><a class="hover:text-primary transition cursor-pointer" onclick="filterByCategory('فانتازيا')">فانتازيا</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-white mb-4">تابعنا</h3>
+                <div class="flex gap-3">
+                    <a class="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition cursor-pointer">
+                        <i class="fab fa-x-twitter text-[#8080AA]"></i>
+                    </a>
+                    <a class="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition cursor-pointer">
+                        <i class="fab fa-discord text-[#8080AA]"></i>
+                    </a>
+                    <a class="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary/20 transition cursor-pointer">
+                        <i class="fab fa-telegram text-[#8080AA]"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 text-center text-[#4A4A6A] text-sm border-t border-[#1E1E42]">
+            <p>© 2025 مانجا هب. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== SCROLL TOP ===== -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ===== AUTH MODAL ===== -->
+<div class="auth-overlay" id="authOverlay">
+    <div class="auth-modal">
+        <button class="close" onclick="closeAuth()"><i class="fas fa-xmark"></i></button>
+        <div class="flex items-center gap-3 justify-center mb-4">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                <i class="fas fa-crown text-white"></i>
+            </div>
+            <span class="text-xl font-bold text-gradient">مانجا هب</span>
+        </div>
+        <div class="tabs">
+            <button class="active" id="tabIn" onclick="authTab('in')">تسجيل الدخول</button>
+            <button id="tabUp" onclick="authTab('up')">حساب جديد</button>
+        </div>
+        <div id="authIn">
+            <input type="email" class="input" id="authEmail" placeholder="البريد الإلكتروني" />
+            <input type="password" class="input" id="authPass" placeholder="كلمة المرور" onkeydown="if(event.key==='Enter') authLogin()" />
+            <p class="error" id="authInErr"></p>
+            <button class="btn-primary w-full justify-center" onclick="authLogin()">
+                <i class="fas fa-right-to-bracket"></i> دخول
+            </button>
+            <div class="divider">أو</div>
+            <button class="google-btn" onclick="authGoogle()">
+                <svg width="18" height="18" viewBox="0 0 48 48">
+                    <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                    <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                    <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                    <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                </svg>
+                متابعة مع Google
+            </button>
+        </div>
+        <div id="authUp" style="display:none;">
+            <input type="text" class="input" id="authName" placeholder="اسم المستخدم" />
+            <input type="email" class="input" id="authUpEmail" placeholder="البريد الإلكتروني" />
+            <input type="password" class="input" id="authUpPass" placeholder="كلمة المرور (6 أحرف)" />
+            <input type="password" class="input" id="authUpPass2" placeholder="تأكيد كلمة المرور" onkeydown="if(event.key==='Enter') authSignup()" />
+            <p class="error" id="authUpErr"></p>
+            <button class="btn-primary w-full justify-center" onclick="authSignup()">
+                <i class="fas fa-user-plus"></i> إنشاء الحساب
+            </button>
+            <div class="divider">أو</div>
+            <button class="google-btn" onclick="authGoogle()">
+                <svg width="18" height="18" viewBox="0 0 48 48">
+                    <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                    <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                    <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                    <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                </svg>
+                متابعة مع Google
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- ========================================================== -->
+<!-- ==================== JAVASCRIPT ==================== -->
+<!-- ========================================================== -->
+
+<script>
+    // ─────────────────────────────────────────────────────────────
+    // 1. DATA & STATE
+    // ─────────────────────────────────────────────────────────────
+
+    let mangaData = [];
+    let currentPage = 'home';
+    let currentMangaId = null;
+    let currentChapterIndex = 0;
+    let chapterSortOrder = 'desc';
+    let bookmarks = JSON.parse(localStorage.getItem('bookmarks') || '[]');
+    let readingHistory = JSON.parse(localStorage.getItem('readingHistory') || '[]');
+    let selectedCommentRating = 0;
+    let activeCategory = 'all';
+    let visibleMangaCount = 12;
+    let readerBg = '#0B0B1A';
+    let readerMode = 'vertical';
+    let searchTimer = null;
+    let swipeHintShown = localStorage.getItem('swipeHintShown') === 'true';
+
+    // ─────────────────────────────────────────────────────────────
+    // 2. CATEGORIES
+    // ─────────────────────────────────────────────────────────────
+
+    const CATS = [
+        { name: 'أكشن', icon: 'fa-fist-raised', color: 'from-red-500 to-orange-500' },
+        { name: 'رومانسي', icon: 'fa-heart', color: 'from-pink-500 to-rose-500' },
+        { name: 'كوميدي', icon: 'fa-face-laugh', color: 'from-yellow-500 to-amber-500' },
+        { name: 'فانتازيا', icon: 'fa-dragon', color: 'from-purple-500 to-indigo-500' },
+        { name: 'مدرسي', icon: 'fa-school', color: 'from-blue-500 to-cyan-500' },
+        { name: 'مغامرة', icon: 'fa-compass', color: 'from-green-500 to-emerald-500' },
+        { name: 'غموض', icon: 'fa-circle-question', color: 'from-gray-500 to-slate-600' },
+        { name: 'رعب', icon: 'fa-ghost', color: 'from-gray-800 to-gray-900' },
+        { name: 'خيال علمي', icon: 'fa-rocket', color: 'from-cyan-500 to-blue-600' },
+        { name: 'رياضة', icon: 'fa-running', color: 'from-lime-500 to-green-600' },
+        { name: 'تاريخي', icon: 'fa-landmark', color: 'from-amber-600 to-yellow-700' },
+        { name: 'دراما', icon: 'fa-mask', color: 'from-violet-500 to-purple-700' },
+        { name: 'شريحة من الحياة', icon: 'fa-leaf', color: 'from-teal-400 to-green-500' },
+        { name: 'فنون قتالية', icon: 'fa-hand-fist', color: 'from-red-600 to-red-800' },
+        { name: 'إيسيكاي', icon: 'fa-arrow-right-arrow-left', color: 'from-indigo-500 to-purple-600' },
+        { name: 'خارق للطبيعة', icon: 'fa-meteor', color: 'from-violet-600 to-fuchsia-600' },
+    ];
+
+    // ─────────────────────────────────────────────────────────────
+    // 3. UTILITIES
+    // ─────────────────────────────────────────────────────────────
+
+    function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;').replace(/'/g, '&#039;'); }
+
+    function fmt(n) {
+        if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+        if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+        return String(n || 0);
+    }
+
+    function getManga(id) { return mangaData.find(m => m.id === id); }
+
+    function toast(msg, type = 'info') {
+        const el = document.getElementById('toast');
+        el.textContent = msg;
+        el.className = 'toast';
+        if (type === 'success') el.classList.add('success');
+        else if (type === 'error') el.classList.add('error');
+        else if (type === 'warning') el.classList.add('warning');
+        setTimeout(() => el.classList.add('show'), 10);
+        clearTimeout(el._t);
+        el._t = setTimeout(() => el.classList.remove('show'), 3000);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 4. NAVIGATION
+    // ─────────────────────────────────────────────────────────────
+
+    function navigateTo(page, id = null) {
+        document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+        const target = document.getElementById('page-' + page);
+        if (target) target.classList.add('active');
+
+        document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+        const link = document.querySelector('.nav-link[data-page="' + page + '"]');
+        if (link) link.classList.add('active');
+
+        currentPage = page;
+        if (page === 'details' && id) renderDetails(id);
+        if (page === 'library') { renderLibraryChips();
+            renderLibrary(); }
+        if (page === 'bookmarks') renderBookmarks();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleMobile() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('open');
+        document.getElementById('menuIcon').className = menu.classList.contains('open') ? 'fas fa-xmark' : 'fas fa-bars';
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 5. RENDER CARD
+    // ─────────────────────────────────────────────────────────────
+
+    function renderCard(m) {
+        const read = readingHistory.some(h => h.mangaId === m.id);
+        const status = m.status === 'completed' ? 'completed' : m.status === 'hiatus' ? 'hiatus' : 'ongoing';
+        const label = m.status === 'completed' ? 'مكتملة' : m.status === 'hiatus' ? 'متوقفة' : 'مستمرة';
+        const progress = read ? Math.min(100, Math.round((readingHistory.find(h => h.mangaId === m.id)?.progress || 0))) :
+        0;
+
+        return `
+            <div class="manga-card" onclick="navigateTo('details','${esc(m.id)}')">
+                <div class="cover-wrap">
+                    <img src="${esc(m.cover || '')}" loading="lazy" alt="${esc(m.title)}"
+                        onerror="this.style.display='none'; this.parentElement.innerHTML += '<div class=\\'absolute inset-0 flex items-center justify-center text-4xl text-[#4A4A6A]\\'><i class=\\'fas fa-book\\'></i></div>'">
+                    <div class="overlay">
+                        <div class="flex flex-wrap gap-1">
+                            ${m.newChapters > 0 ? `<span class="badge-new"><i class="fas fa-star ml-1"></i>${m.newChapters} جديد</span>` : ''}
+                            <span class="badge-status ${status}">${label}</span>
+                        </div>
+                        <div class="text-white font-bold text-sm line-clamp-2 mt-1">${esc(m.title)}</div>
+                        <div class="text-[#8080AA] text-xs">${esc(m.latestChapter || '')}</div>
+                        ${read ? `<div class="progress-track"><div class="fill" style="width:${progress}%"></div></div>` : ''}
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="title">${esc(m.title)}</div>
+                    <div class="meta">
+                        <span>${esc(m.altTitle || '')}</span>
+                        <span><i class="fas fa-star text-amber-400"></i> ${m.rating || 0}</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 6. HOME
+    // ─────────────────────────────────────────────────────────────
+
+    function renderQuickCats() {
+        const el = document.getElementById('quickCats');
+        el.innerHTML = CATS.slice(0, 8).map(c =>
+            `<span class="chip" onclick="filterByCategory('${c.name}')">
+                <i class="fas ${c.icon}"></i> ${c.name}
+            </span>`
+        ).join('');
+    }
+
+    function renderLatest() {
+        const el = document.getElementById('latestGrid');
+        const list = [...mangaData].sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0)).slice(0, 12);
+        if (!list.length) {
+            el.innerHTML =
+            '<div class="col-span-full text-center text-[#60608A] py-12">لا توجد مانجا بعد</div>';
+            return;
+        }
+        el.innerHTML = list.map(m => renderCard(m)).join('');
+    }
+
+    function renderPopular() {
+        const el = document.getElementById('popularGrid');
+        const list = [...mangaData].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 5);
+        if (!list.length) { el.innerHTML = ''; return; }
+        el.innerHTML = list.map((m, i) => {
+            const rank = i === 0 ? 'gold' : i === 1 ? 'silver' : i === 2 ? 'bronze' : '';
+            return `
+                <div class="popular-item" onclick="navigateTo('details','${esc(m.id)}')">
+                    <span class="rank ${rank}">#${i+1}</span>
+                    <img src="${esc(m.cover || '')}" class="thumb" loading="lazy"
+                        onerror="this.style.display='none'">
+                    <div class="info">
+                        <div class="title">${esc(m.title)}</div>
+                        <div class="meta">
+                            <span><i class="fas fa-eye"></i> ${fmt(m.views || 0)}</span>
+                            <span><i class="fas fa-star text-amber-400"></i> ${m.rating || 0}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    function renderHistory() {
+        const el = document.getElementById('historyGrid');
+        const sec = document.getElementById('continueSection');
+        if (!readingHistory.length) { sec.style.display = 'none'; return; }
+        sec.style.display = 'block';
+        const items = readingHistory.slice(0, 6);
+        el.innerHTML = items.map(item => {
+            const m = getManga(item.mangaId);
+            return m ? renderCard(m) : '';
+        }).join('');
+    }
+
+    function updateStats() {
+        const el = document.getElementById('statManga');
+        const el2 = document.getElementById('statChapters');
+        const el3 = document.getElementById('statReaders');
+        if (el) el.textContent = mangaData.length > 0 ? mangaData.length + '+' : '—';
+        if (el2) {
+            const total = mangaData.reduce((s, m) => s + (parseInt(m.chapters) || 0), 0);
+            el2.textContent = total > 999 ? (total / 1000).toFixed(1).replace(/\.0$/, '') + 'K+' : (total || '—');
+        }
+        if (el3) el3.textContent = readingHistory.length > 0 ? readingHistory.length : '—';
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 7. LIBRARY
+    // ─────────────────────────────────────────────────────────────
+
+    function renderLibraryChips() {
+        const el = document.getElementById('libraryChips');
+        el.innerHTML =
+            `<span class="chip ${activeCategory === 'all' ? 'active' : ''}" onclick="setCategory('all', this)">الكل</span>` +
+            CATS.map(c =>
+                `<span class="chip ${activeCategory === c.name ? 'active' : ''}" onclick="setCategory('${c.name}', this)">
+                    <i class="fas ${c.icon}"></i> ${c.name}
+                </span>`
+            ).join('');
+    }
+
+    function setCategory(cat, el) {
+        activeCategory = cat;
+        document.querySelectorAll('#libraryChips .chip').forEach(c => c.classList.remove('active'));
+        el.classList.add('active');
+        visibleMangaCount = 12;
+        renderLibrary();
+    }
+
+    function filterLibrary() { visibleMangaCount = 12;
+        renderLibrary(); }
+
+    function getFiltered() {
+        let list = [...mangaData];
+        if (activeCategory !== 'all') list = list.filter(m => (m.categories || []).includes(activeCategory));
+        const status = document.getElementById('statusFilter')?.value || 'all';
+        if (status !== 'all') list = list.filter(m => m.status === status);
+        const sort = document.getElementById('sortSelect')?.value || 'latest';
+        if (sort === 'popular') list.sort((a, b) => (b.views || 0) - (a.views || 0));
+        else if (sort === 'name') list.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'ar'));
+        else if (sort === 'rating') list.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        else list.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+        return list;
+    }
+
+    function renderLibrary() {
+        const el = document.getElementById('libraryGrid');
+        const list = getFiltered();
+        const visible = list.slice(0, visibleMangaCount);
+        if (!list.length) {
+            el.innerHTML =
+                '<div class="col-span-full text-center text-[#60608A] py-12"><i class="fas fa-search text-4xl block mb-4 opacity-30"></i>لا توجد نتائج</div>';
+            document.getElementById('loadMoreWrap').style.display = 'none';
+            return;
+        }
+        el.innerHTML = visible.map(m => renderCard(m)).join('');
+        document.getElementById('loadMoreWrap').style.display = visibleMangaCount >= list.length ? 'none' : 'block';
+    }
+
+    function loadMore() { visibleMangaCount += 12;
+        renderLibrary(); }
+
+    function filterByCategory(cat) {
+        activeCategory = cat;
+        navigateTo('library');
+        renderLibraryChips();
+        renderLibrary();
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 8. CATEGORIES PAGE
+    // ─────────────────────────────────────────────────────────────
+
+    function renderCategories() {
+        const el = document.getElementById('catsGrid');
+        el.innerHTML = CATS.map(c => {
+            const count = mangaData.filter(m => (m.categories || []).includes(c.name)).length || 0;
+            return `
+                <div class="glass rounded-xl p-5 cursor-pointer hover:bg-primary/10 transition group text-center"
+                    onclick="filterByCategory('${c.name}')">
+                    <div class="w-14 h-14 mx-auto mb-3 rounded-2xl bg-gradient-to-br ${c.color} flex items-center justify-center transform group-hover:scale-110 transition shadow-lg">
+                        <i class="fas ${c.icon} text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-white">${c.name}</h3>
+                    <p class="text-[#60608A] text-sm">${count} مانجا</p>
+                </div>
+            `;
+        }).join('');
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 9. DETAILS
+    // ─────────────────────────────────────────────────────────────
+
+    function renderDetails(id) {
+        const m = getManga(id);
+        if (!m) return;
+        currentMangaId = id;
+        currentChapterIndex = 0;
+        chapterSortOrder = 'desc';
+
+        // Banner
+        const banner = document.getElementById('mangaBanner');
+        if (m.cover) {
+            banner.innerHTML =
+                `<img src="${esc(m.cover)}" class="w-full h-full object-cover" style="filter:blur(30px) scale(1.1)" onerror="this.parentElement.style.background='linear-gradient(135deg,rgba(124,58,237,0.2),rgba(236,72,153,0.2))'">`;
+        }
+
+        // Cover
+        document.getElementById('mangaCover').innerHTML =
+            `<img src="${esc(m.cover || '')}" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center text-4xl text-[#4A4A6A] bg-[#1A1A2E]\\'><i class=\\'fas fa-book\\'></i></div>'">`;
+
+        document.getElementById('mangaTitle').textContent = m.title || '';
+        document.getElementById('mangaAlt').textContent = m.altTitle || m.titleEn || '';
+        document.getElementById('mangaRating').textContent = m.rating || 0;
+        document.getElementById('mangaVotes').textContent = fmt(m.votes || 0);
+        document.getElementById('mangaViews').textContent = fmt(m.views || 0);
+        document.getElementById('mangaChapters').textContent = m.chapters || 0;
+        document.getElementById('mangaDesc').textContent = m.description || '';
+
+        // Tags
+        document.getElementById('mangaTags').innerHTML = (m.categories || []).map(cat =>
+            `<span class="chip text-xs" onclick="filterByCategory('${cat}')">${cat}</span>`
+        ).join('');
+
+        // Stars
+        const r = parseFloat(m.rating) || 0;
+        let stars = '';
+        for (let i = 1; i <= 5; i++) {
+            if (i <= Math.floor(r)) stars += '<i class="fas fa-star text-amber-400"></i>';
+            else if (i === Math.ceil(r) && r % 1 >= 0.25) stars +=
+            '<i class="fas fa-star-half-stroke text-amber-400"></i>';
+            else stars += '<i class="far fa-star text-[#4A4A6A]"></i>';
+        }
+        document.getElementById('mangaStars').innerHTML = stars;
+
+        // Status
+        const statusEl = document.getElementById('mangaStatus');
+        if (m.status === 'ongoing') statusEl.innerHTML =
+            '<i class="fas fa-spinner text-emerald-400 ml-1"></i> مستمرة';
+        else if (m.status === 'completed') statusEl.innerHTML =
+            '<i class="fas fa-check-circle text-primary ml-1"></i> مكتملة';
+        else statusEl.innerHTML = '<i class="fas fa-pause text-amber-400 ml-1"></i> متوقفة';
+
+        // Read button
+        const chList = m.chaptersList || [];
+        document.getElementById('readBtn').onclick = () => {
+            if (chList.length) openChapter(id, chList.length - 1);
+            else toast('لا توجد فصول بعد', 'warning');
+        };
+
+        updateBookmarkBtn();
+        renderChapters(m);
+        renderComments(id);
+    }
+
+    function renderChapters(m) {
+        const el = document.getElementById('chaptersList');
+        const list = m.chaptersList || [];
+        if (!list.length) {
+            el.innerHTML =
+                '<div class="text-center text-[#60608A] py-10"><i class="fas fa-list text-4xl block mb-3 opacity-30"></i>لا توجد فصول بعد</div>';
+            return;
+        }
+        const chs = chapterSortOrder === 'desc' ? [...list].reverse() : list;
+        el.innerHTML = chs.map((ch, idx) => {
+            const realIdx = chapterSortOrder === 'desc' ? list.length - 1 - idx : idx;
+            const read = readingHistory.some(h => h.mangaId === m.id && h.chapter >= ch.number);
+            return `
+                <div class="chapter-item ${read ? 'read' : ''}" onclick="openChapter('${m.id}',${realIdx})">
+                    <div class="flex items-center gap-3">
+                        <div class="num">${ch.number}</div>
+                        <div>
+                            <div class="font-semibold text-sm">${esc(ch.title || 'الفصل ' + ch.number)}</div>
+                            <div class="text-[#60608A] text-xs">${ch.date || ''}</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        ${read ? '<span class="text-emerald-400 text-xs"><i class="fas fa-check-circle"></i> مقروء</span>' : ''}
+                        <span class="text-[#60608A] text-xs"><i class="fas fa-eye"></i> ${fmt(ch.views || 0)}</span>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    function sortChapters(order) {
+        chapterSortOrder = order;
+        const m = getManga(currentMangaId);
+        if (m) renderChapters(m);
+        document.getElementById('sortDesc').className = 'text-sm font-semibold transition ' + (order === 'desc' ?
+            'text-white' : 'text-[#60608A] hover:text-white');
+        document.getElementById('sortAsc').className = 'text-sm font-semibold transition ' + (order === 'asc' ?
+            'text-white' : 'text-[#60608A] hover:text-white');
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 10. BOOKMARKS
+    // ─────────────────────────────────────────────────────────────
+
+    function toggleBookmark() {
+        const idx = bookmarks.indexOf(currentMangaId);
+        if (idx === -1) bookmarks.push(currentMangaId);
+        else bookmarks.splice(idx, 1);
+        localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+        updateBookmarkBtn();
+        toast(idx === -1 ? 'أُضيفت للمفضلة ❤️' : 'حُذفت من المفضلة', idx === -1 ? 'success' : 'warning');
+    }
+
+    function updateBookmarkBtn() {
+        const btn = document.getElementById('bookmarkBtn');
+        const is = bookmarks.includes(currentMangaId);
+        btn.innerHTML = is ?
+            '<i class="fas fa-heart text-secondary"></i> في المفضلة' :
+            '<i class="far fa-heart"></i> أضف للمفضلة';
+        btn.style.background = is ? 'rgba(236,72,153,0.12)' : '';
+        btn.style.borderColor = is ? 'rgba(236,72,153,0.3)' : '';
+    }
+
+    function renderBookmarks() {
+        const el = document.getElementById('bookmarksGrid');
+        if (!bookmarks.length) {
+            el.innerHTML = `
+                <div class="col-span-full text-center py-16">
+                    <i class="fas fa-heart text-6xl text-[#4A4A6A] block mb-4"></i>
+                    <p class="text-[#60608A] text-lg">لم تضف أي مانجا للمفضلة بعد</p>
+                    <button class="btn-primary mt-4" onclick="navigateTo('library')">تصفح المكتبة</button>
+                </div>
+            `;
+            return;
+        }
+        el.innerHTML = mangaData.filter(m => bookmarks.includes(m.id)).map(m => renderCard(m)).join('');
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 11. READING HISTORY
+    // ─────────────────────────────────────────────────────────────
+
+    function addHistory(id, chapter) {
+        const m = getManga(id);
+        const total = parseInt(m?.chapters) || 1;
+        const progress = Math.min(100, Math.round((chapter / total) * 100));
+        const idx = readingHistory.findIndex(h => h.mangaId === id);
+        const entry = { mangaId: id, chapter, progress, timestamp: Date.now() };
+        if (idx !== -1) readingHistory[idx] = entry;
+        else readingHistory.unshift(entry);
+        readingHistory = readingHistory.slice(0, 20);
+        localStorage.setItem('readingHistory', JSON.stringify(readingHistory));
+        updateStats();
+        renderHistory();
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 12. READER
+    // ─────────────────────────────────────────────────────────────
+
+    function openChapter(id, idx) {
+        const m = getManga(id);
+        if (!m) return;
+        currentMangaId = id;
+        currentChapterIndex = idx;
+        const list = m.chaptersList || [];
+        if (list[idx]) addHistory(id, list[idx].number);
+        navigateTo('reader');
+        renderReader(m, idx);
+
+        if (!swipeHintShown) {
+            swipeHintShown = true;
+            localStorage.setItem('swipeHintShown', 'true');
+            const hint = document.createElement('div');
+            hint.className = 'swipe-hint';
+            hint.innerHTML = '👆 اسحب يميناً أو يساراً للتنقل';
+            document.body.appendChild(hint);
+            setTimeout(() => hint.remove(), 3000);
+        }
+    }
+
+    function renderReader(m, idx) {
+        const list = m.chaptersList || [];
+        const ch = list[idx];
+        if (!ch) return;
+        currentChapterIndex = idx;
+
+        document.getElementById('readerTitle').textContent = m.title;
+        document.getElementById('readerChapter').textContent = ch.title || ('الفصل ' + ch.number);
+
+        const sel = document.getElementById('chapterSelect');
+        sel.innerHTML = list.map((c, i) =>
+            `<option value="${i}" ${i === idx ? 'selected' : ''}>${c.title || 'الفصل ' + c.number}</option>`
+        ).join('');
+
+        const container = document.getElementById('readerContent');
+        container.style.background = readerBg;
+
+        const pages = ch.pages || [];
+        if (!pages.length) {
+            container.innerHTML = `
+                <div class="text-center py-20">
+                    <i class="fas fa-images text-6xl text-[#4A4A6A] block mb-4"></i>
+                    <p class="text-[#60608A] text-lg">لا توجد صور لهذا الفصل</p>
+                </div>
+            `;
+            return;
+        }
+
+        if (readerMode === 'vertical') {
+            container.innerHTML = pages.map((url, i) =>
+                `<img src="${esc(url)}" class="reader-image" loading="${i < 3 ? 'eager' : 'lazy'}"
+                    onerror="this.outerHTML='<div class=\\'reader-image\\' style=\\'min-height:180px;background:#1A1A2E;display:flex;align-items:center;justify-content:center;color:#4A4A6A;border-radius:8px;padding:16px;\\'>⚠️ صفحة ${i+1} — تعذّر التحميل</div>'">`
+            ).join('');
+        } else {
+            container.innerHTML =
+                `<div style="display:flex;overflow-x:auto;gap:6px;padding:8px 0;">` +
+                pages.map((url, i) =>
+                    `<img src="${esc(url)}" loading="${i < 3 ? 'eager' : 'lazy'}" style="height:70vh;width:auto;flex-shrink:0;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,0.3);"
+                        onerror="this.outerHTML='<div style=\\'height:70vh;min-width:120px;background:#1A1A2E;display:flex;align-items:center;justify-content:center;color:#4A4A6A;border-radius:8px;padding:10px;\\'>⚠️ ${i+1}</div>'">`
+                ).join('') +
+                `</div>`;
+        }
+
+        // Nav buttons
+        const prev = document.getElementById('prevChapterBtn');
+        const next = document.getElementById('nextChapterBtn');
+        const isFirst = idx >= list.length - 1;
+        const isLast = idx <= 0;
+        if (prev) { prev.disabled = isFirst;
+            prev.style.opacity = isFirst ? '0.4' : '1'; }
+        if (next) { next.disabled = isLast;
+            next.style.opacity = isLast ? '0.4' : '1'; }
+    }
+
+    function navChapter(dir) {
+        const m = getManga(currentMangaId);
+        if (!m) return;
+        const newIdx = currentChapterIndex + dir;
+        const list = m.chaptersList || [];
+        if (newIdx >= 0 && newIdx < list.length) {
+            openChapter(currentMangaId, newIdx);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            toast(dir > 0 ? 'لا يوجد فصل سابق' : 'لا يوجد فصل تالٍ', 'warning');
+        }
+    }
+
+    function jumpChapter(val) { openChapter(currentMangaId, parseInt(val)); }
+
+    function goBackReader() { navigateTo('details', currentMangaId); }
+
+    function toggleReaderSettings() {
+        document.getElementById('readerSettings').classList.toggle('open');
+    }
+
+    function setReaderMode(mode, btn) {
+        readerMode = mode;
+        document.querySelectorAll('.reader-settings .options button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const m = getManga(currentMangaId);
+        if (m) renderReader(m, currentChapterIndex);
+    }
+
+    function setReaderBg(color, btn) {
+        readerBg = color;
+        document.querySelectorAll('.reader-settings .colors button').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        document.getElementById('readerContent').style.background = color;
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 13. SWIPE
+    // ─────────────────────────────────────────────────────────────
+
+    (function() {
+        let startX = 0,
+            startY = 0;
+        let headerHidden = false;
+
+        document.addEventListener('touchstart', e => {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+        }, { passive: true });
+
+        document.addEventListener('touchend', e => {
+            if (currentPage !== 'reader') return;
+            const dx = startX - e.changedTouches[0].clientX;
+            const dy = Math.abs(startY - e.changedTouches[0].clientY);
+            if (Math.abs(dx) > 50 && dy < 70) {
+                navChapter(dx > 0 ? -1 : 1);
+            }
+        }, { passive: true });
+
+        document.addEventListener('click', e => {
+            if (currentPage !== 'reader') return;
+            const content = document.getElementById('readerContent');
+            if (content && content.contains(e.target)) {
+                const header = document.getElementById('readerHeader');
+                if (header) {
+                    headerHidden = !headerHidden;
+                    header.classList.toggle('hidden', headerHidden);
+                }
+            }
+        });
+    })();
+
+    // ─────────────────────────────────────────────────────────────
+    // 14. SEARCH
+    // ─────────────────────────────────────────────────────────────
+
+    function debounceSearch(q, mobile = false) {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => doSearch(q, mobile), 250);
+    }
+
+    function doSearch(q, mobile) {
+        const resId = mobile ? 'mobileSearchResults' : 'searchResults';
+        const container = document.getElementById(resId);
+        if (!container) return;
+        if (!q.trim()) { container.classList.remove('show'); return; }
+
+        const query = q.toLowerCase();
+        const results = mangaData.filter(m =>
+            (m.title || '').toLowerCase().includes(query) ||
+            (m.titleEn || '').toLowerCase().includes(query) ||
+            (m.altTitle || '').toLowerCase().includes(query) ||
+            (m.categories || []).some(c => c.toLowerCase().includes(query))
+        ).slice(0, 8);
+
+        if (!results.length) {
+            container.innerHTML = '<div class="p-4 text-center text-[#60608A] text-sm">لا توجد نتائج</div>';
+        } else {
+            container.innerHTML = results.map(m => `
+                <div class="result-item" onclick="navigateTo('details','${esc(m.id)}'); container.classList.remove('show'); document.getElementById('${mobile ? 'mobileSearch' : 'searchInput'}').value='';">
+                    <img src="${esc(m.cover || '')}" loading="lazy" onerror="this.style.display='none'">
+                    <div>
+                        <div class="title">${esc(m.title)}</div>
+                        <div class="sub">${esc(m.altTitle || m.titleEn || '')}</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+        container.classList.add('show');
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 15. COMMENTS (Stub)
+    // ─────────────────────────────────────────────────────────────
+
+    function setCommentRating(r) {
+        selectedCommentRating = r;
+        document.querySelectorAll('#commentRating .star').forEach(s =>
+            s.classList.toggle('active', parseInt(s.dataset.rating) <= r)
+        );
+    }
+
+    function addComment() {
+        if (window._mc && typeof window._mc.addComment === 'function') {
+            window._mc.addComment(currentMangaId, selectedCommentRating || 5);
+        } else {
+            toast('سجل دخولك أولاً للمشاركة', 'warning');
+            openAuth();
+        }
+    }
+
+    function renderComments(id) {
+        if (window._mc && typeof window._mc.loadComments === 'function') {
+            window._mc.loadComments(id);
+        } else {
+            const el = document.getElementById('commentsList');
+            if (el) el.innerHTML =
+                '<div class="text-center text-[#60608A] py-8"><i class="fas fa-comments text-3xl block mb-3 opacity-30"></i>سجل دخولك للمشاركة في التعليقات</div>';
+        }
+    }
+
+    function likeComment(id) { if (window._mc?.toggleLike) window._mc.toggleLike(id); }
+
+    function deleteComment(id) { if (window._mc?.deleteComment) window._mc.deleteComment(id); }
+
+    // ─────────────────────────────────────────────────────────────
+    // 16. SHARE
+    // ─────────────────────────────────────────────────────────────
+
+    function shareManga() {
+        const m = getManga(currentMangaId);
+        if (!m) return;
+        if (navigator.share) {
+            navigator.share({ title: m.title, text: m.description, url: window.location.href });
+        } else {
+            navigator.clipboard?.writeText(window.location.href)
+                .then(() => toast('تم نسخ الرابط 📋', 'success'))
+                .catch(() => toast('اضغط Ctrl+C لنسخ الرابط', 'info'));
+        }
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 17. AUTH (Stub)
+    // ─────────────────────────────────────────────────────────────
+
+    function openAuth() { document.getElementById('authOverlay').classList.add('open'); }
+
+    function closeAuth() { document.getElementById('authOverlay').classList.remove('open'); }
+
+    function authTab(t) {
+        document.getElementById('authIn').style.display = t === 'in' ? 'block' : 'none';
+        document.getElementById('authUp').style.display = t === 'up' ? 'block' : 'none';
+        document.getElementById('tabIn').classList.toggle('active', t === 'in');
+        document.getElementById('tabUp').classList.toggle('active', t === 'up');
+        document.getElementById('authInErr').classList.remove('show');
+        document.getElementById('authUpErr').classList.remove('show');
+    }
+
+    function authLogin() { toast('جاري تسجيل الدخول...', 'info'); }
+
+    function authSignup() { toast('جاري إنشاء الحساب...', 'info'); }
+
+    function authGoogle() { toast('جاري الاتصال بـ Google...', 'info'); }
+
+    document.getElementById('authOverlay').addEventListener('click', e => {
+        if (e.target === document.getElementById('authOverlay')) closeAuth();
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // 18. SCROLL
+    // ─────────────────────────────────────────────────────────────
+
+    window.addEventListener('scroll', () => {
+        const btn = document.getElementById('scrollTop');
+        btn.classList.toggle('visible', window.scrollY > 300);
+        document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // 19. KEYBOARD
+    // ─────────────────────────────────────────────────────────────
+
+    document.addEventListener('keydown', e => {
+        if (currentPage !== 'reader') return;
+        if (e.key === 'ArrowLeft') navChapter(-1);
+        if (e.key === 'ArrowRight') navChapter(1);
+        if (e.key === 'Escape') goBackReader();
+        if (e.key === 'Escape') document.getElementById('mobileMenu').classList.remove('open');
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // 20. LOAD DATA
+    // ─────────────────────────────────────────────────────────────
+
+    async function loadData() {
+        try {
+            const res = await fetch('data/manga.json');
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            const json = await res.json();
+            const mangaArr = json.manga || [];
+            const chapArr = json.chapters || [];
+            mangaData = mangaArr.map(m => {
+                const mChapters = chapArr
+                    .filter(c => c.mangaId === m.id)
+                    .sort((a, b) => a.number - b.number);
+                return {
+                    ...m,
+                    cover: m.coverUrl || m.cover || '',
+                    altTitle: m.titleEn || m.altTitle || '',
+                    chaptersList: mChapters.map(c => ({
+                        number: c.number,
+                        title: c.title || ('الفصل ' + c.number),
+                        pages: c.pages || [],
+                        views: c.views || 0,
+                        date: c.createdAt ? new Date(c.createdAt.seconds ? c.createdAt.seconds * 1000 :
+                            c.createdAt).toLocaleDateString('ar') : '',
+                    })),
+                    chapters: mChapters.length,
+                    latestChapter: mChapters.length ? 'الفصل ' + mChapters[mChapters.length - 1].number : '',
+                    views: m.views || 0,
+                    rating: m.rating || 4.5,
+                    votes: m.votes || 0,
+                    updatedAt: m.updatedAt || Date.now(),
+                    newChapters: m.newChapters || 0,
+                };
+            });
+        } catch (e) {
+            console.warn('Failed to load data:', e.message);
+            mangaData = [];
+        }
+
+        document.getElementById('loading').classList.add('hidden');
+
+        renderQuickCats();
+        renderLatest();
+        renderPopular();
+        renderHistory();
+        renderLibraryChips();
+        renderLibrary();
+        renderCategories();
+        updateStats();
+
+        console.log('✅ مانجا هب – تم التحميل بنجاح');
+        console.log(`📚 ${mangaData.length} مانجا متاحة`);
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // 21. INIT
+    // ─────────────────────────────────────────────────────────────
+
+    document.addEventListener('DOMContentLoaded', loadData);
+
+    // Close search on outside click
+    document.addEventListener('click', (e) => {
+        const res = document.getElementById('searchResults');
+        const inp = document.getElementById('searchInput');
+        if (res && !res.contains(e.target) && e.target !== inp) res.classList.remove('show');
+        const mRes = document.getElementById('mobileSearchResults');
+        const mInp = document.getElementById('mobileSearch');
+        if (mRes && !mRes.contains(e.target) && e.target !== mInp) mRes.classList.remove('show');
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // 22. COMMENTS BRIDGE
+    // ─────────────────────────────────────────────────────────────
+
+    window._mc = {
+        loadComments: (id) => {
+            const el = document.getElementById('commentsList');
+            if (el) el.innerHTML =
+                '<div class="text-center text-[#60608A] py-8"><i class="fas fa-comments text-3xl block mb-3 opacity-30"></i>سجل دخولك للمشاركة</div>';
+        },
+        addComment: (id, rating) => { toast('سجل دخولك أولاً', 'warning');
+            openAuth(); },
+        toggleLike: (id) => { toast('سجل دخولك أولاً', 'warning');
+            openAuth(); },
+        deleteComment: (id) => { toast('سجل دخولك أولاً', 'warning');
+            openAuth(); },
+    };
+
+    console.log('🚀 مانجا هب V3 – جاهز للاستخدام');
+</script>
+
+</body>
+</html>
