@@ -1,0 +1,1720 @@
+{
+  "manga": [
+    {
+      "id": "WO3EfW2kAO6akv2MZSEE",
+      "rating": 0,
+      "views": 0,
+      "author": "Minamino Umikaze",
+      "categories": [
+        "رومانسية",
+        "كوميدي",
+        "مغامرة",
+        "Magic",
+        "فانتازيا",
+        "شريحة من الحياة",
+        "Adaptation"
+      ],
+      "votes": 0,
+      "titleEn": "Kunon the Sorcerer Can See",
+      "description": "Kunon Gurion, who was born blind, has one goal in life: finding a way to use his magic to see, something no one has ever done before. Luckily, Kunon’s talent for magic leads him to quickly surpass his teacher. Before long, his name reaches even the royal palace, earning him the rare opportunity to study under a powerful mentor.",
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 53000000
+      },
+      "coverUrl": "https://uploads.mangadex.org/covers/77c4966f-ead7-45bb-87e0-9ac618b11e8e/393cc1fa-a752-49aa-a688-a2a309924030.jpg.512.jpg",
+      "status": "ongoing",
+      "title": "Kunon the Sorcerer Can See",
+      "updatedAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 53000000
+      },
+      "type": "manga"
+    },
+    {
+      "id": "FT455FAOB3kSF6UlRH3y",
+      "categories": [
+        "Award Winning",
+        "رومانسية",
+        "كوميدي",
+        "Office Workers",
+        "Web Comic",
+        "شريحة من الحياة"
+      ],
+      "author": "Jinushi",
+      "rating": 0,
+      "views": 0,
+      "votes": 0,
+      "status": "ongoing",
+      "coverUrl": "https://uploads.mangadex.org/covers/baa95345-24fb-47a9-83e9-434ff671f968/602f2ad8-575f-4b4d-9ef3-45a81a078aec.jpg.512.jpg",
+      "type": "manga",
+      "title": "Super no Ura de Yani Suu Futari",
+      "updatedAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 16000000
+      },
+      "description": "Sasaki, an overworked salaryman, goes through an average stressful day just for a single light at the end of the tunnel: Yamada, the always-cheerful clerk at his favorite convenience store. One day, Sasaki takes an extra amount of time at a company meeting, and by the time he gets to the convenience store Yamada has already clocked out. However, as he leaves, he notices a young woman with piercings smoking behind the store?\n\n---\nAlt. Official English: [Square Enix (vol.)](https://squareenixmangaandbooks.square-enix-games.com/en-us/series/smoking-behind-the-supermarket-with-you)",
+      "titleEn": "Super no Ura de Yani Suu Futari",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 16000000
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "670ebNKPOO5eXyrS8LKD",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 325000000
+      },
+      "number": 1,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 1",
+      "pages": [],
+      "sourceUrl": "20ac7ccd-f96e-48b8-8ed5-dde7f9f4a720",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "NkleTQIlx6SxdCErmyzl",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "sourceUrl": "43dda581-f0a8-454b-9b8e-ff3fc8982fa3",
+      "pages": [],
+      "number": 1,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 202000000
+      },
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "ندبة البطل"
+    },
+    {
+      "id": "U1QfwNFC6cHPhAGOe1OQ",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "1st Smoke",
+      "number": 1,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 171000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "0e94d2f6-d4cc-49d2-a42d-6c26daeaf8c0",
+      "pages": []
+    },
+    {
+      "id": "ilMz9VW28oPfA1GPSFos",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 466000000
+      },
+      "pagesCount": 0,
+      "number": 1,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "1",
+      "pages": [],
+      "sourceUrl": "50ed370a-5b64-4e4d-805d-f07d94facc61",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "mFsrk7nlQoxWz6CVoOgX",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "ce53d6a9-eaa0-4d2a-b1ca-95f6bd5ba68c",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 1",
+      "number": 1,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 591000000
+      }
+    },
+    {
+      "id": "zzXmbJ7eVDgJQN8mBZYX",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Hero's Scar",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 400000000
+      },
+      "number": 1,
+      "pages": [],
+      "sourceUrl": "4d78eb01-30bd-4064-97e2-c658951a428f",
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "20NMXPoxwIDM7ltjcvaQ",
+      "pages": [],
+      "sourceUrl": "5bdd9181-cd2b-46ec-996f-b0ea7849ebb6",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 672000000
+      },
+      "pagesCount": 0,
+      "number": 2,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "A World-Changing Color"
+    },
+    {
+      "id": "RY8R8fEmNIfrlYw9DYii",
+      "pages": [],
+      "sourceUrl": "f065d2e9-9229-4e8e-9a02-47b413c84d7e",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "2",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 862000000
+      },
+      "number": 2
+    },
+    {
+      "id": "SeOXMCE2a2O2XfKBJcK5",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "2nd Smoke",
+      "number": 2,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 149000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "1c520751-8cc2-4503-aa4d-68826a394103",
+      "pages": []
+    },
+    {
+      "id": "W6uwvJNWlTQ67EFi0h3f",
+      "pages": [],
+      "sourceUrl": "286a40fa-7953-4ff1-a0d5-d4656b8bd101",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 531000000
+      },
+      "number": 2,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "عالم متغير الألوان"
+    },
+    {
+      "id": "WTAilntpVFFrG4Msh7M6",
+      "number": 2,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 719000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 2",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "315228f6-7871-4a77-895b-a1d9ecc2be9f"
+    },
+    {
+      "id": "uH9bMr0nLMRVlhnpLxfh",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 2",
+      "number": 2,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 3000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "c3237423-dedc-4297-9b09-0b6f866b3ce8"
+    },
+    {
+      "id": "TwjVyUpm7WHpM08AnQws",
+      "pages": [],
+      "sourceUrl": "344149d2-85b1-40e6-af1e-3c70db268769",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 715000000
+      },
+      "number": 3,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "3"
+    },
+    {
+      "id": "boeZRwh3PLu2x0SrVSfE",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "7d05d397-0372-4dd5-909a-8a5ea970ba9f",
+      "number": 3,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 820000000
+      },
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Apperance After Two Years"
+    },
+    {
+      "id": "d96z12kFCDFI72GDSXJT",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "03af3573-c8d5-4d7b-bb6e-86f21d0e1043",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "3rd Smoke",
+      "number": 3,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 400000000
+      }
+    },
+    {
+      "id": "e65OGz2Sq4MxDuDW5yqk",
+      "number": 3,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 282000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 3",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "5be7c1ab-eb85-442c-a67c-ceb222510161",
+      "pages": []
+    },
+    {
+      "id": "ehpFYKZzY1Ew5UA3Z6Rx",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "3da1f714-ecc5-4fad-9b70-f829d1d1c4c5",
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 3",
+      "number": 3,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 558000000
+      }
+    },
+    {
+      "id": "T6X9CtYWDPEihmS3nUT8",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "c5d70d8f-e78a-4a75-bbe2-ac1f0c852ece",
+      "number": 4,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 10000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "4"
+    },
+    {
+      "id": "VwiG4GbZBtt8LjRwpDlG",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "4a25aa05-e9d0-424e-b158-24e700c5ff6b",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 4",
+      "number": 4,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 858000000
+      }
+    },
+    {
+      "id": "YB77zJUR3Qvl3N0iPT1U",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 162000000
+      },
+      "number": 4,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 4",
+      "pages": [],
+      "sourceUrl": "699fab61-63fa-4942-97f9-897b78c5bf03",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "pGNskcWebGJZywm5aFSp",
+      "sourceUrl": "e655a15c-a19a-4de1-9e74-ba7b8dc7187c",
+      "pages": [],
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786504,
+        "nanoseconds": 960000000
+      },
+      "number": 4,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "First Time Attending School"
+    },
+    {
+      "id": "TgsDfPcNOx0xI0DZ5hrm",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "3825553c-5269-4ff9-9c40-5b8f5fedc155",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 5",
+      "number": 5,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 404000000
+      }
+    },
+    {
+      "id": "gyQp1nzbXavQ7XF0iRx5",
+      "pages": [],
+      "sourceUrl": "b944a121-95f2-4f20-b7ab-3752933538ee",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Nuisance",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 104000000
+      },
+      "number": 5
+    },
+    {
+      "id": "mmLou9Wry3FNxvTzqCw6",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 278000000
+      },
+      "number": 5,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 5",
+      "pages": [],
+      "sourceUrl": "c06332f8-a719-4204-ad81-4ab837966f2b",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "EXvAX36vWgtJAkCLhAcY",
+      "pages": [],
+      "sourceUrl": "1836ab54-04ec-4770-999d-59c597a48d36",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 257000000
+      },
+      "number": 6,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Graduation"
+    },
+    {
+      "id": "eNMUHX4TkY4AkULcbmZq",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 6",
+      "number": 6,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 722000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "38493832-7499-4a2f-a6e0-f6f3286abe2c",
+      "pages": []
+    },
+    {
+      "id": "l64WCxfoJBPFPzKpSqiV",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 6",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 562000000
+      },
+      "number": 6,
+      "pages": [],
+      "sourceUrl": "2dfd550e-4e22-4b90-b651-c2e1f3f8ea13",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "4P2VRH9MmA0y5BswzVIR",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 7",
+      "number": 7,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 846000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "fc0b29cc-35ec-420c-b9ee-793ea05f8f94"
+    },
+    {
+      "id": "hfW02raPyiLS0RLwFcsD",
+      "sourceUrl": "218c2d5d-af4b-4bc9-9e21-cca559898d23",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 7",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 2000000
+      },
+      "number": 7
+    },
+    {
+      "id": "oyx3ohE5vrUIGnroBJ2x",
+      "pages": [],
+      "sourceUrl": "eb108c97-dada-499b-98e9-bdb7a0c6447b",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 401000000
+      },
+      "number": 7,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Now We Go to the King's Castle"
+    },
+    {
+      "id": "70wTuVR8dwa4Pdu57G2f",
+      "pages": [],
+      "sourceUrl": "5a774fa0-2e04-48e7-909c-7756d9d3acb7",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 273000000
+      },
+      "number": 8,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 8"
+    },
+    {
+      "id": "tPcMA9X3BbufvapIAmLc",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "0041492b-ddf6-480d-8230-04df447131ea",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Experiments with Everyone",
+      "number": 8,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 556000000
+      },
+      "pagesCount": 0
+    },
+    {
+      "id": "vKR2LVeJ1ZLpCR42Ld4Y",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 8",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 154000000
+      },
+      "number": 8,
+      "pages": [],
+      "sourceUrl": "9103de7e-7fb7-4c68-b6a6-bb6213cb684b",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "aaZ59ulFm8UxHBdhi2wt",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 9",
+      "number": 9,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 416000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "6721f40f-3c8d-4da1-acea-a4dc719e090e"
+    },
+    {
+      "id": "jbkZ0Wclzt9f2j56gyIv",
+      "pages": [],
+      "sourceUrl": "cdad1ab5-dda9-418d-8e4e-e9f15b53e53a",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 697000000
+      },
+      "number": 9,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Very Much a Boy"
+    },
+    {
+      "id": "jhC56xP2QQf07XQA18uP",
+      "number": 9,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 578000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 9",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "75de62cc-1a2a-4894-b5f0-a9519158c374"
+    },
+    {
+      "id": "QpLDfi5VOOY4LPLEQrXq",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "decbbf4e-e093-4296-9575-330d4b48af76",
+      "pages": [],
+      "number": 10,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 740000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 10"
+    },
+    {
+      "id": "UKfUODioYj49cujVFx38",
+      "number": 10,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 867000000
+      },
+      "pagesCount": 0,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 10",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "37b7535f-225d-442a-b9a6-adb655eefaf0"
+    },
+    {
+      "id": "qJ9Iw9n3kFwx4sogWSqT",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 848000000
+      },
+      "number": 10,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "A New Teacher",
+      "pages": [],
+      "sourceUrl": "1e7f6fb5-d6b5-4b47-8399-0304a889d62b",
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "HE0sfYjcOjQxVVqY10sS",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "089fac64-0151-4d20-ba9b-d71d668320eb",
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 11",
+      "number": 11,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 992000000
+      }
+    },
+    {
+      "id": "zaZNdOcTLDA16wai2U69",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 11",
+      "number": 11,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 122000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "dd980837-fe5a-4190-9d36-b7e36efc7896"
+    },
+    {
+      "id": "zvrgR3QM57AyA5V6pnrT",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Forgotten Ambition",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786505,
+        "nanoseconds": 991000000
+      },
+      "number": 11,
+      "pages": [],
+      "sourceUrl": "7274943c-3f0f-4014-b54d-29ba3cffd568",
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "1PUbfV6N3FjpjgJaulNq",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "8ece5bdd-6f58-4266-8bdd-f357c6f68e2d",
+      "number": 12,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 431000000
+      },
+      "pagesCount": 0,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 12"
+    },
+    {
+      "id": "KJ6k7T3fgAEyCahDdTPm",
+      "number": 12,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 269000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 12",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "0b507a92-d0ff-4054-89c5-a16809929d1b"
+    },
+    {
+      "id": "MM4w1Ca3NoRk7r6xGoSh",
+      "number": 12,
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 135000000
+      },
+      "pagesCount": 0,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Trial and Error, then…",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "f0d2fd0e-1a41-4870-89f9-b1eb39c564cd"
+    },
+    {
+      "id": "3YtfO39gUliD0Xwtx4VA",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "12505be4-11bc-44a6-a31c-b94be014cfad",
+      "number": 13,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 708000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 13"
+    },
+    {
+      "id": "6mrkf5S7vLY7DBIG1h8z",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Departure",
+      "number": 13,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 298000000
+      },
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "75f3c6ea-f29a-4faa-bc77-09d302dcb671"
+    },
+    {
+      "id": "UPjlnLhPXNM7VfdnSOBd",
+      "pages": [],
+      "sourceUrl": "41dd3571-4133-4f4e-847d-ea5f069b9aec",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 555000000
+      },
+      "number": 13,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 13"
+    },
+    {
+      "id": "4BAkndzibp19A4LhvDaJ",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "31258a92-a834-4b92-b21f-0863738a2a18",
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 14",
+      "number": 14,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 855000000
+      }
+    },
+    {
+      "id": "SHI80ezwl2SzXilQIpj1",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 14",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 3000000
+      },
+      "number": 14,
+      "sourceUrl": "db6054cf-9cc7-4998-a115-99160e3c8523",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "ysvmIFEefIdgrfnZYM9w",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "A Farewell and a Meeting",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 446000000
+      },
+      "number": 14,
+      "pages": [],
+      "sourceUrl": "de358769-7d47-417a-b6a0-fc2c1792dd30",
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "J6jC8gWY43D5IkJESVeX",
+      "pages": [],
+      "sourceUrl": "2024a617-12f9-4ea3-a024-713767e57af5",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 571000000
+      },
+      "pagesCount": 0,
+      "number": 15,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "House Hunting and Entrance Exams"
+    },
+    {
+      "id": "bSaMxqcs5vcdoROIiJ5q",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "house hunting and entrance exam",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 709000000
+      },
+      "number": 15,
+      "pages": [],
+      "sourceUrl": "e62075c9-2b7f-472d-bb64-c995c8d39045",
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "fwKLgCHICsCY4iBqqOKG",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 15",
+      "number": 15,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 158000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "54b063d6-1d0d-4a9b-af80-06d5d5f384b9"
+    },
+    {
+      "id": "nBitwWSkGfbDX58fLpKg",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "8fd8c57b-72fa-4f52-8df2-01a424ab22e0",
+      "number": 15,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 276000000
+      },
+      "pagesCount": 0,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 15"
+    },
+    {
+      "id": "0NFYcWAlx46mU35WzOw9",
+      "pages": [],
+      "sourceUrl": "c2749eb2-f4c7-4c2d-9980-228d5c5e589b",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 16",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 541000000
+      },
+      "number": 16
+    },
+    {
+      "id": "1Ivpt6I4XsUDRGO9A1C2",
+      "pages": [],
+      "sourceUrl": "b99dc138-4d8a-41ea-8043-2966b8300f8f",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 836000000
+      },
+      "pagesCount": 0,
+      "number": 16,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "The Midnight Drum Commotion"
+    },
+    {
+      "id": "Kc1cHj8lBNEUy7vPqxzY",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 16",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 417000000
+      },
+      "pagesCount": 0,
+      "number": 16,
+      "pages": [],
+      "sourceUrl": "71c522b3-05b4-48d7-ac0f-d4e55a8b62dd",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "KlACNnpgNicMLnKad3C0",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 859000000
+      },
+      "number": 16.5,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Vol.1 Extras",
+      "pages": [],
+      "sourceUrl": "983c7c0e-ecca-4b5c-b26b-b620265197d4",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "Xp9ABcV7MkXBLMBDQYJ2",
+      "sourceUrl": "0041204e-d9b8-4ca8-8ce4-292f1e6fb0c6",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 698000000
+      },
+      "number": 16.5,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 16.5"
+    },
+    {
+      "id": "2hkc4xLtMPqvaOJoDBkb",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 16.6",
+      "number": 16.6,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 97000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "4b5e69c4-10fc-41ff-88a0-fc46c63bd369"
+    },
+    {
+      "id": "DAnk3J3rcGNlcIdhkABr",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Vol.1 Extras 2",
+      "number": 16.6,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 983000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "6dacfb09-ace8-4763-a436-e1a6678b735e"
+    },
+    {
+      "id": "TnTcQAmVvZPGys5Xm3ny",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786506,
+        "nanoseconds": 987000000
+      },
+      "number": 17,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "interview",
+      "sourceUrl": "3c97d9af-5346-47b8-9e96-78c571778a5b",
+      "pages": [],
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "tWMSIfDplX7CfF5ocqAL",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "e16d6a19-5c96-40d8-a2e5-6ff0b381e202",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 17",
+      "number": 17,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 363000000
+      },
+      "pagesCount": 0
+    },
+    {
+      "id": "vQsrkNnOewwFXWxN35Vl",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "d609bf53-449f-4f22-9ac1-cbb512e029c8",
+      "number": 17,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 233000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 17"
+    },
+    {
+      "id": "oNteEpcVMwOkEqmGzuyS",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "317ab3ec-27ce-49d8-b217-af00b84a4d66",
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 17.1",
+      "number": 17.1,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 517000000
+      }
+    },
+    {
+      "id": "63jso5kQ2ukPiXox6IWO",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 672000000
+      },
+      "number": 17.2,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 17.2",
+      "pages": [],
+      "sourceUrl": "92a0887a-00c0-4075-aeee-db5da6492a80",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "smIrQeWpWnUEutdX0LL6",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 17.3",
+      "number": 17.3,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 835000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "1774b96d-38be-4966-adcd-d4c87bda31cc"
+    },
+    {
+      "id": "ffLCEgME1VYaC3jrQPVT",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 17.4",
+      "number": 17.4,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 940000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "c7998547-e463-4496-90b7-2fc18183f6cd"
+    },
+    {
+      "id": "TU8b4tL0jo1jFW2Zjesg",
+      "pages": [],
+      "sourceUrl": "b3b08ac3-cf8e-4124-b4cb-2fa7f0cd9c73",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Enrollment Guide",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786507,
+        "nanoseconds": 132000000
+      },
+      "number": 18
+    },
+    {
+      "id": "VI7qtmCkjHR43pELZXLU",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "b1620a8e-f4db-4505-b3f3-fa6a7d93abb9",
+      "number": 18,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 242000000
+      },
+      "pagesCount": 0,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 18"
+    },
+    {
+      "id": "ocxYt3C7E9R4gyGryAdZ",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 18",
+      "number": 18,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 91000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "b69c7c56-9052-4d4a-b709-150a4e48b0e2"
+    },
+    {
+      "id": "QfgRdRbpfwC0Zd9Vt0XI",
+      "createdAt": {
+        "seconds": 1781786507,
+        "nanoseconds": 281000000
+      },
+      "pagesCount": 0,
+      "number": 19,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "THE SAINT'S FINANCIAL PREDICAMENT",
+      "pages": [],
+      "sourceUrl": "2c6144f7-8a71-43cf-a281-2cee94624b2a",
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "iys9kwySJvL5cZUI047q",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 19",
+      "number": 19,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 378000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "853e7914-8018-45c7-a19f-08e98dc45250"
+    },
+    {
+      "id": "uvIcBwgzlMoA8rXmaU2U",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 19",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 535000000
+      },
+      "number": 19,
+      "pages": [],
+      "sourceUrl": "972164d7-18ec-49b2-a077-d96db765a6a7",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "JWbgZUIrVlkpsEEYNGTB",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "7588b4ce-5ff6-4136-a304-63a8f6c2ecf2",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 20",
+      "number": 20,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 851000000
+      },
+      "pagesCount": 0
+    },
+    {
+      "id": "M0et5EHAZTK9ZImrrrun",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "A SPUR OF THE MOMENT PROPOSAL",
+      "number": 20,
+      "createdAt": {
+        "seconds": 1781786507,
+        "nanoseconds": 433000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "97dfd98d-7a74-4658-9328-3e002b0d3ee8"
+    },
+    {
+      "id": "aLBcGZGZYCGGyeauuL0D",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "1fc68b0a-dea9-44fa-b212-9e282d0791c9",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 20",
+      "number": 20,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 707000000
+      },
+      "pagesCount": 0
+    },
+    {
+      "id": "ONsZgDQVay2CjlcKgDf8",
+      "sourceUrl": "7bbe3f50-e088-441e-9573-bdc37ad299ec",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 21",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 981000000
+      },
+      "number": 21
+    },
+    {
+      "id": "cASkXdkYK6NYzP2XOmGb",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "HANK AND REAH",
+      "number": 21,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786507,
+        "nanoseconds": 585000000
+      },
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "sourceUrl": "56f638df-863e-47b1-a5cd-fe8294f29ab6",
+      "pages": []
+    },
+    {
+      "id": "3A7d6UXYKkDJbDXtJAuV",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "2847d91b-ac51-4a5b-b4b4-a019e99e1d4d",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 21.1",
+      "number": 21.1,
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 257000000
+      },
+      "pagesCount": 0
+    },
+    {
+      "id": "8ok4HGIj0a10sHHARFUr",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 108000000
+      },
+      "number": 21.1,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 21.1",
+      "pages": [],
+      "sourceUrl": "de32d7f8-1fc9-430c-9819-70deaa627ace",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "OZE0EqiqhYxLQT01JTOC",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "8b0e2962-ee5e-416a-99e7-21bef6ee17fd",
+      "number": 21.2,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 371000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 21.2"
+    },
+    {
+      "id": "27wBLwQxUtABdE49wc9J",
+      "number": 22,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 511000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "103e8d75-b581-4b3c-97d9-126a374875ee",
+      "pages": []
+    },
+    {
+      "id": "TqlCLJUphUgj5iAn5F11",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786507,
+        "nanoseconds": 703000000
+      },
+      "number": 22,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "THE FOUR FACTIONS",
+      "sourceUrl": "6485472e-8c8d-4787-9133-863ba2beb1f1",
+      "pages": [],
+      "mangaTitle": "Kunon the Sorcerer Can See"
+    },
+    {
+      "id": "ZJ4zm28ToyAHt87bjCDw",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "99a3bd6f-23b9-41b6-84c3-7cc6c3a82d95",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22.1",
+      "number": 22.1,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 673000000
+      }
+    },
+    {
+      "id": "e9UiaL7K57WxIdXpIwlk",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 855000000
+      },
+      "pagesCount": 0,
+      "number": 22.2,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22.2",
+      "pages": [],
+      "sourceUrl": "e26d4d6c-a58c-4160-9d03-60e46e010a53",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "hMShQDoazu19nSz8SQDX",
+      "pages": [],
+      "sourceUrl": "f701faf7-1d80-4147-85ec-b61cccf76ffb",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22.2",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 20000000
+      },
+      "pagesCount": 0,
+      "number": 22.2
+    },
+    {
+      "id": "sgqlgmZvFoIddIewk14X",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22.3",
+      "number": 22.3,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 215000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "50bd0d90-c224-4c7f-b430-26767faa6d2b"
+    },
+    {
+      "id": "bEusP8xJXqjeJCegwcA4",
+      "pages": [],
+      "sourceUrl": "f5d8f451-19bc-408b-aff4-b824ba1742a4",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22.4",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 368000000
+      },
+      "number": 22.4
+    },
+    {
+      "id": "CTYymJaeG77iRUiVJUvE",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "fbb5f0f5-069d-41e8-87f4-b8227a2c0fbc",
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 23",
+      "number": 23,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 674000000
+      }
+    },
+    {
+      "id": "XsoCz03PkrLBkdl78cp6",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 23",
+      "number": 23,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 512000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "1fd1e6b3-b03e-46a0-9971-5050c3740f10",
+      "pages": []
+    },
+    {
+      "id": "l1SC71nV0OYJctfuf3aT",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "1517eec1-6800-4b84-bd36-91c964f94b39",
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "The Fairies' Escort",
+      "number": 23,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781786507,
+        "nanoseconds": 847000000
+      }
+    },
+    {
+      "id": "o2E2DhEx4futAVBcQQv9",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 816000000
+      },
+      "number": 23.1,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "pages": [],
+      "sourceUrl": "170f74ca-d369-40a6-b019-74768c4a603d",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "k5vML9am4daoXgYY7xd7",
+      "pages": [],
+      "sourceUrl": "fc5eb85a-129d-46eb-98f6-315553b9b4c2",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 956000000
+      },
+      "number": 23.2,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "hFEIuEmHdvvV56OXuoqZ",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 23.3",
+      "number": 23.3,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 82000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "b16ece62-9cb5-49ce-8ad2-6548a8c73b47",
+      "pages": []
+    },
+    {
+      "id": "gyzr4IE8yvmQJhlmkIlh",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "585edad7-f5fc-470d-99be-315c20027487",
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 23.4",
+      "number": 23.4,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 196000000
+      }
+    },
+    {
+      "id": "3Y1ce8PC88UhMQzoHm6K",
+      "mangaTitle": "Kunon the Sorcerer Can See",
+      "pages": [],
+      "sourceUrl": "c32c16c7-dbbd-42a5-95cd-8cac4aef426c",
+      "number": 24,
+      "createdAt": {
+        "seconds": 1781786508,
+        "nanoseconds": 13000000
+      },
+      "pagesCount": 0,
+      "mangaId": "WO3EfW2kAO6akv2MZSEE",
+      "title": "Checking Answers"
+    },
+    {
+      "id": "ldzmFIqDKl86i8W9t3ur",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 341000000
+      },
+      "pagesCount": 0,
+      "number": 24,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 24",
+      "pages": [],
+      "sourceUrl": "0d1617ea-5f2b-4112-928e-4d57e39bafdd",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "PE7QIDoWvEDeDQPzZfnu",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "58d51144-0b91-49ed-a0fd-c1a94878fe5d",
+      "number": 24.5,
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 475000000
+      },
+      "pagesCount": 0,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "New Year Extra"
+    },
+    {
+      "id": "rilamdX3XM4jZakwMrlq",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Vol.2 Extras",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 644000000
+      },
+      "number": 24.6,
+      "sourceUrl": "86ca5b57-6e90-4bf0-810d-4e96dea13683",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "TpdJJ3VX08F79wkxVuC6",
+      "number": 25,
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 804000000
+      },
+      "pagesCount": 0,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 25",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "ee8fa7fb-b431-4270-937b-d7d5e51444ef"
+    },
+    {
+      "id": "eqUrx9FEWtEtw7BlHhsY",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "number": 25.5,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 951000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "bd164c41-f404-42e3-af39-055975b7d401"
+    },
+    {
+      "id": "d8OmlGeH8Dw2tMgbxyUm",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "a6174638-b6c8-46ff-a5e8-f13ae234f230",
+      "pages": [],
+      "number": 25.6,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 90000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "z7mp41P0idehg9oxa15W",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 226000000
+      },
+      "number": 26,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 26",
+      "sourceUrl": "b9dda065-b61a-4a1b-a92d-bd55376d2bd8",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "1N2Wu0s8uNFbDwSLhD61",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "36135071-2742-4954-a897-c117d1f7cb85",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "number": 26.5,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 370000000
+      }
+    },
+    {
+      "id": "QN19PpOSd0Vrh1CBufNW",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "number": 26.6,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 557000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "e45e38e0-3f57-4e41-85d8-0801f7a9dae6",
+      "pages": []
+    },
+    {
+      "id": "SVPNvzrkGh3P6LHHFytt",
+      "sourceUrl": "0e3d611d-8417-48c6-97f3-cdc68cc20c92",
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "April Fools' Special",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 705000000
+      },
+      "number": 26.7
+    },
+    {
+      "id": "jdKM4KSFlYIn3vPyJz7k",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 859000000
+      },
+      "number": 27.5,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "pages": [],
+      "sourceUrl": "16177e81-ef15-4102-b61f-eb619a5bc4d1",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "qdmsB1tMo4BHYwJmQ5o0",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "number": 28.5,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 41000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "8e8fc503-6d3d-4b7e-8f7b-d4ca7e5faecb"
+    },
+    {
+      "id": "0gygdNz0dZqYEl8uTJBE",
+      "number": 28.6,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 218000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "e744d79b-b423-46b9-b828-9314764373c6",
+      "pages": []
+    },
+    {
+      "id": "yA8kA3L89xV7mFqxe7qr",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 355000000
+      },
+      "number": 28.7,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Vol.3 Extras",
+      "pages": [],
+      "sourceUrl": "35f4cfb5-aa99-4960-b0a5-aeaf812c7dfb",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "7oJBMvR5KEUowHxfFYQB",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Melonbooks Extra",
+      "number": 28.8,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 487000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "e10d7b13-28f1-4fd2-91ea-6d306d90b3f4"
+    },
+    {
+      "id": "aDgh8lgz4hExzdt56U2l",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "sourceUrl": "98725f2d-7cb7-4cad-b932-3db8fc0504fb",
+      "pages": [],
+      "number": 29.5,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 659000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "Q92DvLYl7rASZhb7v3zG",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "d5dd6330-308d-4294-bcdf-6b91beb2b246",
+      "number": 30.5,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 814000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "MacIV3XVX9iE1JjTNrjt",
+      "number": 31,
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 969000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 31",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "5f6d0368-ee16-4a5f-8919-d0010089ef00"
+    },
+    {
+      "id": "WZre4lZ1HLxSnaJuGi38",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Twitter Extra",
+      "number": 31.5,
+      "createdAt": {
+        "seconds": 1781783995,
+        "nanoseconds": 117000000
+      },
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "sourceUrl": "e605bdb9-4f1d-4845-8d68-2745eba0b6bf"
+    },
+    {
+      "id": "XYNPlc9ICo2NAKLjNWwe",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "Vol.4 Extras",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783995,
+        "nanoseconds": 265000000
+      },
+      "number": 33.5,
+      "pages": [],
+      "sourceUrl": "a60c1b1c-a9de-4698-b7cb-9f93d4e34914",
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    }
+  ],
+  "syncedAt": "2026-06-18T12:51:30.214Z",
+  "totalManga": 2,
+  "totalChapters": 118
+}
