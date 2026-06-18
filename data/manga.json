@@ -1,1038 +1,1312 @@
 {
-  "manga": [],
-  "chapters": [
+  "manga": [
     {
-      "id": "6A7eai3m1V8SCRdkabOf",
-      "sourceUrl": "61fbba60-3b23-424c-aec1-6b783ff29f07",
-      "createdAt": {
-        "seconds": 1781747520,
-        "nanoseconds": 368000000
+      "id": "FT455FAOB3kSF6UlRH3y",
+      "coverUrl": "https://uploads.mangadex.org/covers/baa95345-24fb-47a9-83e9-434ff671f968/602f2ad8-575f-4b4d-9ef3-45a81a078aec.jpg.512.jpg",
+      "type": "manga",
+      "updatedAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 16000000
       },
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x1-24696f63bd8adc4ba802fdeb01121e775d6c348a38832227ab8cd0d090cd044b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x2-05303375c9ee53815da28de1e51f627da6a416d2f9ea321786f51ebc24a882ac.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x3-6ff454285665e4f2371d6f954535a15ca56f0b0d3737c9a62f7baa17365bf2fb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x4-b688d03cbee0c47b7e3950527581d0d71fb003bc0d68349425060409219602ce.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x5-7b3edb5005e1be8676bbed372fa9904113d7d3c763f9751742614704f16a7147.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x6-191113ccbf30cc8992be83545f1d1b3160090d087363d81abfc4a4717135b2e2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x7-f0e0ba7d928d8c3ca8ce0a9f2c5d02897aec2659c47e19d805f8e16d7fe8877e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x8-1a0c7f13c80cb03b964ab613c50496ed6a8ab75c3f915fa31a0d5ff6f44c9d4d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x9-f9875d15d9c935acc663d3fe0cfb1c62806d837625c194878123ecb32fee0a07.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x10-6b9ceacde89a364eec5eff3bd894776b1d409c12eacd922b4e935f38210353c8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x11-c96020676bc64f1654a0410cb7ef8de3a43f296b58af9ac72c1e9f6e2c386619.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x12-8a87f11fb38a474c3c04ee3c74d82abd5125364a16007ca342ade12eac786231.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x13-ac6cad76a8de8faef2f27c3c8e97305338fd42446a5332411924f3d49e50a04b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x14-b6571044457b28be0262f27cb8688fd6f7adf2fc67560ffbf4a0b30745c8be53.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x15-8a0981f60b71d0f0addaf607a4e53000f29f800eecfec3082605a88dfe0c25bd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x16-7ae1256cbf176b2ddbb7f7f562f30ea77a1275f1f5856886d7f452dbc4263f7f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x17-b9a946464cb07508a2633573bbbe8d0c6747f6e8a811efa51d7e8be456f88cc0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x18-1f1dd163120dbb9ff54ebeafc309780457dabe4f6580a65e2ee972ee3ffa355e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x19-dce4390a695606ecfe38964b52023f8d378bf5e6cee25daeb8ee37d7357096fc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x20-8a5af015bc515333ffc1e778022266ad182cbdbda3ec78079b2e5eefdbc73510.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1c15c11a2753cd4e0cf5d3f68b4e2dea/x21-bd7ef3c6d20283d84a0984c47bd0ad86d822d9fff1ecf7534f5da4f836928ce3.jpg"
+      "status": "ongoing",
+      "titleEn": "Super no Ura de Yani Suu Futari",
+      "views": 0,
+      "categories": [
+        "Award Winning",
+        "رومانسية",
+        "كوميدي",
+        "Office Workers",
+        "Web Comic",
+        "شريحة من الحياة"
       ],
-      "lang": "ar",
-      "number": 1,
-      "pagesCount": 21,
-      "title": "فصل 1 — الرجل ذو اللكمة الواحدة يدخل الساحة"
-    },
-    {
-      "id": "M2w3mKijfUtciLbG1Qoi",
-      "sourceUrl": "979f05c6-b8aa-4d1d-a5ba-7728c15372d4",
+      "author": "Jinushi",
+      "description": "Sasaki, an overworked salaryman, goes through an average stressful day just for a single light at the end of the tunnel: Yamada, the always-cheerful clerk at his favorite convenience store. One day, Sasaki takes an extra amount of time at a company meeting, and by the time he gets to the convenience store Yamada has already clocked out. However, as he leaves, he notices a young woman with piercings smoking behind the store?\n\n---\nAlt. Official English: [Square Enix (vol.)](https://squareenixmangaandbooks.square-enix-games.com/en-us/series/smoking-behind-the-supermarket-with-you)",
       "createdAt": {
-        "seconds": 1781749375,
-        "nanoseconds": 241000000
+        "seconds": 1781783982,
+        "nanoseconds": 16000000
       },
-      "mangaId": "E7nUqbcYfs6Z7QRIzQtA",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/1-ef72ffc07baa946b4f68cb04959956d0cac35a1494aecd311e25c746146ff763.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/2-64350337ec0350582a6365b8f0644608f06ef21f80b61b64dd510236f36367aa.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/3-c18e7863f6e851d66e08649b8ea93c676778815519f4b17a48e58f78af92935f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/4-a02024f4f70257e55d079962232e3995ee71c41ed40227e48111163db9fc05ef.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/5-45af4727314dda29b45558a7a1cf9ec8e7e2be1994a8bdea133c61dd367b3438.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/6-9b1d979a48b41bd9733d072f50cd2eb8dedb8847891d84ac1775b78ef5f6c314.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/7-7c3dc61e6cd18507fee1f2178d164380b9dfe981408d4b27dad34234c85f3889.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/8-98cc2a8a9fedbc6547e5bba2c27f1682343e982f048479c5945d682186c4b4ca.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/9-5cbf594d9efbff552751fcffb441fd890a8d1c73d3bc4e80b3f44d253ba8da5a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/10-da72079532dc07723e3447b9e70541f95315a410eb80cd5366ef1799432be1a9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/11-1a8f6c1132e0e23bd07e30459fe6ac2be20ea8c54a8c0a7889fb90787d682423.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/12-283d66dc41728228d46a3c55082ae16b76d49da6291b7ab73c657e0f786977f9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/13-b7e5130defe37278f62cf96176ec90f43d88051ab3264ae884d26aaab4429d9e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/14-df351b671806e4dcda6afaaa9b59a019b7d6f425a182e921c11aa189eba499be.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/15-e86d1c2c3b4366a6fa853ef7b1caee052b231ff59c07a24cf90f5c20b1c3cf73.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/16-f1b3910a7639d8871b8007faa3254de208aeb39d5fe9cc458cdaa7756e8e07fd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/17-a994a00107d88f5e8ed5004b9735375c959fee4fe890bac5a81202d2b129d99c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/18-dd470470e7bb1ec17b324c07aca0becc4d8ecabb921cd87fbbbc416fde248493.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/19-d8bfa41347d4ef969b83b079645d890aea60eab9c42a93adff52eee0046cdba9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/20-e409731e0f01b20a988f3633604098561050a6a395203730949d8d9550f1a421.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/21-b2b82077f3a4c693b20363b08f616c7463061ba82a69269cdbc41781b7b18354.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/22-be3b9a3588f9650bcbaecccda8be3ac012333d2277d81c4a5e2ee80d2a94bce5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/23-75a698dfa645b9a0bcfff9e9999241dcae9b290ca0fc0ba3fa1f68edb190ce4c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/24-36e41939f62a6ebab5ade30588632abba50c350bf758feb8564a3ca2b88ebb6c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/25-e84374d1f07fe7db5555452d0f6d27ae5366c5cdb691f99c79841274b71ad926.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/26-ecc3c5265101a66b1e271a9ec1f499d7f83ae7b0a6b01552bf3d58c5d29fcbd5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/27-1ec6d30eb805fde036414e185d4cb345a5d0c9b6688fa5ce57701d7953da53f2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/28-f55d367c8ee3ba8ec79558f2f77fafc7d68caf8fa815f931fdbe4906f447c612.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/29-468fdaaa4a1909534cffa44eaefdd17d404d616932978c32df6455639384127b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/30-c8fd6de2edc69bbb9ec0fe9809795a1c06047264ec6439bb12ef418e51d1d46c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/31-aac129147c49b6d3a08c7555bcf8be2ad8300db48f93e357a336876daaf00073.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/32-57a886b4264fbebdd481749ec0f2bcc4ce948cfef8b305e083843ef034af2d79.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/33-318a2fd986d8da42121ce6da248cb767d145f83e8ac03a957d75380f3dbdbbbf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/34-02baa7aee89d948a5ba54819a7ab1648ea93e02dadb7eb9c44199eaff8ff9097.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/35-469f31b1dd517201dcc5683593f4c47a5486ee9a6f0736adc694d10a3586ed8a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/36-c6fd96bc4877b7e726fc216b06f66b9ad5303b1a58ccc1a589d2eee54c9a21e2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/37-dfc0e523b2b8da8e43fc9a0cf188756c887d8807a704772eb84c499231b13670.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/38-5d329994ee74c15e9a912b17f770d90ac103a4ce3ffc1433aa22c83dabe6b71a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/39-37c1c6190cb4cee332d959230b5c69612882bd20856bce7ee41bef497464e586.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/40-552c0f333988ecaa9e77673c41ef1cac86fcf2c8238b3a34e9362d77aca5ad00.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/41-b72657d14bc2ad40577539dad6d03846d6bce278fcff5995bc1f36cd07c375ac.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/42-7f69e1df25cfcf3be2548481b218e581217e41036b9fe66979c91390f627ccf6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/43-05e2b857b8cf9c26445909ef400f5e6597839ffe73a8f0cba0e17479af24ebae.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/44-a24c96779dfd78804d730af40fab297b4f8f1b874bd527898e15dbbb6c8d64ad.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/45-bcefa2615e25efcbfb08a0d51e717700df8ab156e1e463d6ec949f4af1732731.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/46-f93058e8c95a5862483ec5cacae18fab63094b045c12c180cb3b645242ec383d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/47-6480df628ac7998a56a9034ebd2bdf7c28e6b98ebb4c80ceb55c201817e0dc47.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/48-eee7e71f089d7268074a98989f695840d8ea3761def5adbb2b3d3471eb6f7974.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/49-ba5ab5aa625fa7037ae4f3de0e36ef444e486466afcb7ebcde6b7cb4aa03859a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/50-26f5496a226b7c2a46ea401073a6471b4bf7813e75a3b690cd691b0d07fdbd7d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/51-62fb5e7607548e738ff6d511db21b3d109ad73f2338ef43711bfefe0f2a25b19.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/52-7068e81767d08962077c406b8cbd667f41dd3c94063ccb3981152964d58c8761.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/53-eb47aff4e332653502a1e148a8538b7bf4479298017bf80765e80f74940c3de2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/54-8f12acde95f1f8cebaa9ee62f8867121c07a1d5666d944764c4361a98718fed0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/55-a2ded868350a53c99beadf1a5770d8aa451062d473b94a7300c8777ddd3d3455.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/56-0947ae0816381d7c6cd0c3c8074a3d9b76e002ff50ab6df931e05325fd4500f5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/57-98a87f326ea58bdbc0d1a7fd25f93de5dc03b2688d1e283b963b345cb8c81807.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/58-df966a1d787f0e1ddf1ae206b42cfc23fd7fe211e1e364ca182f07cb1a2ccb39.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9bfc9a4d870887778dd295275d241c1d/59-5c45b6dfdb293a1ab0b3e2f83988e76bbc4194bf142f832e7d07af031af7c1ca.jpg"
-      ],
-      "lang": "ar",
-      "number": 1,
-      "title": "فصل 1 — أهو حب أم غضب؟",
-      "pagesCount": 59
-    },
-    {
-      "id": "S3vMVFfgAnfIJ8dddmEu",
-      "number": 1,
-      "title": "فصل 1",
-      "pagesCount": 7,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/1-112b5ad3b4406d251160694df13167175d2d07e912f31f5c541490e6c502f458.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/2-475dbe897901eb914b137d39f3f04da4f812a6ba383e081bacfe7e53364891b1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/3-ffcd0a56d33b5c87eb42321c8b4f227a8892d43404ac0d364a64636a89c79150.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/4-7b95a1dbf9e1963fa04b357de2be4c9bb6fab7f8c6d7b808859c251e2933480d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/5-51e780f4dbf20db4a69065c291b91b5e1f9b1dbe482e30eb240f4627a8d89456.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/6-a60226fa8d9b429957779bd8a2de024352f2cd23e9ee0a6a00dea784c7e5ad18.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/92c5d0055ba35642d4d16f50d276ccfe/7-3b642817c4a9eb136196232cf73105170a5eff4526e82ed79c650d6a5389495d.jpg"
-      ],
-      "lang": "ar",
-      "mangaId": "xXK9xD9WXtTr5uYOuS5S",
-      "sourceUrl": "313c6815-88bd-4f70-b3ad-68620052744c",
-      "createdAt": {
-        "seconds": 1781749406,
-        "nanoseconds": 817000000
-      }
-    },
-    {
-      "id": "5QCfygborfU9ImXGsgvG",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/1-ef72ffc07baa946b4f68cb04959956d0cac35a1494aecd311e25c746146ff763.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/2-09b0997592a677bb9f876ec23ecd7503f42326833251e5f2a3778c100e9e3f45.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/3-3df13a96a1973a8435e2ee7c3690c85f164b577cf5dec6008eff1ea2d8a2af17.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/4-22b197e1e397fd6d530a4ebe5e0e0b6e0e2b7b04bfc2b0435da3919f134ebf90.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/5-c046ebde2900e73b7ce8a867a5d21cde39aeafc5814e292c6fa2b34401191d11.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/6-4515528ed31cf6df282389ffebbf5403507f69ebd0959a20b9b93ffd4562e853.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/7-2657a9ba4cfa34398784ff99b97e029f1c0141b2189c1c05580eaa3ffc2f5243.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/8-6d6f3d000e38ead0050c438be4fa28ee64c07fc0ff6c2e04fcd7f4dc230bfdd9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/9-e89a4644c9142243422d9317a6acabdbdde17f1dfdc9c677ac3868d1367ea5c6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/10-71ed15749be261f4c4f0e8029cc2f2d90d76c3e4cd40ac48af0f3a3546adacd2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/11-feeb4bf22f494d8a24434675de069d7da95cf14ac6305066c60ab9cfca2807bd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/12-c8d36fbdf077db950994a2264f6cfb2e3639d2c24b106269ec450e5f3b028c55.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/13-047c7a45c0fca9ef45c2565cd3a64b58de30803c3a7e23188fcb39787fb173ce.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/14-44a093f9a6f5c116b20adabe08bd8cf0b8c0a666222b4e444c21bc80cb60500d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/15-5ad34db8ff67e28805df707a180050a65eaaa10193d4d9161837f4f13ee76bd5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/16-88ec1321bc94d1a1ff0a9242e8870fcd90fabba500c890b59f0293710f071ee9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/17-3a36c6bc9ba08bf4421ca3eb7f7c16a852095f65bb05f34f00680a710ecd9c89.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/18-f2948c5282b4004a5d8b8fc6457bc452a08908b437d292af560485f96ac63db9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/19-a0cfc67866e4353b7c82fc33ec9f40d848d93b2a7800634e236a68dd564c0995.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/20-8ee85619ab779760c92e27b337974cf10cc936b218e83faaca74bf4d1e00d623.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/21-fff8de12eac6468ad41d6cc3e5053959f23e32bebe53ba275c3db7c24274ecdb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/22-02d826e7be33ba1ecd2d0a9b6007d13e9a8bb2fd08560395416c1bf4fc62c4d2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/23-8691d8d0fe1c0ddf1d1fc4408ab253108f5c42f178abc26204eb249d0a0ed199.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/24-a6c4316c953a344baac35826819adc797d00c2d39faa5e23e0dbcc23e359fc75.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/25-1d30b799535b1fd03eeced6b8e6e12f859940f85c5180479799005dac9a93caf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/26-fa5b2d35cd4de9051f34dd54baf0f02c70c2533ea0e14ccab7b8214d832a5c1e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/27-2b7e0bd352f8709421f92ac918fbcd0b00be7ea47ffffb47f9dc656b3c2edb2d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/28-c231513aa490cd5025043dd93d178c98eedb5442b3027d35f170e2a7d935b82e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/29-e15cc03b528396c3568e7cddebcc8c224dc70be4befb4e8a5556b2e375ebfa24.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/30-2b55f14fe3256063ffbc1ec402fb96de80fd88a00378c4276c7598cd4e4c53c4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/31-9592225b2a0f9057207f078a616832c457ce58831c6adc5deea9db52a7b690ec.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/32-9706a4c47748f85868e6145cfa8626bd6427188ed845bc88bb8dcee45f9648ce.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/33-6a39e41c2e427e4daadf3ac12eca4f9323c36396e8836e9af19ae2ad2edd57a6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/34-4dfab877ebd061324cd340e1a867d138b40953413714eb6c2a4f9e95ac1c3b16.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/35-bdc31b2ca2df455f72cd25f0534b56f81b13af0050e065ecaff6211d623c959d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/36-79aae8c399f25ece03b3ec13baa2187f3a0cccb220b7e3597d9effd90325fd0b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/37-88ddc4dff776bb46fd5fe65d56df9676fcd5b33e9c2a679f3f8499a1b85966da.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/38-a7685a41dc3614196b3951f1d3ad20994a268f35f6fd9ab61163ec8d18249b04.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/39-f37f2bd889b95d945f6e770d36615c58cca4debbfba52319bde291ddd284316d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/40-954a05a5939b742e42c9daac7ede4f6bcdf49fab484a5fc76eaa735dc3d79f28.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/41-97e8bffb96897f8b009ce3cbca6f0c52794f18950cae65daf09d65d59710303e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/42-8e793d680a2c0bb671c9dd531771a0f5c392f254b62e17b8b8e7927388d90f7e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/cb2c899f7b88e9f78885adfcb547ac57/43-c590e622de736a9949ce17201271b0e7f7e7975628577ded34f8279d9699ebcc.jpg"
-      ],
-      "title": "فصل 2 — !القديسة ماريا ممرضة عيادة المدرسة",
-      "pagesCount": 43,
-      "number": 2,
-      "createdAt": {
-        "seconds": 1781749375,
-        "nanoseconds": 838000000
-      },
-      "sourceUrl": "7a365028-6dad-406e-94e9-ce5aa271c8e2",
-      "mangaId": "E7nUqbcYfs6Z7QRIzQtA"
-    },
-    {
-      "id": "YkJKijlPg0u8PfLnBKks",
-      "mangaId": "xXK9xD9WXtTr5uYOuS5S",
-      "sourceUrl": "4d738df3-e709-4643-b4cf-3585ca33bc52",
-      "createdAt": {
-        "seconds": 1781749407,
-        "nanoseconds": 451000000
-      },
-      "number": 2,
-      "title": "فصل 2",
-      "pagesCount": 7,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/1-044fa6e76bc007038039fd9031891289c4f0f604960a7f67194055df9ae5d85e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/2-2f3d3fb774a59aff82e6a1a6e685a4b9f0b8bc63608303e30e18351bfd20ffc5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/3-9d9e0916da5dfbcbbcb25a1318529deaf9ad32e3aea3f3a7c5edb9176c03e53b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/4-d996a7af84ea591ba2ddc2d15eac1ea241a297e8e8ea210177a814fcc03021e1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/5-c7541ed0025dca648f4b9e3303eb4181b6c83c504e01eafafb3c3774831cd7b3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/6-fcbd8f2270db10354782bf73778cfc564a1c1cee4ecf7ed11d956a2a3bd5c805.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f7f1588eb8fcc890a2e43f8353bdac49/7-a0af20145cb7eb657cf2435960a08614372029a50bd3d5f9e397342c962dfc86.jpg"
-      ],
-      "lang": "ar"
-    },
-    {
-      "id": "yZQc2o0QoVi7mc4lijnU",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "sourceUrl": "f8341241-c93e-427c-88b7-18cfe70cfec6",
-      "createdAt": {
-        "seconds": 1781747521,
-        "nanoseconds": 141000000
-      },
-      "number": 2,
-      "title": "فصل 2 — السلطعون و البحث عن عمل",
-      "pagesCount": 17,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H1-1abb99ef13f9c3b8de9671187c512d316c9357bd248a0d9198a79dc935421a52.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H2-5889066975625fe4a5d9fb700f61c15cb01724b487475d250a7e4a71b3c39445.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H3-584aa11030fd434eacba1f752a61d220e48830c31524548bbc4412bf745855aa.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H4-50f178cec4fd7b1d1c4044b36c1c61723a21502330dfba33f3ef061a45e206f6.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H5-b86ac2aa87dfd422e2c039df169777a621c9064fa5a6e4e2d428dc05a0a040d5.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H6-cb5d90ceae0965bdbbad35f4c8e9fc9482624567056a06fda340f47546a08bb7.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H7-6e298e5a9a3fb3001eebdf55f502f7c4c0e1aa6e3395331a027b16782142c499.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H8-6355faa5b1918e4954830daeeb3e1169b0e740e11f2d105f9f5e289d9eb130a1.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H9-82161acf7aa30a68e5b971b72b3f8e010de87d6a424103ef7b5280c07fe91479.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H10-7a66f2f27f876e792b105dc25c2b93cc398c0e4f8fc0c4fcaae17845b3dab8ae.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H11-e9d2bd46cc5d227115a20f8b5ae7ecd964dfff2270751ab6a39801239183c781.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H12-41e931ebe4cfd15517a78e9f7220e3edeef3e1b19552b1b442b60b0048d5b857.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H13-a5e33adfd40bfdc1103fe6d8bc80be5058f4c11391ee7470da29d271a119b5ba.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H14-fca62832e2c9c3b27ae9c3131c22fba4f200003c8852761b8e4c5b9c22fa58ee.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H15-3b14c847cf23da2e73b6445a6287b643c6556b1992dd07b8d0a4b438f52e1d62.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H16-b30fc42ac50a2505a7cf5068f2d8986797aee5d2f86d92797657221164583822.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f3cdc3e7e6243ad05e6905cc2bdc0065/H17-7260bba49859694c5f46f24b9f7ad1b415eca381a978e75610dc3dfd6f6f6944.png"
-      ],
-      "lang": "ar"
-    },
-    {
-      "id": "GMDstrsT5mzvLFudssjE",
-      "pagesCount": 11,
-      "title": "فصل 3",
-      "number": 3,
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/1-16f72ec1dad7a87f2d6c7d94eda8c97b86bc06792678bd5b775f5fcfaf4d8506.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/2-a0ff89ac2e02d3eca0101c594a3d6ecc1c71e894f5427c5ef68e17596b31192f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/3-e22b56f47c464cfce946f449cb1cbd66d2f97013d6d86ef2113661a724fc7e59.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/4-685828157dee541cd3e21ab79aea0237c86c706c4d9797153dc7e05a7c86ecd3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/5-2828ae2e5bcf5a8606406cf32661d47b9401bf58ef40c5df676a852edc0f627f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/6-c7441a06759a824bb0b06f1ecb2bb49bbc1ba794081e5293b016803a40857de5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/7-000e709666a030901c44bd2d3a209f98b94f951bf8e4ab5d72b369e1d9720f25.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/8-85a3a0ccf0a1b58f5be1bfb2d2c40c432a5bd212eea76c3b39d9ac1ee3a0f7ac.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/9-59022cc25ec555e9dba419d17fa4727c27d59b742ebeb067439562819dd22046.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/10-aca80c661da69fdb8a8439af8a1ba85fbfcd04b8d906ab4de93150efedf9ac1a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/80454d8bff999dc71326bfb87f568f59/11-98acc7a59e0700023c7479043a8c6a198b17b6cfc66e642cef33b05b6976cf07.jpg"
-      ],
-      "mangaId": "xXK9xD9WXtTr5uYOuS5S",
-      "createdAt": {
-        "seconds": 1781749407,
-        "nanoseconds": 990000000
-      },
-      "sourceUrl": "bd20d866-c767-4f7b-aa0f-73dd1ac6a26f"
-    },
-    {
-      "id": "lAkQ4gphRWsYyB2KCgDm",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/1-10aa992ee66acf61ddbe77b2b4f7c1f1c9c7d7036d63955ec2a9d2f971b844fe.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/2-7abec365a89b52126ebfef1df42a5bb196a169ad2a675ca1d8de70d1509760ac.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/3-2fde563e95a0e3d1b343805f991256db4d6bcf1c38a0dedfdae4fcca83b2d083.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/4-a0905b5ebe025404b3c5db0d608e848854fb6216d3b04cc276aef1b3918fe0a7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/5-237dfd46f2a0cf2cd64651d2d01ea45e811d705941e0b22857685739a96cb38b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/6-aa3a10ba9e99191c8e331308f948546d6e421c1169703c80bd7db051545cc465.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/7-dcd461783e4937ed4d0d6bdc4176c02c73b8f445206bd5c08f4500ce353d0d50.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/8-8b06af19104a85370b97e1889f79dbf3bb701bc30c4e90d9298d9f5868cd2221.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/9-bce9f471476ec737f7b809eba9d475ff9706140e586c06697154f37d32807961.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/10-57f60e83eaf7eabe93b591932dbfbcd923ca5b1f56f563705a78dbaac22e95be.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/11-6a2f89b7a8a275fe91ef648694e6ef89caf926f236e6eb86c6fa61a06ee57f0e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/12-cbbe614efb4182ef42082452a35bfb1892e2d6a76bc731119f70a99a4c98448e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/13-3f00c14ebe7c869a52e24abae821285ac4a100d85070b5b711ae111e7ebfb822.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/14-14149c812393ddff35ce8b92bca8d21033b718dd620d42da8d4a754f32c53fe5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/15-506dad16e38dddc54e9d10c9cfdee818f2d1009f45612ac7f6295d7fc3f36a2e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/16-f57167976fe5c13c1a7f234fd5427967f6b69ac5c7c1c17f0270513f2662de40.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/17-8a20ecff705dab942593566754564ddbe8aa24e6710b30f96603000fc943872c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/18-bb35f1653a15b06957ffe9bec17c5969b1fbaf1cadc2d8f5d8fc1c88259289e6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/19-ca21a4e069d0f17c87c3bd2dcccfc6fedaf947b59fa4ce694ec9a4df6e535c15.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/20-77ef0c120567c71ad7b60f41979e2406bdc286836cebbe29cf2308e3bc5d1c81.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/21-99820e71b1c8b0a215bca56095de2fa69aac109496874b1ba7d699a591676856.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/22-7d2bfc60cec407bd8b563adfa4f7d5524317c073b0920581a5a5cd380c0474ae.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/23-16c6d13e702a26b67bad451f2aa849751ffd4b58e4e880cef3184123dd526890.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/24-9373b715c71cb9ab127a26487c301792be11c70af0286c63e61fa806cf9ad602.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/25-9c541da429530ac7220ae438542e88036844498ad115d2494957fb70aae502c9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/26-459cae2805a9895305f55f330fb5eabf37482020474cbaa9877a5badcd174d1e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/27-cc5ad21fe7696dc4371e572371ff3cba2890cd36d67e233cf55ed6b7a78e89d4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/28-f65b16f3bbcfe550009f51047c0cfd1d297f1dee95338e2181c8e8b099815f68.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/29-e7fe45c0a3af252d4a06cce739bfbf15b25d6132a76d6a3835d06c1a18d36e2a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/30-88a85f6c8eb878e4ae1a786279424ecaffa1c8f56e0758499927f2d884278a3b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/31-93b23781e23a9a5098a311e3b565ff6636fe3653dc8bc8dc5ee7c44e2cd1f83f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/32-99672a880f3b15383dd31d44f831b9e55eebfd6368b0cd9acc5c17a6e0a86451.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/33-aef0a56e054c5c3fb01ef9424351b958591540765104aade48dcd72745381356.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/34-b6433c92ba5c7147d5a76a3508bbbca79cc89d92996b4d7afa3060b4fd403431.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/35-782160c260162d913dac5d604614df66d20bc592c9e2c445b9d78a240c4d6efa.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/36-011fb1178b86a711c5a0868564364fee008a250baa0a59874eaadacfc194afe1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/37-2fb7cdfb64d6a8696766448311c642da7d6d99f45299b91289ddb1bfd4734dd9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/38-09f59c7e81a01fe2e009e3f745411072b557856addafa890e1ab9246d6b1e411.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/39-91e638dcf56da8b8ae376465777fae39548045cd296a6aa8c2c8ebb9464f13a8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/40-863dfeec2948ef81b4a3ab6d3489370e5fee2e9d22a7131789ca86fe0fa43948.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/d121d501eb2bfd89deba542074aa52f7/41-427b392cfc1436feabf0d0ec1722abc7d29d234312c43d84166115229582424d.jpg"
-      ],
-      "lang": "ar",
-      "number": 3,
-      "title": "فصل 3 — القديسة ماريا تُراقبك",
-      "pagesCount": 41,
-      "sourceUrl": "2348d96b-3f4d-4be9-88f4-1d31a33b1f7e",
-      "createdAt": {
-        "seconds": 1781749376,
-        "nanoseconds": 538000000
-      },
-      "mangaId": "E7nUqbcYfs6Z7QRIzQtA"
-    },
-    {
-      "id": "OkD4lesuvmD3F9CJ4jNE",
-      "mangaId": "xXK9xD9WXtTr5uYOuS5S",
-      "sourceUrl": "15fb2dfb-5a66-4d07-9aea-95baa77333b6",
-      "createdAt": {
-        "seconds": 1781749408,
-        "nanoseconds": 682000000
-      },
-      "number": 4,
-      "title": "فصل 4",
-      "pagesCount": 9,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/1-b2973baaf020d6aabbd7bbd2feb8f2670e91d09dca8dfabf1657dd8aca638c21.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/2-86a0e9b817521770a4c0e25066205fdc7ea39fdc558fddfacf9c2fdca51d3c88.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/3-d6922c034fe93c4a4078c3182a8cd48dce9e52474c94d53ee741313ec5455ce3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/4-3d6bc7476445af9d93a7921b7a75b029db171b54a43d6033afa1f6e653d4ac48.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/5-3cdc6180e5680e355d35ef0577b6db9ad358b86a2082be62325d88da07612135.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/6-49c19bc6fb8f8e0989ecc98f060e7d2ac47ec880c3ae8f584518f0757f8572bb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/7-9e7c419472d043fe3942a74259a2319e7fbbe19c4f8238a3c54e948a6c3785f8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/8-5d4787a64895387f00c831169cd4248eb650c42a9bf18141d62225e50482f519.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/f579e1fc1011eee5c2ff53164026b9f2/9-777d12d9810821b8a43c8c83ef6da11b3fcbe74029f1ffcd6b6b10c9725a82ff.jpg"
-      ],
-      "lang": "ar"
-    },
-    {
-      "id": "oiM0oXKCNsx4rUYXI5w6",
-      "createdAt": {
-        "seconds": 1781749377,
-        "nanoseconds": 109000000
-      },
-      "sourceUrl": "b6dcffb9-27b3-4230-8bbc-8efbcc463068",
-      "mangaId": "E7nUqbcYfs6Z7QRIzQtA",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/1-332581a320e5e45b0f4b276eeaf7353d88ced553234a33bcca2c63317239412b.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/2-9b74bf27b68aa7926df080d9ead97b0a0c995ad1796d3bcfe9e5756737d1ffe5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/3-a3e5a62455baa1d6a12a9eaae9237684213a58a1ff984a0a9078f2b8f3425c9d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/4-5c67d4a61471f45d055aedcd6cce01e170b17267ffef58bb808ad14cf98199b3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/5-238e243d521597326a23b7434b82089dea6159d31722a9ceb45a6dc0ac3fc20a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/6-c60029857f32970efdc4c96d8832e87ac50a28e771e0d63c955b72bca95d5a47.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/7-4832d4d123e20c8f1a20766fafb12c812e2790d0dd53faf2730cd0712a957dd4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/8-125c84aa6f5b09a00387065a2d996ab3d1a1c20f75eddebca9eb77083ee7421e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/9-02f3a887a5eda1c997dae7c054dfc42b65e0d94def0d9d367578677386f82f9d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/10-ee31a8f0eb0d43ab36fd2bf31f8332e456d469614f5d2535f0845250d1a0823a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/11-17be6e2b34ecbb0828bf2b1bc99ba5847804eeac68c6f429234b54bcea7a7bcc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/12-dca5c7f04850176e54cc358a6e1c78f6931caa1565d200cd88a8b687960027b1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/13-1f7a13b761db330a6eee9407f5df82065e71ecabce0a7e8c8294f34369157fb7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/14-8ca2a080774ddf192277ec281dfe7be9d5ab059e0dbd51d43c0ceeca86bc4dd4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/15-6b69dbb62d5ff4765b0a26365d75076dfeb0875491091eb3d0a75b0cdc77dbf6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/16-e6ca7014d9228bf35083b37902ca62fdf4d3a5dd315d0f6253a5ea6b680d9712.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/17-f67a15be2f3bf456652f476861cdd800918000937f01fcdc2bbecee53bd9df3e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/18-375e8426d9ed11cf0af99842eba9b5480bb9281f851bcc1a26a08638068f4478.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/19-709c2357810a17ef51212f540e46781cb773304e247add85e7ae5641c4a69982.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/20-1075cbdc88d3524c18c5e90bc2bf259428c3f4b203612a8f3c487ff8d7b7ebd6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42f05e8dee030b33760646adc7a8d5eb/21-2d339724cbd2a4e0096960e0aab591225b37ca2f3ed05c77be53599a2e6bae60.jpg"
-      ],
-      "title": "فصل 4 — فلتُريني خطاياك مهما كانت",
-      "pagesCount": 21,
-      "number": 4
-    },
-    {
-      "id": "uMrcMkBiR8ikCWZSN6Lx",
-      "mangaId": "E7nUqbcYfs6Z7QRIzQtA",
-      "sourceUrl": "534aff98-f9d7-4be3-abbf-33fe5a23e5a5",
-      "createdAt": {
-        "seconds": 1781749377,
-        "nanoseconds": 761000000
-      },
-      "number": 5,
-      "title": "فصل 5 — لقد أخبرتُكَ بذلك مُسبقًا",
-      "pagesCount": 18,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/1-c58f06c9a0c7b7600c5a22a9327d34ff7f62ae13feaac06dc8510f0dd5ea4bb9.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/2-99da1dd947bbb4d1c5984af29aaedebfb36a76a1a36e7576035b36334bb953da.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/3-606d66a4d9b9d33720d185e3db159e75d1970163251fbef38ad97483d3570c95.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/4-05acc260e094b3b3ca4ab579093844635439e317eb86dac2f5a21f0989b78d87.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/5-94a8d534c88c5dc95f7c786dc0b721d3c6ef4564fc54f17423338826bb163291.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/6-4ac611e4f2a40cdf406b0c0e793f46440620d72c25e6bf9c6df7d95c68ad7f37.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/7-1f44bcca0a665637f4b347c2cbb18d4c537193661464a3e9f6014e41e6b90b10.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/8-a1eeae772ce00c31c9f3fb2eb71805f26cc2c0c674990a90913f32de727bf16d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/9-41d1560be89338dc06d91534342781a01604232a280eeafe0956d4ce19a7e8e4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/10-b34f7e245ac547a8545681940ca163405fe3bc2b1a221c325ec9f268f4801638.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/11-130994ee5e3c1d325bc39be834d6fac052771d95582f58f6b351139166afbcc2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/12-28bab02641a521c98c55675b02dc1fee4998cecfc564923aa2776e87e4a2112c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/13-2f828fcb6e1f12ed4b4c520423633b945357c5bdb4537689e0557971b63ccffd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/14-b9a4c20e1c432b4c82a16511fcc081168d87ba576f25f5acad3855f781110b72.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/15-c6df296767ad398af38ef0508d734178df8d0f6a6b80d41f0a469f248412acb2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/16-271a30d2a5cf555ae0f5d4bdd53683be32f502c8749ba5fe3d67813e8cdf4b1a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/17-5e924e8cb48a1db25cf85f098f9942d57ea8a03174de9fc0580f9e608b54bf52.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/42def463ccdbe2bf07af435f90c5141b/18-db3a742ef1aa548a2dd59c7834cbc227ce10223f297ba448aae90a0d75b8cb5a.jpg"
-      ],
-      "lang": "ar"
-    },
-    {
-      "id": "W2imi527WneFpaYB9RoP",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "sourceUrl": "3756ff09-248b-4493-b06d-0af151965eeb",
-      "createdAt": {
-        "seconds": 1781747521,
-        "nanoseconds": 755000000
-      },
-      "number": 15.5,
-      "title": "فصل 15.5 — صقل النفس",
-      "pagesCount": 14,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w1-67b407fc2ee2c5393f7fe418c1c44f10bfc203b51d08aa42386df54d7da15a3c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w2-b6d0bd34fea957b46ecb266a36c0ae9ff92bc24a7459103d0a995787aa379180.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w3-c5d6032ffd963f21ca1e38fee919cb39aa690ddfe8cb192a021dedfc22ae5293.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w4-0244f11b89fe56aac9b2bee685b7d6add4ecb8137320471638350fd90c24a28e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w5-b32516b8d7a8a1f15faf14d907f116cebfb51366f54555378c8f97474fe2549a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w6-298e4938fb16f2d54ce2050dd4b18d4f4a338d485ba6bce8d09986978fd4d559.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w7-9343b6affd3cf7cf2c42a32a66480433125e2bcb8238ff3bce6e3ecbe5210c87.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w8-1e1900fe78bec8c548c036b54fef09b7ba8b463545057a7ea1715d5227f091ed.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w9-8f82158f34420afa8d0a6d1156cd5ea3936ba25b76aa862cf04c99809a712de0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w10-946b6cfa4b01b426cfc07d0531a3442816e7f1cd14a53c6d4f162dc171bb9964.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w11-7fc364f9805ce4d012cd7b23747554df0496265c88437fb0b481da153f560436.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w12-3bcacd97c87e2ebfddc7bd89e174715af2613e648ed1e30c1c7eac4f587fc83a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w13-f204fc1952aa81bd4c0a0084fe62ee701d7c9bec6f7b83e35bdd06375500e7e6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/3477c62093cfa33208b88e319ee9292e/w14-a3ebb5925f27ffd4b53d42bdfd3c8d5b3a0396b27e260b1b5ee70cbfbdece72a.jpg"
-      ],
-      "lang": "ar"
-    },
-    {
-      "id": "wyUcLO4XyCma25ALSrBp",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "sourceUrl": "f8a7b889-5454-4892-af40-275fa98f7d75",
-      "createdAt": {
-        "seconds": 1781747522,
-        "nanoseconds": 367000000
-      },
-      "number": 17,
-      "title": "فصل 17 — مواجهة",
-      "pagesCount": 46,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M1-61c4d73843d838a0be50410bedcf0e9f5d4a2f65ca8b0084afea9086127abddb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M2-82ec2448b7400c71983842d350a3c39e054eacfa8a51f67608ca82b8ecba8e6b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M3-a42b285814c854a4b783150e2c277e4686bccad236a8ecb9f480df0c95bb078a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M4-b2eb02ed1e1489208c67095126e55272894c7206e08196912f883e674f8c8739.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M5-2e03d09ffc22ff40cd2a5dd749c6c89cd8cab89811ba798d49674e50d41bc3f3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M6-5c83b3171f11b93b1f7c5deb171427fafd9b64269714453f7127e146ad488b03.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M7-a617008547774780ea3b2488a44d3d5daeffae8134a5bc9ad13707520e8cdc1f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M8-6fd6d90359f0d06cd377a2819370137e7f53174c33eb4f3e0d4374ac7be7aa84.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M9-83b6fcd0319cb30fc84fd6ca6969f6481bb8dea096b6a573c3003f614f9e440b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M10-ab65977e7667a742d16d1f83865b2467fc95efda1a616c3a27530f5a59ffa1cb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M11-7782807b88c5351bdb061a4d5110a000dcee998e323d1f26c2e1998f57f7b534.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M12-4f67ca521353d01e88cf7a41d42c6c93c791917f1c583a65ec6373df7d4b4eef.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M13-4439cd6c9f0900c9921aac91835191f522ce64067c5679255c79e0a81f45b564.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M14-d8235a1017ae60b7974b8cca480beca5b42fc3b4e7fe8a6496b04cd408310859.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M15-b693b9e43e89ed157ea5801c1136629d8c777b09311e17adc59e864014da9299.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M16-32807d180cf96a0eb06e267974f16cc4f42ef448b827139efef84fc3960d2ac9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M17-b37cf34d7c3c06b10365d6e592244c77e404fa3586e18db735149c637233f9a9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M18-abfeace23fd2aea765adb4e8cc209a3b2182298f1ff72e92b26ef381481d091a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M19-1fd4e8195078e2baa517fdf82a3b5276bc331b8eef01180cdcb448dcbe48c675.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M20-f9ca7a8f2f161f08bd90d94b192ea6ec1e51f9e149bb36c7dec9bad9d6742a48.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M21-90377a5238b1c64ec370c643dbd8b73e3204c4b89b071ca5282cbdcc084f550f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M22-6b7fdbc7454ad47475a3d4882f722ae90c7155d8b4376bee2307517c5631b3ff.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M23-7454ff8df9aa1c13a2f1c2ec9380cc9d9a3714e9740817097a15b30b449f2b11.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M24-413a4dec8ba45712d00cd79f54ca078a7ae4b51e3d313b1ee83e6b39a4121b40.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M25-0a105c8c844b836e8cde94f823841e8e2f74f4ce11672bb79ef91cf04999f570.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M26-41c035f02b710981e9e0bc8491c2da9e6a35d42fd93a69fee07a095786310de1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M27-c197498b311bade7b8a76a54d8019b6e2f3800b473216b8c6ba5812aaec33149.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M28-f6ac93cb21126a17388cc80c136e22d5ac2506be4756631ab912c54430bd7c87.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M29-d4d3b901eadfd72d3a75af8b5b57e7b3544a547447c78d078ed9375d53f3b9ec.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M30-3ee4c662548339c089fe88c5345e1c22937cf2be5dc6ebb04a59efbe2b6281bb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M31-533560fc831de4c794b41a7ac72d3a3f0552a7deb02fdc8bead2bc8538ab3c8f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M32-fa04d22125fb08217cfdc3eca33865c43c9227f23a3a1ab8bffecc166012ff1e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M33-aca65df99f01817c9aee4ccb2ee6bb7f2d749224008aaeb1a5744ffa99ab5b00.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M34-b91b5449e9d1e72fb26b8097fc74ab4b83b9cd28de8f7c2a46eef0bc176424ab.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M35-5b5bef6838f2269d98e13d2f80f32731faefb6645d8b87c0d9b60cf60bd480b3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M36-51511d4daa232ac79415044e11e3fa2cf88a5e84e2b7760d5af348bc98636660.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M37-6eb590fa5106b4a2071aed9691b8afa93470d2af20369fca3739949378b9b68c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M38-9189e3e62d76189e541693bb7d8aa67a430acd13767cd6a0a60c5865f4a0e164.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M39-5ed1a70fe0e4f34ca9d64116007c74fa0998f63475bef0722cf15332bbeb577a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M40-70385f52742e7b417a623fd7d5258b922e701b72b102d736d6ed791eafa2f8c2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M41-1d8eff857a6280749d3a2b661578569a403dd62385195760b9fb58a462cfc440.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M42-50b3aae630a7f507b544c6e28e50228c2e46615f1df604463008becd0c0347f3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M43-f8d24ccc608c8984383dbc88f4534c5e39406855840db4288d95febdc1ca3773.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M44-5d4edc39af6c4963a7703bae22aec22734d5dc398afd11ae6d1265ecb86594c8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M45-123df9b188e203b4dfc8a1fac702c916cf4bb79fdbfbbfada01b202b10772d2a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/45cb330764bf02a97c5ce9c558edcfe8/M46-8e745cf914fd2a779b549b18473b8ac3714f646f82963eba6cd1ca2e5ed938bb.jpg"
-      ],
-      "lang": "ar"
-    },
-    {
-      "id": "DDQqeQcQjvbF46KAEDFy",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T1-276d7e8cbc38879c4805ca32213f2c0cb5acbbe7fcdf9b5759452125b7b5425f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T2-951034d1bd8629f65d33cfaa2d8d79a956b2ea152b9989c10d50be8108beaa60.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T3-1378899abadad839a844df729451cb87597d9ae8edf10eaabda5c863d893c1b1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T4-d6f5527006b5c0cd9b07d697ab7019214b11791185cfb087e0f94d30aaeb1c8f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T5-1d30098f9eac62466f2394a3584fc94f19f929a493fc3cec4bff67f91228a8d6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T6-3d508dd3736f479a9fe801917ad4854bf0f8e6279c0990445c8fe3734cfce9b4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T7-ff7473140d84fed24aa27294cc4ae7ee0a7beef99b833269a8385611bf4c0daa.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T8-456899f2a1a8a6cfbed43d7fc3fad5edc1a7f6d960d6a45392adace20f101ddc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T9-40c716107e2bb61ee0d8c86d22a18bf71cec5bc0526406c984e72b7678e94429.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T10-57489fef055bc2b573b0dc9455cf076030872b7de5f3c98193d82bef97e87618.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T11-0ee73c5add13cac505e9e6928e53e2c52fee46bd1d7d2f9d5bd7e58389d55052.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T12-a9b8303a992faa0ef8e03bf2d24999476ac103fc64d10ac494923d55c6e7dd6e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T13-320888bd257781e4347242e87ec753feb6786a910e9824ae6a21e85e198d9aa1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T14-80a93b4934929e4d5a196c47dbe2299aab918709642d52860ddd0cac17d80c90.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T15-0e18984a2369e20b6d3d1bd85be1b78210f820f0cff0c65326587f0cdf6ff212.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T16-e0176475157dc1c88c421a4a1114218ba86e11a099a8d25c3b24a37272772f04.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T17-465688e102a7b6faffee6c458ddcf79ded895fb6ec0f148ddda3a8c94a5ef5a4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T18-6a5c0547c393b1b82136d9aa2f790acce54619ba06463bcd698cf8a6e43241c7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T19-8ca179936981545b40b068250610108dfb102ff83a3478f7dd641b10b02ec84f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T20-9a6a6b575d80a13aa41bd280b96bb5c904114e628756cf84f9c2ced8ca778d55.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T21-6110138c68d9de8aa86799234c254a5a7febe6a08943f4c575e486bc1c05e69e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T22-33f4065cd7ee02cd8ab59d852ca6a180d7a3b948ac31f2068d80fdb70105f604.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T23-15817e19d61e025c504cf2ff8304dcedc1944bd12395cafae835254c541fce25.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T24-5d946a6ae15f07f3c2c01fb14bada377ccf2a1b22fc6edbcd6429ef831077527.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T25-157b0eb3796eaccee10ab6233cfaa9c0b349888b08f71a135b5e4268d94fe038.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T26-476d00569a2e48e40fd7abbf74082355862d3e6799ec91f29d9ed004637af082.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T27-dc3013993be2773f72a0dd2e3a8c6355d6ffd3a623a9a988c519e5d7a38d3794.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T28-79075607716e9eb4e9dd64d5312c01a2fdf20786fc885e50d1ddff2e8e5dd9f2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T29-76db73b76f221b5c9b927a2a5e1c57312f24501bc55e08c9b0ed3aba6518d4d7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T30-0b46f96ae80f3c5cd0598264582838e8448e3e3e74a07fd628a5d7bad90a9f1d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T31-70995039a15e44f40a860c84f796090ba604cf33f1bcd80be70f1e9457a74cfb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T32-31c3097ec69e0a01a4b6ba45dca17f6df53fbf3dde4fe289a33ea30cf9b6b2da.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T33-5655ba335a80cc586c3233aef3cb23eaf2cb7f02b4f771ec37d3c00d44f7b0f1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T34-cdfdb9566e3968878221077c9f976d04939becb2daef3b9db318c0ec61dc4d0d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T35-b09265455a8aeca7bd7aa8307c05a999c6effd796293b2649d6632e478afddfd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T36-5e95ef437513add45168943da8c29aa39902a277fad14bdefcfff7ef295643b8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T37-265e02d500897bb0f4778ce5fef9ac458df2540e150e4d45e6b079bcd36a3c5e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/90c242da3436848a6b0b645a3e6956d9/T38-1023823c28f3ec227d61159530cc72123b3e6800e23a1152e83b615ec2ce0ccb.jpg"
-      ],
-      "title": "فصل 55.3 — أرقام",
-      "pagesCount": 38,
-      "number": 55.3,
-      "createdAt": {
-        "seconds": 1781747523,
-        "nanoseconds": 96000000
-      },
-      "sourceUrl": "0f35124e-b7bb-452f-aa3c-cbc1401e2e34",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR"
-    },
-    {
-      "id": "RaPQGOFGZZvwKvqEvbzd",
-      "number": 80,
-      "title": "فصل 80",
-      "pagesCount": 34,
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/1-247a6bb26eaf620dd86e2ed526f79d0187d52916fd5d43f432290f2918a846e1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/2-2cb2fad1422d95f795cfe40be024034ab7026a8bc4f868810fbc1ca74b4c5b96.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/3-aab167624f534773cf98c1009fbeacfcd5c77ba18b40f1b98356cc4e1555a8f0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/4-077064b3e86998ac1c566a658e7f77f4ec9330b8b3546d49b005de14f63a9ce3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/5-a8b53ac58f5fe2a31b95d00a4270c99c9cf3f93c38c12cccb62ccae4f5b9adbe.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/6-0531ff0407aaa67e4003dd091db33e48bdec08baf18cc7a92982c32ce592d07d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/7-881313ea61720c079d20f64ed405c580cc40e8960be81b11a49667f3c0f7d500.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/8-2b0d0513fd2977702156e400a6cd980f5c4787320d7dd9cbb049835f80697ac2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/9-2ea7f732405761e2432db227bb78107ab0775363ada4410f474bc4720c0cc35f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/10-8cc0cd13c2368c8cf6c0884a387fe99b7f6e4898b756da6519a712dc0eb1643e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/11-93482c95130100a20359c78dc06980b4d8dabb49992a2e2b7b0ad7a130010282.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/12-09718754173396ce7ab68fea72b4d641c57c0b33d443a0e4d380d8066517bfc6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/13-98e0a04fb1bed67b2f3f41323cc16a1fb947ee21926a8b013f19c04a44307e64.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/14-4d21cc4c3880ee6c0782c7ecc8e5bac87aeab0643801fc22ec665a2f0d9ca6a6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/15-950544ee88e74960074bd01f9753aa0982630a58224db6b1e3ba73b5d2217857.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/16-27cf611c7cc3f9e0cb04a0ee44606df58ba78ce5b279c7a8e33594a6efd6450c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/17-fddb80ca5205db504b60e87943a258cec1b2c7dc810f5b2cab21a6fc4bb18947.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/18-c1c39cfe5aed3016ef11c8794bf352d129ab2c8d9360bf78c28ee0fc943fc37e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/19-e6b0ba7885428e0ce15fd3abce1d21ebde290b5d89e08d4c55399b414b4ffcd6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/20-e185dea1a86c51c302ef0290487d55dffdef017c6f8e21e2df3279134d39fbcc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/21-670f2e8fe6edb736f52570b1453a0d3088b7c4d314f77649e910881a236fccf9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/22-d3b8fb2e64378cb25d900846b4445b654b09367dfc15f0618ea0ac0728f51394.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/23-6140228fa512abc21f11b80d64f699f912968d8e07b1b4c58d92a18656bc6897.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/24-e369d7c15ded10bebe3c92ed3e1d9589f71c7354036ac2cf70e206210ba771b8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/25-1e3033255a1a9d99dab6798c9b1ac3d49dbe21e063e361b784b632adaf7edcfd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/26-b1e6124c1affddc7e2f1acdb389c3b2332c0023b46f4b3ebb54b4e65138614ce.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/27-0f390ad1b4647911429ca894b969857532d93858ecadae99faaa18e5a80a35f7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/28-899645f091f957dcf8761964541d770e441e78db0bdff467e2dae9957de4d8a4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/29-044b30e3fb943b61d84ac6179706a8f1908d4ab7b993fc97108322f8d45936ad.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/30-edf22f95fec4c94633310b67611240d4143924fb089c84e29d05aa80065cbb72.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/31-a4184fa9635c29d90f9199903d11cbce094bfbea301286f37d4173c6c8563757.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/32-9df53629b2d044e6ec3ddd209a26ced891d000b6eee86493ee14971caa27ed45.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/33-267e220ac6e4e89084a504fe1197514eadf8af8f92a751fc21f41ad43d4b729a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/832b81ab27301e47ee93a11f90238c70/34-5799f469d0184dbed7525de2c2f33c53aeb818c54d9505073cb3c2ceda7d1286.jpg"
-      ],
-      "lang": "ar",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "sourceUrl": "ab3545ef-5b7b-4af0-8022-311a603df949",
-      "createdAt": {
-        "seconds": 1781747523,
-        "nanoseconds": 661000000
-      }
-    },
-    {
-      "id": "TS1GngzN8rN5mb1RpOk0",
-      "createdAt": {
-        "seconds": 1781747524,
-        "nanoseconds": 337000000
-      },
-      "sourceUrl": "860bd405-b2c5-4a75-b912-a3dc7bcbcffb",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/1-8e4f22b7527b3524396c8ec3290e797d922ff830922e80558515b7b833e401ad.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/2-3f86570d315b791da94e6198f6ec259f0d2c34a09524fca50eab77edabae36b9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/3-ae1e5afbd2a725f247a4ab14f4f581a212ed6659027a6897e8b45fbfb7c4e134.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/4-d1abadc557dc3953fdd13d05f0c953758f83e1c2f97475d7c614d3f09e7ba7df.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/5-9cd676a23585b46bfa99b2ba2a640af197a316fb91d9ad67aa3bd29486def86b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/6-9abe6a88f9b6f19d834569d67bf015de6292fa35b92077c081c6e112fb7d4258.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/7-cd2d80dca4aede3c40e2ade6641a6a109d2794b41d46de78fb1bf7926721a881.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/8-698639efef530b5c7bcb7c4f0e22c38df64c2a939b4b3342130cf5c3fe198124.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/9-f4b3b1bf916b5f71563cfd01c3cd0f10a5ff98810a33a0bb3858eb0dc01780b7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/10-56ba7efc96e619ab72506fab45602e8899828af8fce9d81040a439456348bdaf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/11-1ba90d32f879c239df2554adef6f8c01426a897d1c4bf1ed7d411d5819d0df68.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/12-d8c1db7e210da404dc0e9e0c63279b51a37004f41bfe2aa00f84cfd42f2fe726.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/13-ac2efc99e175d6c129eaa65813ec68351797f58d403bd3e80d65f11a7ec30474.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/14-201c7fa0dfc501aea88a8e34949b436bdfdd6010a14f181f62fcd3ea1591e6c6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/15-a1360b75e2c9bf82994df6375373aac5bb0110052996cc26ae347266e388b92c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/16-5e469b6a4733251853c561ec5273cb80ac2d044449e5c3b0812589f64ea6da67.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/17-c0d552e290a23555c2bde22e4db7136ed5c949b24afcc29d515f99e397ace907.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/18-a67d586bd9b1858d5e970f13aab7d4a12e85f74ed4d39b139800c3a9c3504b4f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/19-9fef981a865804a4db48051029a19e4374b8b0d4907b9113092c547eafca05d0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/20-14443997fb57b03a16d3932867e0d48ef727ab11513d7a785923fd8357e00c78.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/21-77067547d9e31a751a3095822d47b1fdd1859b5b545327c3c550c0bf41e9f768.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/22-edbde01c974dcd9ca7ef3e4e24a1f837ecaedf8dd352158c973d45f6e5b5d2dc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/23-c8bbdc0e9a5e78b075dec9941d9ac355edf0508b81098c42fc23a96b8ab59fd2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/24-94e7f411d78e08ce05255079c0c07d9b9a8d5644a66a88ff6d5754978dc17a5d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/25-c136d5f82aaa5adb356adb6b4c6ab70f4bbd99f25ddc75bd786db57f0183ec54.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/26-f0e5437c8452b41def654da92e36277a4eb9e42986f2e919a4e92cff7713de2c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/27-822229cd6f3c3451d993a2ef65533089c66effd0194f922526a8c5f6946df744.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/28-f688f1536ac0d840d23f717a8101841c58c8ab33de1d0abe75db7ff386af7903.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/29-6bfbffc93ece8b1f8bcd71e16d6c1c432bd4df3bccd069e6fafb2c477602a8df.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/30-6666e4ba24fd52607b69b3dc4e1142cf68f48e1d0bd49566fe1914206b13b13e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/31-7c8bb4af07a51d00746fa591ddc23b38417d4b1a1842038f41364cc46e2858aa.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/32-ba145ef213cd6895b4a84b5cfa18502581801ee57f34519c52fcca9b5a48ce7a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/33-608091b2bec14a540106392b896aa687bfe9aaae9feef8b1feea0c9a0dca611b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/34-6ddc210bd0f39026343660bbba4902b64370fa58968e06a1fa5166ba0cfe0cfd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/35-b014e02bfdb8b9103a7cd295b0b3ec4c595b59a05c3dd1be675b8be4992c07ec.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/36-5ce3b270f98151df73655744321a22238be1f1b0b296020435132eb10a52e6f8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/37-b0440c847b94f4b046ceb67461ed9c3fa93b222a13aa0ebe99998b0216f2ff24.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/38-de7f40d4b7f14f466349b22180588680007b26b109c3f9faa9856e07622da0ec.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/39-78845d21e42ea1968685069559e22cffce7772293120a6c8eb2beca8a56f31ab.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/40-8f0a651064d92e47e64c1bbc6330ef68de4aad4f212618cbd509a198c3b1d921.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/41-2e239cab58203ddfdfc4e47465d627bffbc8de3cc02a360decfcec3ce3aeb9a5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/42-c48ecb0592a913e386ec378a58a3acb3006f2a8aa332472dcb5a18ab2ac69140.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/43-65f6eedeed8f96a0660729cad6bd01ba6a80d54059bd82b9bb45bd03bc86453f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/44-84219fa5024df14b46d86cb84844c6715f9b7f9b321a036dc764793a2a5e2e46.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/45-05ab21961e31b943a61f3a97b3e9732adee8afd8eef770007f34c5adcf97c9f0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/46-33d01ff98c3abd7ef72a46e7bd96bf6fbd8533fae940ea25677ad117fd03ce62.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/47-bda63bef15b1e01da297d09690b604e44a3d6b6fd6296aa5b0fa5ad9cfe49c66.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/48-4600986e021573037fdba80ba7d8dc2128510f2f5ea1e6420e778c020d2f22eb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/49-8d5641e5e52e246d79b9469d231fd2e9364f99fe5031ff466d605cf3007756c1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1e8bcfdf1a81934a9c5f0b2c0ea92a91/50-a184ecb1a7a177f9bd213314d4bdd21069d68909fc5fe44f991a825aaefbb0d6.jpg"
-      ],
-      "title": "فصل 81 — المكابرة",
-      "pagesCount": 50,
-      "number": 81
-    },
-    {
-      "id": "MBr5nsDn5U9LdPxRDJyT",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "createdAt": {
-        "seconds": 1781747525,
-        "nanoseconds": 81000000
-      },
-      "sourceUrl": "406e744f-8b28-4103-af11-beeac1cfb290",
-      "pagesCount": 59,
-      "title": "فصل 82",
-      "number": 82,
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/1-0a3ec105fbfe9c6b0c72c23750decb41742acf496e2c77fcf17692fc17173100.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/2-4a6d14306af6474ea59c1381601c7d6e8ac08f2bfd5cb4f4c1ef0b93c92e23fc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/3-5566ce60b722a2d02311518752482966caebc461cc7f9d774f04e8961872e5d5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/4-b3231f7bf42e0796623df07fcd53cfbf82f4857f8df46077f49a9b4d9315b6b5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/5-f972e316b96b3cf80cffca9b868a1c9fefa325333247dbf835bc213321a3588a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/6-b188092ff53e723fb8251fadee6067e7861c4b6d8c55e233a30e6f3fdfc0d36b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/7-16604671333b95a5658a989d8e41312b39a68349455416188adcb57905be17c8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/8-867eddcebfacbe06c639f9c2e3e311fc46e6fc69bce1287d571916f4be456a80.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/9-5ed1513d62cf3b8784003d525fd867a33edb8eb265b35a9cf8cf3f986f2b6f54.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/10-92630b2a29dcc73ff41873c47e7498471ef0f42260494efa96ad30adb9155bb2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/11-4ae830aa9f574492a5537de01fc03e9c9b3ef6b95c9aa8eed6efa55720608768.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/12-6af9cae4f70838213931d6eda12f448ccf90bb802148a2dc00b74690463ec164.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/13-ebcebfedf73c69689dbb4c333aa313b4ea3a29875d4f4f1b188c8686a02e41e0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/14-eab170257f4ae973692c999511b42dd046bce6770491668d3cb94c9e9c24752e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/15-b868aa0bc409f5c422c3df25a7425615584f53170a98c16d4e9b489d6f2038de.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/16-1894eef980dc678d2568a3b21faa67e6860b631f8378b20241a84c26610b8611.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/17-606a7ed93f2d3ff8f56b927186e64f554bcd8411b75a7d8fc860f9dfc868a04e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/18-fc20257a7910480e8c402a4f1a851cc53f2fa4733fa392ded372985ee2c24a75.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/19-e5e4b8f6a691adb54bc3de21d72ef8c2df322436d5c4bbda88ba5bf4480f4ff6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/20-d3715b3e70636fdbcebde3e7e21c07bcca029b0861761845a80b36aeeaf503e3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/21-4fec52022a39517c9950639c459b1295b11a9b065d71204a1ea56b7b7877e95e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/22-d0028d03b0c9badb06651b110e16eee2d54a4e8ef9217e9939297a6759076032.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/23-967d52ccbf4cc1c52f3a036d179e1baa94d290599dea285a7cfc19a25aef3bf6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/24-11723c0e58a716719c24cf1a487837b91038e7f3e946ace7624fdda0955417c5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/25-52525fc8f499efe2062aa8c512daa627a2703620963307a6be9d603059ac5d2e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/26-8f8e02d915be595ad487edf9a4ca4c8096eb464864937725beb384aeeb60d30d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/27-86b4d9a78156cf52486a526877bf40ca019b2f8a64e5f370603f18bbaebad510.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/28-660150453dda789009a6a663cbfbe3ce6929d29240efa478e472bc20c4ed4112.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/29-d49ae65f68ce59dddfde9c5293c4ea144ab4b3c66c19644d9d140a1ea34f1145.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/30-109d9716864cef8762f064d239178935ca9369e2cbefbf916c7d67cb3f480aec.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/31-c3d5783741327248ef62a0a5a48852fa54675740769fb8293556f788d3672d00.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/32-54730b2da44c85b7329a01c408b045cdd0243e21ffaf3f05824f6c49e37190ff.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/33-ceb5848c86b14be5259e4c22619a2edaf7f394793932914ac5aa8b5e78d53bb6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/34-9c207cb38fff02ac80bab200d8cab3fe8aebf2af5877cdc255655920f42c71c8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/35-45097a7a57370e43c2ca3a6c6f6ab06d04d287418b71e6c55a970a1dbc0c15fe.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/36-3328ed8630359b50336563d4acfca906ed1067775ad35be43669e0f5dc61e77b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/37-5911a2f3708b7b062add5d2fee4564c2fd3514b67bf8d5aba869b39afe1f63ad.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/38-2f1014dbd225db49fbffd870afe4379503727bdea447a91d1afd2077197b8525.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/39-743fa5d28004bf2c1141de8f67116832d6a656e8563e335d5c7131ead79b3bcf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/40-3d20619895e38947b6fac8160e11e3141d3a8d25e9efc4f5e55edafcb139787b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/41-954d85d8a911026001a4e4b84d4ef89713e127e91f20eacd3e2085dbb13f6a45.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/42-fc637a58e17229b84f60ee7992d499cf14373ca051477f7de7ec67acdccfdbb3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/43-b09c970db7f4335fc4127b020d2530029bc51f754b4db056a38a31d12cfe8abd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/44-f0b207109c9b2c30685d090d308ed01eff902b5e6c84c586b6ed06662bd2febd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/45-762c2a882eafec54c6480d0bbfe067e96f55047714e53648df35e5a76f333a6e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/46-4bf9123aea6888ebd057e24fd799a375e9d1e6458d07ab68553d4b55f9680ede.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/47-e914afd41f2c31395684e9ba726d39fa97e12e4ed6b691d4f80168a3aa7d6895.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/48-b791f98250b6cdf67fc2d0c5b707c8ca6d3991e4115a4293a7286df3bce6f792.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/49-1c8ef68d0ddcf2e46f42313577847f15aca390135bb0366094e76fd34a129256.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/50-23ca4243a106d1c016892afd011b6462089e6bcdc19163c1b24d95aa904641fd.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/51-a579da4c2bda791b3fe126314f747b33d41cfefd234e7d09459c09e016fc572b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/52-05737429e22090d885d9ce912b15d9450969435f7b3c877d3b6b523933337e6a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/53-7768a37b98fd06cdf24f6bf981009cd67e41b084b82b3940e2a3b69f5d5b37fe.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/54-f52b1b2884ef8f9edc1eb65f90dc5c23b9333948e98842e258c5d4b3b1db9c65.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/55-ed31205fe63d68c2c468a72997630d4fae086722a406d5eb260ff6af18710655.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/56-e98c39999214f9d72b29df2e4fec441b5dbfb2b4fc6fb458897359e44e1e30b5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/57-9b2a1f92ff7a6e61e2a79e8bb7d3ae27e37c5d6a84867a4816e46b575078b471.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/58-f5cc5aac64b45a11ceea1a7c058ca0598f97398f3b72d4c50571f605c05eeb7a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/1dff8f76e024d2759598960bb2e59e72/59-28197999aafdda17bdde82dd6a3b556417aee1242ede5418e603d8e9b04748c8.jpg"
-      ]
-    },
-    {
-      "id": "ToAHJCt0vQU8bDalgIpb",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/1-4647577694bfb05c09d5755c5f09044e175944d46d50433fe987489093745b6b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/2-a1ebd3cdffcda2205b6d0083f85910bfc242633ac451c2fb35f7b04964139235.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/3-108d3de179b3b7aee15bf013cebddc1b5f5b587a3dc952c879258f64bb9a7649.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/4-cf97c057287e8e9c3f1dd62e84803fa923c80fac63a9235bf065f7187d956a5c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/5-15893292b824058da6181a76d151ba1e6924192ccca168ac6667fee1be53a1d8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/6-210387988a4f3b53412a5593bf595af0787d63e63cc9c96a3380d34e018f9cee.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/7-c6c8465ed71ce27f1b89feee09ff18cb19adc796ee18337d3e88c4fb952acd2f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/8-88d6e523ca82c45e48753fe7e1ebb88accaf72e15a64ab642e930afb87fff903.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/9-44398ba33ae777422c4857f2a712d484877a0729d89c377288421ff6aa670d9d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/10-dc4b1fc0ad077faa73744cf037cfa6bec5249916c9e1e9b90777a09dea4f78bb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/11-e354bf5e3210f1c776a2c667b9b5c5cf5bace5ca1128e4fa16e291e3ef7fd817.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/12-b7545752045397cda7e862bf1b60b8793d59138d04693736fbc4afd7231932cb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/13-b70545965fd6da2681a76005ac0f0bd8abce6cba98bc0bf43d95ea02e962b5b5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/14-029b2274a083ceb9bf67bf6774dc19523d8be4f8eddb3c252062ea676ee22e88.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/15-1632dc1f311bae636c2a46fcd6abf87b0b63b830a178a11d9bb3860af17ac80d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/16-10df6b9c0de82f77f51393a2d4a67b371e843c6ee40e1e8da9fbb2b9b8535b49.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/17-33b9db1766c0c514b92b0be90aa4547419bff9c46f4854b4e48080fd37e83de0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/18-77a674e8f02ffcfae209b6264a4aeabc154166925b917f04679b5e10a405b15f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/19-79297981e92d35aa6db333e337f57fbf7a536d2f94bb15762217b0afcbea138d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/20-c411f438268d3855efb7ba8cd0aa1caac01299d40a4d4b387960fc93af639140.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/21-01d82603a4e3779054dc5ad05eb05b08be07ee5f1b7b8b69b6eb12a25af1b1b8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/22-c8e64d8c73d64db824a60bf2ce542e17ddf6cd44305dca91ff96f35ca3599ccf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/23-47a7102ba4cdacdb75bfc2af1654bb4999944b907e32e83d99d2dee53f034a49.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/24-c077632673a269feacefeb21e4d636fe54721ed4f8c55b9b71d31aa9b8f67723.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/25-d5f9c104d3d5010666ba623e37bf176126ef90948ecc0fd517be82f8bdf921ed.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/26-5081b8ba2425d1d16a113b39cccc969ddd8f7a20045325ba22b562718fbf9bd4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/27-ec7f1af4354eb9af9ec0bb7b7a687e8ca7abeddb29a4c88831af559c7147bc3d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/28-262b250a3913ebe0d966bd9674f71fb1582cd9afac80f4bb44c791654b70c21c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/29-c1c3b2d2dbde9500f34adbade4d63b8885a92888f91ea319bd58f3ad88bb3482.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/30-8a4848636659b8971fb94c8faa7948b5acff47fde186d919d9b29d897ba07dcb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/31-9bf2fd468c68ed2f47a46f06484736582155a9af3ea4976510011f255a53d138.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/32-ae4425f7c2a2ac399c7c7a67d829bf45fe59151e65270987e2a4d008b4cb5f47.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/33-126d0edf16019c5eb4b3b408ef41a1da0916aa4a48f50a5f8d85f7753ceb42e7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/34-73f065d182109719a1a9a75aea654ab15802334d026e1dd18e03970e4396f6b3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/35-8bedfde6f79e6de88fb57102f6201bd0906941e59088b2b4f56cda9c9427ab4b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/36-842e3c6a3959c1f63bc330a5ac99f3533118b7b0db58542caf3e9033eba09bb0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/37-ae98c43f21c74158b6f1855b4e28c2c315d3a3e962e20d9afe9c4e379adeabdb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/38-3a9a18b25027de5a83b2d6ba838641c8dbb855fe47340cef3cc94f847942ad6a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/39-3da4e2c0f2c8d60020d57a941626f9237994205ec238ef2aa40d98da8a72beb6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/40-4fcd583996aa01b8307f626fd7176894507456ec6d7ef80885dda928ca061460.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/41-3be6d221b0458cb5c753d0a59a5f67920487c4a3916ed149bf3387a025e5183b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/42-1051c7a43e508c100b1c2981c73667eeea8ad9f0d13c242b630feb20ca5d9273.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/43-263fc63bfe7758c456ec9fcd5a6d7806d68c028f4202d2c8e8c246de9d2da101.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/44-142d81cd469c762e24248ff2421730288130e706abe5ece164d0fbaa9aab9afe.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/45-15283e97edb0bccc0f6d391d84962363636de543a373762b0d109918f5405ca8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/46-6c196c0d7efd9a925d27831b9f19c7002a3f5457ad989f585006e6826779cbe9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/47-63b5b1e90bafb2652c56bfb605c2d98c48a1e8afb6bd87dae86acc764cf93c46.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/48-476976f21a02232e1361c7aae2d61f2059400bf0c1a786b74f851c129b1e5f7f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/49-6be48280c2792479ac0eab91476eb49f43bf581d03807e89118e6f21d056ba7c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/50-b42ca13b163e605a98d384645f5cc0abdd4a1ba4eda944909c884cd9994aa582.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/51-0efa374b602c115afaa7f9676cd725549b7252f93a042c4b52ca1cd49d801f0e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/52-2207caac9dbf56c10e0b0dc2f82a7f344a46ec126b8b8bbe208876600ea7c1f0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/53-075372401996874507fc21b89e16c85887ef5b6f2391a4b4d932ebee98e2faaf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/54-b0f8036353496dd9e5041ec823646971f55d7fd3bc2d82aabade31d55413bf87.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/55-7572fa7bcc9ac50f2d7e10e049d87180e5f25cf0095d08c8d989ea054f1e8cf6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/56-98fa862b480b08ae9c1f548ed955349258d2a98cf66d349a4dc47bcaf9fc13c5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/9127c12a28ab6970fdd04ec7001b0e15/57-65b380000954f3a6f210113f0b3468b815c49a6df4d7bec3f31c5f3327917bbc.jpg"
-      ],
-      "title": "فصل 83 — مشقة  الطريق الصعب ",
-      "pagesCount": 57,
-      "number": 83,
-      "createdAt": {
-        "seconds": 1781747525,
-        "nanoseconds": 678000000
-      },
-      "sourceUrl": "125e36d9-dac7-4007-9dc8-e4ba3f06c459",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR"
-    },
-    {
-      "id": "iHZkd4DzhE6hEuwtwCju",
-      "createdAt": {
-        "seconds": 1781747526,
-        "nanoseconds": 601000000
-      },
-      "sourceUrl": "cafd96e7-3d52-49a0-aeb9-46292417fb8d",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/1-d57be6875f436adc6027f9f54254b3e8736e18f37904463dcf80e4e5f1fd0bd3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/2-d84a867610201371a6e4b6fded5e20ae14de1aeed4b037b51e279dcf81b12074.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/3-40c6be3df35cefa0fc429fcbed4638fb3d301d1c5a6e25df2439a6d7955e82c4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/4-617bb0611011fc4e7ea914656680e69f5d8a8a7516d01c1394f987f5b7093235.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/5-acd814414ca532f6e14103e9ae7823f9da5d75c12fe69e25d5f0cc78d03ff50b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/6-9ce411e8b3dcde85b1dc52b0cc34364668ab81772375ee91dd63ee354df1f628.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/7-211ed5a9db65a8f858ba94ba47296dc2bcb5698356c1dcb6f5bbf388d3373c2f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/8-d4acaadd0ad40fd33fda4e66b842d63cd4bdbc3ff26e1aabb87518101e05c938.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/9-be28e26a82dd5d00595fa782e3bea51885f66ec237cd8df09964ab32768f8187.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/10-1684c89532883989d4483e0cd8d59ec42cb629b4f9dcb6f793de046d648f150a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/11-8a6755edc46f6dd1bae022869381c597168ab2d17c4a5e78e1904491c0bdbee6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/12-7d94d41f461bf0ee06217ef399481362265f1804fe1f28323a9dea603cbb0e6d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/13-6c241fef80be7e6a86d7e421600326e69d7c758bd642f48d9d77899cc24f0a37.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/14-75c8489e594f021fd5cd5faa0107d32d7f7d083213629a7addee175ac116637e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/15-1964b99f3c1265d7955c1ba4e4cdbbf2b254f01c87769596a5ad7c5d6b37fb18.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/16-4f0e3fe28189d84cd9655fdc13875f82f652d4d3b77f6916e24f359fab2051e6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/17-96b2031ed313fc88a09b5d7d215663725bb84d7d4e6b3167e26d6f07c05be97f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/18-9c47f3e3443a11db7d88c683267af2905a5fcc06105107c8728d48bdcc11a836.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/19-7d08049b3f94cf4b60ba974dd517ae5b33d4196c909c9ebf449c6d7f389fa29c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/20-706d6cde202e1cb0e4722fa5fb432ba1d766c82708c27f3e13eed75a1892ae2f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/21-c741b156434846769fe8bbeb25fd23693483a1098d5ac5cdef7f77aa95f09a23.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/22-fda323899c12e7c55c0f4ea7b36bb1964f0805fbcf41e172befb9d6877a5bcb5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/23-28b983c13835d9aeb42bd6c9da8f2e0d0d59b0e208633ec75942d8244e0e07c2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/24-54ac8f77a3dc39bfec155f3a2bcf215d2f6a56d800a28de34c4f1c3607b63bca.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/25-4f21a8043f039cdd871ebeeda67c312a28402a2d8b6a0863314f66632fd402e3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/26-5e3cd247491dbed3267466d7046a53eb8283077813f8a9f6f17ca80c6d222256.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/27-e497de3c8ac4ad90b33dd561e14b49a75fb387a6fd282a2882de404e54236a44.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/28-645eabd5c2328721817c5c12464c7805b7693c342e35af430e6bc1a5af378083.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/29-2621318d122bb3b3e2dc85fe8d6751ae7c99fbced6fc6bf9a4ccce0368c78187.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/30-8434f984b01ee1b48ace8ccb40e98fca740c9760b1a255118a30d2341d26cab7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/31-841da8cd69c400e0e7a388a73ddd6d229f5d31cd5e8c31ad880b9cab10bf5478.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/32-c47b2aef8574e6ff0eff889655ecf9de58e9e4e3eb48d90fe3a632d6a6d5e913.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/33-f0a88761e504d495b3f1d99c01030b151a4d6f6d3acadcb438d8ba92d66d8bc3.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/34-cf91e1f54d29cf2d94c90b89c969e38a6bce8bd644053f9b6b84fad7ddf614c1.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/35-2a4fc99b43cfd4a0f6c570b11bb214cf1e750bf5797de3a231359efb4d519bc8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/36-f8f9e04a7faf7200bf3e853f2c2caccb10f521a01612411465fc3cfcc68a3203.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/37-1e442b1052d098bbbf67603d28e76006ee0d6f3619f16a037041d6b3aeb7c8c0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/38-f9b4b503ea6f19198d9627f479d83be435f6eef251c521c2f877485ba677d80b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/39-5beb5dfdfb36e80c398a106f5f676c88ef386ade5d7eac937ce9f278fd89f005.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/40-564f890524b41744a248c528d7a5afdee82bef49690b6c67732335d1ea1be257.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/41-3592fdebf531e7dddbd0c461d812be1a5e3f8428c65b51d5b5dddec78f8789f0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/42-4197e5f60c562604abbfd3dce9ff6fd71fe23edc63246b9dee81a2534fefd31e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/43-752202e55a7cfefef5a777ab35a835b7330eff741ea31dfb39a1770abd2b5f8e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/44-4e81e21e86fcb2056705c86be6db27655fe2742db18a958d744f1b921333e933.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/45-2d412617aec5af711c8233c34917571c2b4b8117e937fab1883f56238da2766f.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/46-f427f772d4eb321604bba7bc79fc2f52600d08808ea96cf3c3ea82d8354363bd.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/47-e5d3b0442a7452720e8f95b8b78efdd2313373a920a76504fd7603e54f183baa.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/48-cd253d6ead03d5d5a2dd16a72fa583043129c79390a62b5592cb7c68f343779f.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/49-551bbcf21bf7d9ba3ab26e35fe041a28a0d2686c5d39902da0d3c18fc6e97bca.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/50-8a76a9648587c912a512de751ee354d1cb22e03785da0371dc4e2640faa637c1.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/51-671bcde7888ca1cc300be7e5dc3f92c6006b2961e0bab86a759588b1193ec60e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/52-e59a4b5a63d606e5356d4ed8ee04d4cfe7f43e5efa4aba67d4ec3fdc2886eeb7.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/53-181d2f53ed46022dcf56c738dabcf22c581eac7ff895b9eac4bcf9e41b04acd8.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/54-6ac24697e1a41b070d04fae7c8c83b9d4af25ab41498dcadc1aa8978b44bb394.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/55-889e2c53d66d448db1a5df52d1d7004294c95ed6f5a71f1c39395e5b41d6c0a9.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/56-a2545e93b4b5d6744ea35d6d5447f56216b38882ac1fdbfb9ac0e431174fdb3e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/57-df05deb1737e71df93e76ddec06a85beaad56611b25a674833f4c144041b643c.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/58-f0dceddcdb2d21b0b5acc82ffa5fea398ff946a3468af9fa43a664f487d500a8.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/59-19d86d81eaf38e84029ef1fe16b404316d2586b19de3a04406310566edab4eaf.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/60-ce543628187f1c39bd660cf049789bd3a331ca3c3d7d21d20ddb4bbb1540155b.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/61-40d8d1dc19cae92e666fcc0fd903d1dda94ad62661a52d00f11954c1c196fd0c.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/62-501506b47745a79264ff141ef8600415bad8488806b2eaa094755cbfb5fa9cb1.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/63-4679d53d5f398526bb4d72edf8c24559931a93ec6685a3c2ed9677590e5d56f1.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/64-c55e353115bd3bbecdb6db4d00444f487234620b4682a1637c1d6a9b68eef53b.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/65-378bf816f037abc2522c479de0ada7e5344107f73ee6b470fbb809426c2e5148.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/66-3f9e2c017dc9007a4c67224770dfd3e4bf2368bfcb28e6918e31d0a0e4f751d2.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/67-47af1f894830dd8247d5f29fe94c3dd3a90b8c29a9b6002aba8dc8ec1704ea0c.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/68-09c2e7a348e9ea10bea22e7b3195a3d3111467149740e7815fc7f216de286300.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/69-5c6a879dd81718abebc7798b1c35a8cce18aaeea9af13b6d266885b1fbdec238.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/70-d71a630d04a1bd153f126f177c415eeb6f2b90c07d5a04073dfc4f39a1c134e6.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/71-ab2fce2959fd4157edfe95bd17fd148cd877f03fd514f70b65f13c4d0a0602c6.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/72-1462ea873cace03bcd48ac355384b3364ffed748270abc4943ff2683797afc56.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/73-8718e8a0749b8fe31a89c4c03a23466d359e8740f04a15eb81957afd77eaf6a8.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/74-39f611e0ea2c2f36928ece5417ed31049c573a05b608337709d4212b5a8d4e80.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/75-c149c5f7f7c52ef4adea79ef59f6fcf79f29b339a6b6c9b8eb332999ff89ff80.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/76-5c6564a9860b6d00db80c302d8498a557fdeac75e607c4f90524ac7b1815f9fa.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/77-dd82dd9bd3bfb5bb4c67fccac0f7b359f88af05edcdb2f963041daf194212f7c.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/78-a3f6469c322d37238a1f1564226cd8fcba5ef7ea9de87bdf0dd1b4545cec7179.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/79-be2d20cd64c37a2509d61d781fed0b57dc3a50100e40e0d23ea7a60229e3fb90.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/80-2287b4ab69cb56424602083423ffc6aff73310ef3765c026ce193fde971288a0.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/81-8cf0c493f482664f39249fca1919eb98785e87fbb43d07ba43fd55cca78eadda.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/82-c2f7dc079f4d0ff1cba7e9efc1c6e12489ef02c9d7e36c6829bbcaee11e95c49.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/83-63044854c9e4be0537615f189ada28ad4704fcc321da1fae64fb29854000abb2.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/84-edfacf3b1dcb667e6a048f2bdb03f5793c870d7ea81db61171fca75894ce1dc5.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/85-30f98264ab45c6da7de6aab3aea7b27eccc7d2915b54738ab8fb2ee4c1b924dc.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/86-1b858f1f7403ccf8968374b26cb6af272f90b9c8c8def2cb99de3300ffc93b9e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/87-7c9356f2eddb334730acd80fbf203182d24d599f54ccdad3731f0175f044fb4b.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/88-cdda97d36243583fda5ac03b8f061fbfd135cf6a3009ce4fc8be32fa833c0670.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/89-c10b1bc30d5d6cc4276fef462352942bafec43d89432ae5fab9c1188d2885d0e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/90-c033d54fdecb67f4f5821b11b9b50370101bf31bbf76518b94665a283295b841.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/91-3888f9260b9be64311bc71ebde771019b5762bb868f191d9563fe4472fd6fb9e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/92-2db30c52dcaf95e1c5f360865ace02258a310d9270e57def750b62cdf9e2c222.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/93-2a5fe9e4790348b457c310c06fd2f3fc59cacab984367afb7723c4ba5629b61f.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/94-f1471275cf148425795696d927395cf2069629096a63323b15c98dc2458be645.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/95-eafc39dac861e6d78923fe0c81916d1242a417072700907b3fedc2d275d2f8e1.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/96-f9f8e949a5f00f674a6ed23beba79c91056df43cbe5bd19d89c7c67f645c5023.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/97-37cad1d82a67be6a96b55251c907be4149275a79d0bc57ac040bef756e6b2eec.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/98-42bea5fb3fe7bf2c578c162e77c92f6b0bf489404cd49d89f03351e163da81ba.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/99-e279d183519d62b6b57449fb9fc38745d08711a1ecb3664b3a5df64cc0822c8e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/100-6759814201a7d7ebb21dc5ce5df2640963426799da3b07caa466217f43803732.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/101-dba81d46d98f2325cb475670cec9f48b97f9d1fa61cd7cbb327ab222f91bf67d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/102-6c0a41a26e1fdd2e01c0e25667d079b9daff6dc230465235bfbe3eeae7b4b129.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/103-f3cdb617ad7675cd26239ba66f2f6d88564497e1cf6a858da9ec4ddaa1a61cff.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/104-2f490fa7f40010a5c1c623cdb8e9a0c413452a9454fbe424ace3b9a2e8a0bcba.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/105-cb4635bade32bd2c7da741836040a86873dab8e563150896a1df86175eba059e.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/106-5dd8f6fc38056385a6931c474a27d08ee362294acdb7b02dfe6a497d24b609e6.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/107-2099315b41b9a73a2255072129d18a19ba128459281da95718177883812032ab.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/108-5669c9b36b0e1c6c30ecb2553ff983a9f2ede1d0cf8a46708bc9d4ecd347ece0.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/109-69798b1f568fa9ef162448001a96ad81f5ef4170d1b39cc0ffcdc919274b31e7.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/110-fdf843e85ff28cec79ba46418b6d8529dc9d668ad10a98f1ded22bba23d004a1.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/111-2a3ff991928c93addadedafaceb923dd4724d356a0eaf7e47f534f32b87f014b.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/112-f8498e0cc37fb1f7473a810364b64759ade3b47679ab70ec6c26f0dd9b53aff9.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/113-144daf251f1e791b5978146eb2f0da9d06b3503f9b64d37acb5a14fcc812306a.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/114-d8ceac3c3a6edcd196eb592e0a0feb1e40d80bd9f277cec8036d94a92df5d0f9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/115-8fc07d721d84b2e1a53baff9dc6cef2ad6ea74f98ae8a8a7aaac9ae289e23443.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/116-bbfeb9462ea169958797ac3f9767b6459249a2f2abed7ff56fd50dfe06e40425.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/117-e60c16e0cb479ed370886e1162f47188a3fdbe8e06388259e7e142cb7f89b9a9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/118-04532ebfb64ed95477c0ddd35ead14cfb9a73761bad3f621d40b6eaaf95d5238.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/119-90b5d51921fb09a8d704a43fb92b6ebe322983e1a564f04e59207f099d63271c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/120-aad76afc9b604176061610ea836b0e12a8bdd448fd7dbe0438cb7dcec52c1072.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/121-aefe75f4eddae5b435cf5d26c3c44ca3b5e57eeaea685009a19f186f1749dea8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/122-6e8b458e1c0216c24347c47c64f89c7b36659a0b6088c205786b999ff640a69a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/123-966c93468102cf41e87bfba0f0ff4d2f2ce64da2b39c32bfbafde345eab7ca5f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/124-be01880623fdccd1eaa2233ed73d841f253c3431792f339764efb826d8a0e0e9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/125-c63137162b42ad1bdca3d058e383fa92570cce348ef0c64dec58eaa231047132.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/126-ec227897d5f97366acb0315a2eca28fe060ad7b99e356c4c02ce8db8c030cf6a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/127-9aa976224cb490a446c4eb982d7ac1a4e12e561b8b11b03d064a939e85d91322.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/128-f9950ca71eded467d4f530de292a3c99972d4959532aed9349119b98ca2e242b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/129-ad3f1e0b25a0310239092aef35e9752183f4cc89df1a3261621cd7920505e9f7.png",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/e85b07d073544d999f832611fa6a7f59/130-c2b5aea66b9bcff0f9b72db7f2db4c10dd3823a2f207c367081a606283a68691.jpg"
-      ],
-      "title": "فصل 84",
-      "pagesCount": 130,
-      "number": 84
-    },
-    {
-      "id": "2WvaDXUUvHNBEDSerlfz",
-      "createdAt": {
-        "seconds": 1781747527,
-        "nanoseconds": 652000000
-      },
-      "sourceUrl": "934d0061-542b-40ed-983e-0302eefdcb56",
-      "mangaId": "GHLvdNkZSSyGnCaWnNzR",
-      "lang": "ar",
-      "pages": [
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/1-7d2825532815745ed307e7c751d7a8b7767893f0f7a4367daae1fc2e5b167a0c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/2-9ce2aaa88bfffca534e48c0157d576693a156ab80b8d9af5c2c4c7b6514ee620.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/3-b1641a190787562bc54f4d973c56cbde93692bd75078239bdc50b968fc7b4f0e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/4-967087ff0107f03679649185a6a42f05880857fed0a5991106984eaa19e22860.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/5-1257b9854162f6aad93de488a6aa270591b568c28bb697c7cfbddcf463970bc2.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/6-b9dd1b5ee61937bd01a4d4c5daba403a1309c2d76b06bd1974f6c57153a9685d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/7-debdd7e353ba841df09ebed4fd6fccfeb2ff23b4bbfa9191a06c5710d0057901.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/8-0dfd5deb5d8ee9e624ae6a788dba409b7be3e8e29963c83e6f34df9d8790d990.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/9-7447e875ef2a796050440ef38a03ccfd6811a101ad15405c8a6e2748227c5f2f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/10-8fb95d95d16b041bd11807df830004816ab36e5307a8df6869c763a9b9f09c75.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/11-552a9ee9caa467134a8dfea9c4a10aba8218be77374536b785e25a6331e183bf.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/12-203de6d3a83869b29c73cc9bda065f59c2b88edd5ed78d3ff77a43030866a721.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/13-3fe658fbd9a888bb020ef3381899ff299d85db6df08c7359bdabe940e1f8bbfb.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/14-fd88fd290d8ee8de08f67e9d7ea7f12f484e2de3a98d5796d825bfde67516da6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/15-7a4a4e8ca716223ce81150ac9d6178b5f6d6fd2c8d6b4c66f1cef422b017b1f5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/16-0e1b44564e142cf31ea59b25d551810d365f437d366fb0b68a8bc41a052d5024.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/17-7612e444c393e1e0989173944ed3815e22eb032a807bcd8e548fe3d454387229.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/18-a8a6f71a924a9be0e45d46243b3a7966a4a009fbcab992de51b4abfac0ed0df9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/19-bd2c42c5b4219f9bc836f47347a7dedd9563c2a3f70d0a467c9dbd872ecf51fe.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/20-56d50aa92188b5c9d0da354e6557467e091131257ec99c28b771fcffc392d19a.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/21-5fc1ad891d9380843fbb668359dbf24adc61d1a0e254cd0f51c5589e1f745374.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/22-51921c77ca6e93708d97ba701725ac90b2a0120c72dc192efaea4891b4f2346e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/23-8a29d73f04ba193bc99f2ef4f8d9976fb008aa0df9e4f94ecf3e1c61cd0524f9.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/24-16f28a2b93aa5abf47e2ecdc7c8dc650235933b54b2f505098fc331df71d99f6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/25-5835500d0364f5a602c3582bd1a3297dd2ed911f6c6c45ba5f09fbd583823637.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/26-bebd22e70d7096f6268addbe65d5c9a86e1ff5024786b33b7cc80a8763ff2fe0.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/27-a78055f8aed8bec12bac7df31cd81417478f8aabced45c51347f7ced5cf6e96d.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/28-be36b34a592fb3c9346723bc1d26c6e80622f276cdcbf0c6212784331e7b13af.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/29-5c803127781eb4840b029dcb9c8d5a6881c4ca8bf6f89c4eeabf4f266382d710.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/30-328dba08ae23b956115a0554f4d3c51b9cd7d8978d074b8647a61299c98f8b4f.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/31-10102485908f9811ae6937e55a9506f04853b673526079ac06be35dd6e727a5c.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/32-bdcad7555d190dedd122d0e4c86b324b6c1e42a0213520b059ecc9a5f7574a60.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/33-7a1c7b6f656107bdfbd21242bbba3f6cccd345cccf71d6c3d42ab709e8896f31.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/34-edaddbd7cf31a26bc593d0b160d2554fa52b57e06f962cae73d08ecf51068de6.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/35-0e6a5e98eff0ce7256055bd1fc6797c0796be7286e4e3ca1c3804bf344aa9e45.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/36-7b56426c530da9292741313c1569e8005a89f24081e9a0c8128ed1a5b2ac2ee5.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/37-c98871eb50887ad687180333e3d0f2ed3ad18be841a708dc821cc4460fbb5132.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/38-6465debbab3f9b5b0a1f41ddfe5f1deba2c8db7841d956f7b14f1270b9267d04.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/39-8cb61fb067b43342a2be0c9b8e8ea1c6e9a16dc8d422c10b1e70ad765244ed0e.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/40-7168680bffe9d92e818e2e01dcd2602093b014cdb85874977d9b0f228ba98eab.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/41-a32d5e9ca559a8a79dc8480cee77a88b6e7d527f3eede8e6b5db97858f539ff4.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/42-58d76c6b22c5e5834bf4f4d4dc1d8d3686c5abc39d9a46a686d8e4367adaf9ed.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/43-762a7dee2ae36ee1e22c72a6e06dce2cb52a2bf804a0244ee81a63062e75a6b8.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/44-1b6bb9426de10221bb85aa4ff6fdbdb2fecf47047f77da62f7516827f6fe1dfe.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/45-67dc51d647eb95dc54cceee8ca0de495fb90325e45b0d0376a2a105d722596bc.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/46-9ad8ce9932a1774cb2127dc1e74789a6cca6a8ba836fa0c8340b93c8b91eedd7.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/47-82123aff75cd6f37fbe64fd57ef5c6941984ce474ee321fa1feec6b85137e53b.jpg",
-        "https://cmdxd98sb0x3yprd.mangadex.network/data/418b2ee3f2591c27f012a0924317ca12/48-e0f54c7a9266dc77b3dcb906c9d6af102cc3a50dbad3e8639ebdcf2cbdb6a35e.jpg"
-      ],
-      "title": "فصل 85 — هل هذا بسبب أنني الأصلع ذو الرداء؟ ",
-      "pagesCount": 48,
-      "number": 85
+      "title": "Super no Ura de Yani Suu Futari",
+      "rating": 0,
+      "votes": 0
     }
   ],
-  "syncedAt": "2026-06-18T09:30:04.577Z",
-  "totalManga": 0,
-  "totalChapters": 20
+  "chapters": [
+    {
+      "id": "670ebNKPOO5eXyrS8LKD",
+      "title": "الفصل 1",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 325000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 1,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "20ac7ccd-f96e-48b8-8ed5-dde7f9f4a720",
+      "pagesCount": 0
+    },
+    {
+      "id": "U1QfwNFC6cHPhAGOe1OQ",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 1,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "0e94d2f6-d4cc-49d2-a42d-6c26daeaf8c0",
+      "pagesCount": 0,
+      "title": "1st Smoke",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 171000000
+      }
+    },
+    {
+      "id": "ilMz9VW28oPfA1GPSFos",
+      "title": "1",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 466000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 1,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "50ed370a-5b64-4e4d-805d-f07d94facc61",
+      "pagesCount": 0
+    },
+    {
+      "id": "mFsrk7nlQoxWz6CVoOgX",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 591000000
+      },
+      "title": "الفصل 1",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 1,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "ce53d6a9-eaa0-4d2a-b1ca-95f6bd5ba68c",
+      "pagesCount": 0
+    },
+    {
+      "id": "RY8R8fEmNIfrlYw9DYii",
+      "pagesCount": 0,
+      "sourceUrl": "f065d2e9-9229-4e8e-9a02-47b413c84d7e",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 2,
+      "pages": [],
+      "title": "2",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 862000000
+      }
+    },
+    {
+      "id": "SeOXMCE2a2O2XfKBJcK5",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 2,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "1c520751-8cc2-4503-aa4d-68826a394103",
+      "pagesCount": 0,
+      "title": "2nd Smoke",
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 149000000
+      }
+    },
+    {
+      "id": "WTAilntpVFFrG4Msh7M6",
+      "title": "الفصل 2",
+      "createdAt": {
+        "seconds": 1781783982,
+        "nanoseconds": 719000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 2,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "315228f6-7871-4a77-895b-a1d9ecc2be9f",
+      "pagesCount": 0
+    },
+    {
+      "id": "uH9bMr0nLMRVlhnpLxfh",
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 3000000
+      },
+      "title": "الفصل 2",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "c3237423-dedc-4297-9b09-0b6f866b3ce8",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 2,
+      "pages": []
+    },
+    {
+      "id": "TwjVyUpm7WHpM08AnQws",
+      "title": "3",
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 715000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 3,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "344149d2-85b1-40e6-af1e-3c70db268769"
+    },
+    {
+      "id": "d96z12kFCDFI72GDSXJT",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 3,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "03af3573-c8d5-4d7b-bb6e-86f21d0e1043",
+      "title": "3rd Smoke",
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 400000000
+      }
+    },
+    {
+      "id": "e65OGz2Sq4MxDuDW5yqk",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 3,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "5be7c1ab-eb85-442c-a67c-ceb222510161",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 282000000
+      },
+      "title": "الفصل 3"
+    },
+    {
+      "id": "ehpFYKZzY1Ew5UA3Z6Rx",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "3da1f714-ecc5-4fad-9b70-f829d1d1c4c5",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 3,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 558000000
+      },
+      "title": "الفصل 3"
+    },
+    {
+      "id": "T6X9CtYWDPEihmS3nUT8",
+      "title": "4",
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 10000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "c5d70d8f-e78a-4a75-bbe2-ac1f0c852ece",
+      "number": 4,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "VwiG4GbZBtt8LjRwpDlG",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 4,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "4a25aa05-e9d0-424e-b158-24e700c5ff6b",
+      "title": "الفصل 4",
+      "createdAt": {
+        "seconds": 1781783983,
+        "nanoseconds": 858000000
+      }
+    },
+    {
+      "id": "YB77zJUR3Qvl3N0iPT1U",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "699fab61-63fa-4942-97f9-897b78c5bf03",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 4,
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 162000000
+      },
+      "title": "الفصل 4"
+    },
+    {
+      "id": "TgsDfPcNOx0xI0DZ5hrm",
+      "title": "الفصل 5",
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 404000000
+      },
+      "pagesCount": 0,
+      "sourceUrl": "3825553c-5269-4ff9-9c40-5b8f5fedc155",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 5,
+      "pages": []
+    },
+    {
+      "id": "mmLou9Wry3FNxvTzqCw6",
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 278000000
+      },
+      "title": "الفصل 5",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "c06332f8-a719-4204-ad81-4ab837966f2b",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 5,
+      "pages": []
+    },
+    {
+      "id": "eNMUHX4TkY4AkULcbmZq",
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 722000000
+      },
+      "title": "الفصل 6",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 6,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "38493832-7499-4a2f-a6e0-f6f3286abe2c",
+      "pagesCount": 0
+    },
+    {
+      "id": "l64WCxfoJBPFPzKpSqiV",
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 562000000
+      },
+      "title": "الفصل 6",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "2dfd550e-4e22-4b90-b651-c2e1f3f8ea13",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 6
+    },
+    {
+      "id": "4P2VRH9MmA0y5BswzVIR",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 7,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "fc0b29cc-35ec-420c-b9ee-793ea05f8f94",
+      "createdAt": {
+        "seconds": 1781783984,
+        "nanoseconds": 846000000
+      },
+      "title": "الفصل 7"
+    },
+    {
+      "id": "hfW02raPyiLS0RLwFcsD",
+      "title": "الفصل 7",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 2000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "218c2d5d-af4b-4bc9-9e21-cca559898d23",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 7,
+      "pages": []
+    },
+    {
+      "id": "70wTuVR8dwa4Pdu57G2f",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 8,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "5a774fa0-2e04-48e7-909c-7756d9d3acb7",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 273000000
+      },
+      "title": "الفصل 8"
+    },
+    {
+      "id": "vKR2LVeJ1ZLpCR42Ld4Y",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "9103de7e-7fb7-4c68-b6a6-bb6213cb684b",
+      "number": 8,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 154000000
+      },
+      "title": "الفصل 8"
+    },
+    {
+      "id": "aaZ59ulFm8UxHBdhi2wt",
+      "pagesCount": 0,
+      "sourceUrl": "6721f40f-3c8d-4da1-acea-a4dc719e090e",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 9,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 416000000
+      },
+      "title": "الفصل 9"
+    },
+    {
+      "id": "jhC56xP2QQf07XQA18uP",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 9,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "75de62cc-1a2a-4894-b5f0-a9519158c374",
+      "title": "الفصل 9",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 578000000
+      }
+    },
+    {
+      "id": "QpLDfi5VOOY4LPLEQrXq",
+      "title": "الفصل 10",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 740000000
+      },
+      "pagesCount": 0,
+      "sourceUrl": "decbbf4e-e093-4296-9575-330d4b48af76",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 10,
+      "pages": []
+    },
+    {
+      "id": "UKfUODioYj49cujVFx38",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 867000000
+      },
+      "title": "الفصل 10",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "37b7535f-225d-442a-b9a6-adb655eefaf0",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 10,
+      "pages": []
+    },
+    {
+      "id": "HE0sfYjcOjQxVVqY10sS",
+      "number": 11,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "089fac64-0151-4d20-ba9b-d71d668320eb",
+      "createdAt": {
+        "seconds": 1781783985,
+        "nanoseconds": 992000000
+      },
+      "title": "الفصل 11"
+    },
+    {
+      "id": "zaZNdOcTLDA16wai2U69",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "dd980837-fe5a-4190-9d36-b7e36efc7896",
+      "number": 11,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 122000000
+      },
+      "title": "الفصل 11"
+    },
+    {
+      "id": "1PUbfV6N3FjpjgJaulNq",
+      "number": 12,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "8ece5bdd-6f58-4266-8bdd-f357c6f68e2d",
+      "title": "الفصل 12",
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 431000000
+      }
+    },
+    {
+      "id": "KJ6k7T3fgAEyCahDdTPm",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "0b507a92-d0ff-4054-89c5-a16809929d1b",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 12,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 269000000
+      },
+      "title": "الفصل 12"
+    },
+    {
+      "id": "3YtfO39gUliD0Xwtx4VA",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 13,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "12505be4-11bc-44a6-a31c-b94be014cfad",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 13",
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 708000000
+      }
+    },
+    {
+      "id": "UPjlnLhPXNM7VfdnSOBd",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "41dd3571-4133-4f4e-847d-ea5f069b9aec",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 13,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 555000000
+      },
+      "title": "الفصل 13"
+    },
+    {
+      "id": "4BAkndzibp19A4LhvDaJ",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 14,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "31258a92-a834-4b92-b21f-0863738a2a18",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783986,
+        "nanoseconds": 855000000
+      },
+      "title": "الفصل 14"
+    },
+    {
+      "id": "SHI80ezwl2SzXilQIpj1",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 3000000
+      },
+      "title": "الفصل 14",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "db6054cf-9cc7-4998-a115-99160e3c8523",
+      "number": 14,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "id": "fwKLgCHICsCY4iBqqOKG",
+      "pagesCount": 0,
+      "sourceUrl": "54b063d6-1d0d-4a9b-af80-06d5d5f384b9",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 15,
+      "pages": [],
+      "title": "الفصل 15",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 158000000
+      }
+    },
+    {
+      "id": "nBitwWSkGfbDX58fLpKg",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 276000000
+      },
+      "title": "الفصل 15",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 15,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "8fd8c57b-72fa-4f52-8df2-01a424ab22e0",
+      "pagesCount": 0
+    },
+    {
+      "id": "0NFYcWAlx46mU35WzOw9",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "c2749eb2-f4c7-4c2d-9980-228d5c5e589b",
+      "number": 16,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "title": "الفصل 16",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 541000000
+      }
+    },
+    {
+      "id": "Kc1cHj8lBNEUy7vPqxzY",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 417000000
+      },
+      "title": "الفصل 16",
+      "number": 16,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "71c522b3-05b4-48d7-ac0f-d4e55a8b62dd"
+    },
+    {
+      "id": "KlACNnpgNicMLnKad3C0",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "983c7c0e-ecca-4b5c-b26b-b620265197d4",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 16.5,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 859000000
+      },
+      "title": "Vol.1 Extras"
+    },
+    {
+      "id": "Xp9ABcV7MkXBLMBDQYJ2",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 16.5,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "0041204e-d9b8-4ca8-8ce4-292f1e6fb0c6",
+      "pagesCount": 0,
+      "title": "الفصل 16.5",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 698000000
+      }
+    },
+    {
+      "id": "2hkc4xLtMPqvaOJoDBkb",
+      "title": "الفصل 16.6",
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 97000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 16.6,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "4b5e69c4-10fc-41ff-88a0-fc46c63bd369",
+      "pagesCount": 0
+    },
+    {
+      "id": "DAnk3J3rcGNlcIdhkABr",
+      "createdAt": {
+        "seconds": 1781783987,
+        "nanoseconds": 983000000
+      },
+      "title": "Vol.1 Extras 2",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "6dacfb09-ace8-4763-a436-e1a6678b735e",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 16.6,
+      "pages": []
+    },
+    {
+      "id": "tWMSIfDplX7CfF5ocqAL",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 17,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "e16d6a19-5c96-40d8-a2e5-6ff0b381e202",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 363000000
+      },
+      "title": "الفصل 17"
+    },
+    {
+      "id": "vQsrkNnOewwFXWxN35Vl",
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 233000000
+      },
+      "title": "الفصل 17",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 17,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "d609bf53-449f-4f22-9ac1-cbb512e029c8",
+      "pagesCount": 0
+    },
+    {
+      "id": "oNteEpcVMwOkEqmGzuyS",
+      "pagesCount": 0,
+      "sourceUrl": "317ab3ec-27ce-49d8-b217-af00b84a4d66",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 17.1,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 517000000
+      },
+      "title": "الفصل 17.1"
+    },
+    {
+      "id": "63jso5kQ2ukPiXox6IWO",
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 672000000
+      },
+      "title": "الفصل 17.2",
+      "pagesCount": 0,
+      "sourceUrl": "92a0887a-00c0-4075-aeee-db5da6492a80",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 17.2,
+      "pages": []
+    },
+    {
+      "id": "smIrQeWpWnUEutdX0LL6",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "1774b96d-38be-4966-adcd-d4c87bda31cc",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 17.3,
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 835000000
+      },
+      "title": "الفصل 17.3"
+    },
+    {
+      "id": "ffLCEgME1VYaC3jrQPVT",
+      "title": "الفصل 17.4",
+      "createdAt": {
+        "seconds": 1781783988,
+        "nanoseconds": 940000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 17.4,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "c7998547-e463-4496-90b7-2fc18183f6cd",
+      "pagesCount": 0
+    },
+    {
+      "id": "VI7qtmCkjHR43pELZXLU",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 18,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "b1620a8e-f4db-4505-b3f3-fa6a7d93abb9",
+      "pagesCount": 0,
+      "title": "الفصل 18",
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 242000000
+      }
+    },
+    {
+      "id": "ocxYt3C7E9R4gyGryAdZ",
+      "pagesCount": 0,
+      "sourceUrl": "b69c7c56-9052-4d4a-b709-150a4e48b0e2",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 18,
+      "pages": [],
+      "title": "الفصل 18",
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 91000000
+      }
+    },
+    {
+      "id": "iys9kwySJvL5cZUI047q",
+      "title": "الفصل 19",
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 378000000
+      },
+      "number": 19,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "853e7914-8018-45c7-a19f-08e98dc45250"
+    },
+    {
+      "id": "uvIcBwgzlMoA8rXmaU2U",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 19,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "972164d7-18ec-49b2-a077-d96db765a6a7",
+      "title": "الفصل 19",
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 535000000
+      }
+    },
+    {
+      "id": "JWbgZUIrVlkpsEEYNGTB",
+      "pagesCount": 0,
+      "sourceUrl": "7588b4ce-5ff6-4136-a304-63a8f6c2ecf2",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 20,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 851000000
+      },
+      "title": "الفصل 20"
+    },
+    {
+      "id": "aLBcGZGZYCGGyeauuL0D",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 20,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "1fc68b0a-dea9-44fa-b212-9e282d0791c9",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 707000000
+      },
+      "title": "الفصل 20"
+    },
+    {
+      "id": "ONsZgDQVay2CjlcKgDf8",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "7bbe3f50-e088-441e-9573-bdc37ad299ec",
+      "number": 21,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "title": "الفصل 21",
+      "createdAt": {
+        "seconds": 1781783989,
+        "nanoseconds": 981000000
+      }
+    },
+    {
+      "id": "3A7d6UXYKkDJbDXtJAuV",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 257000000
+      },
+      "title": "الفصل 21.1",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "2847d91b-ac51-4a5b-b4b4-a019e99e1d4d",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 21.1
+    },
+    {
+      "id": "8ok4HGIj0a10sHHARFUr",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 108000000
+      },
+      "title": "الفصل 21.1",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "de32d7f8-1fc9-430c-9819-70deaa627ace",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 21.1,
+      "pages": []
+    },
+    {
+      "id": "OZE0EqiqhYxLQT01JTOC",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 371000000
+      },
+      "title": "الفصل 21.2",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "8b0e2962-ee5e-416a-99e7-21bef6ee17fd",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 21.2
+    },
+    {
+      "id": "27wBLwQxUtABdE49wc9J",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "103e8d75-b581-4b3c-97d9-126a374875ee",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 22,
+      "pages": [],
+      "title": "الفصل 22",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 511000000
+      }
+    },
+    {
+      "id": "ZJ4zm28ToyAHt87bjCDw",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "99a3bd6f-23b9-41b6-84c3-7cc6c3a82d95",
+      "number": 22.1,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "title": "الفصل 22.1",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 673000000
+      }
+    },
+    {
+      "id": "e9UiaL7K57WxIdXpIwlk",
+      "pagesCount": 0,
+      "sourceUrl": "e26d4d6c-a58c-4160-9d03-60e46e010a53",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 22.2,
+      "pages": [],
+      "title": "الفصل 22.2",
+      "createdAt": {
+        "seconds": 1781783990,
+        "nanoseconds": 855000000
+      }
+    },
+    {
+      "id": "hMShQDoazu19nSz8SQDX",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 20000000
+      },
+      "title": "الفصل 22.2",
+      "number": 22.2,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "f701faf7-1d80-4147-85ec-b61cccf76ffb"
+    },
+    {
+      "id": "sgqlgmZvFoIddIewk14X",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 22.3,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "50bd0d90-c224-4c7f-b430-26767faa6d2b",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "title": "الفصل 22.3",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 215000000
+      }
+    },
+    {
+      "id": "bEusP8xJXqjeJCegwcA4",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "f5d8f451-19bc-408b-aff4-b824ba1742a4",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 22.4,
+      "pages": [],
+      "title": "الفصل 22.4",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 368000000
+      }
+    },
+    {
+      "id": "CTYymJaeG77iRUiVJUvE",
+      "number": 23,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "fbb5f0f5-069d-41e8-87f4-b8227a2c0fbc",
+      "title": "الفصل 23",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 674000000
+      }
+    },
+    {
+      "id": "XsoCz03PkrLBkdl78cp6",
+      "title": "الفصل 23",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 512000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "1fd1e6b3-b03e-46a0-9971-5050c3740f10",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 23,
+      "pages": []
+    },
+    {
+      "id": "o2E2DhEx4futAVBcQQv9",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 23.1,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "170f74ca-d369-40a6-b019-74768c4a603d",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 816000000
+      },
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "k5vML9am4daoXgYY7xd7",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "fc5eb85a-129d-46eb-98f6-315553b9b4c2",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 23.2,
+      "title": "Twitter Extra",
+      "createdAt": {
+        "seconds": 1781783991,
+        "nanoseconds": 956000000
+      }
+    },
+    {
+      "id": "hFEIuEmHdvvV56OXuoqZ",
+      "title": "الفصل 23.3",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 82000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 23.3,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "b16ece62-9cb5-49ce-8ad2-6548a8c73b47",
+      "mangaId": "FT455FAOB3kSF6UlRH3y"
+    },
+    {
+      "id": "gyzr4IE8yvmQJhlmkIlh",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 196000000
+      },
+      "title": "الفصل 23.4",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "585edad7-f5fc-470d-99be-315c20027487",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 23.4,
+      "pages": []
+    },
+    {
+      "id": "ldzmFIqDKl86i8W9t3ur",
+      "title": "الفصل 24",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 341000000
+      },
+      "number": 24,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "0d1617ea-5f2b-4112-928e-4d57e39bafdd"
+    },
+    {
+      "id": "PE7QIDoWvEDeDQPzZfnu",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 24.5,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "58d51144-0b91-49ed-a0fd-c1a94878fe5d",
+      "title": "New Year Extra",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 475000000
+      }
+    },
+    {
+      "id": "rilamdX3XM4jZakwMrlq",
+      "title": "Vol.2 Extras",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 644000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "86ca5b57-6e90-4bf0-810d-4e96dea13683",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 24.6,
+      "pages": []
+    },
+    {
+      "id": "TpdJJ3VX08F79wkxVuC6",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 25,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "ee8fa7fb-b431-4270-937b-d7d5e51444ef",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 804000000
+      },
+      "title": "الفصل 25"
+    },
+    {
+      "id": "eqUrx9FEWtEtw7BlHhsY",
+      "title": "Twitter Extra",
+      "createdAt": {
+        "seconds": 1781783992,
+        "nanoseconds": 951000000
+      },
+      "number": 25.5,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "bd164c41-f404-42e3-af39-055975b7d401"
+    },
+    {
+      "id": "d8OmlGeH8Dw2tMgbxyUm",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "a6174638-b6c8-46ff-a5e8-f13ae234f230",
+      "pagesCount": 0,
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 25.6,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 90000000
+      },
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "z7mp41P0idehg9oxa15W",
+      "title": "الفصل 26",
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 226000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 26,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "b9dda065-b61a-4a1b-a92d-bd55376d2bd8",
+      "mangaId": "FT455FAOB3kSF6UlRH3y"
+    },
+    {
+      "id": "1N2Wu0s8uNFbDwSLhD61",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 26.5,
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "36135071-2742-4954-a897-c117d1f7cb85",
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 370000000
+      },
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "QN19PpOSd0Vrh1CBufNW",
+      "pagesCount": 0,
+      "sourceUrl": "e45e38e0-3f57-4e41-85d8-0801f7a9dae6",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 26.6,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 557000000
+      },
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "SVPNvzrkGh3P6LHHFytt",
+      "title": "April Fools' Special",
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 705000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 26.7,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "0e3d611d-8417-48c6-97f3-cdc68cc20c92",
+      "mangaId": "FT455FAOB3kSF6UlRH3y"
+    },
+    {
+      "id": "jdKM4KSFlYIn3vPyJz7k",
+      "number": 27.5,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "16177e81-ef15-4102-b61f-eb619a5bc4d1",
+      "createdAt": {
+        "seconds": 1781783993,
+        "nanoseconds": 859000000
+      },
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "qdmsB1tMo4BHYwJmQ5o0",
+      "pagesCount": 0,
+      "sourceUrl": "8e8fc503-6d3d-4b7e-8f7b-d4ca7e5faecb",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 28.5,
+      "pages": [],
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 41000000
+      },
+      "title": "Twitter Extra"
+    },
+    {
+      "id": "0gygdNz0dZqYEl8uTJBE",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "e744d79b-b423-46b9-b828-9314764373c6",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 28.6,
+      "title": "Twitter Extra",
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 218000000
+      }
+    },
+    {
+      "id": "yA8kA3L89xV7mFqxe7qr",
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 355000000
+      },
+      "title": "Vol.3 Extras",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 28.7,
+      "pages": [],
+      "pagesCount": 0,
+      "sourceUrl": "35f4cfb5-aa99-4960-b0a5-aeaf812c7dfb",
+      "mangaId": "FT455FAOB3kSF6UlRH3y"
+    },
+    {
+      "id": "7oJBMvR5KEUowHxfFYQB",
+      "title": "Melonbooks Extra",
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 487000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 28.8,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "e10d7b13-28f1-4fd2-91ea-6d306d90b3f4",
+      "pagesCount": 0
+    },
+    {
+      "id": "aDgh8lgz4hExzdt56U2l",
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 659000000
+      },
+      "title": "Twitter Extra",
+      "pagesCount": 0,
+      "sourceUrl": "98725f2d-7cb7-4cad-b932-3db8fc0504fb",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 29.5,
+      "pages": []
+    },
+    {
+      "id": "Q92DvLYl7rASZhb7v3zG",
+      "number": 30.5,
+      "pages": [],
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "d5dd6330-308d-4294-bcdf-6b91beb2b246",
+      "title": "Twitter Extra",
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 814000000
+      }
+    },
+    {
+      "id": "MacIV3XVX9iE1JjTNrjt",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 31,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "5f6d0368-ee16-4a5f-8919-d0010089ef00",
+      "pagesCount": 0,
+      "createdAt": {
+        "seconds": 1781783994,
+        "nanoseconds": 969000000
+      },
+      "title": "الفصل 31"
+    },
+    {
+      "id": "WZre4lZ1HLxSnaJuGi38",
+      "title": "Twitter Extra",
+      "createdAt": {
+        "seconds": 1781783995,
+        "nanoseconds": 117000000
+      },
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "number": 31.5,
+      "pages": [],
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "sourceUrl": "e605bdb9-4f1d-4845-8d68-2745eba0b6bf",
+      "pagesCount": 0
+    },
+    {
+      "id": "XYNPlc9ICo2NAKLjNWwe",
+      "title": "Vol.4 Extras",
+      "createdAt": {
+        "seconds": 1781783995,
+        "nanoseconds": 265000000
+      },
+      "mangaId": "FT455FAOB3kSF6UlRH3y",
+      "pagesCount": 0,
+      "sourceUrl": "a60c1b1c-a9de-4698-b7cb-9f93d4e34914",
+      "mangaTitle": "Super no Ura de Yani Suu Futari",
+      "pages": [],
+      "number": 33.5
+    }
+  ],
+  "syncedAt": "2026-06-18T12:00:09.472Z",
+  "totalManga": 1,
+  "totalChapters": 91
 }
