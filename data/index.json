@@ -1,5 +1,43 @@
 [
   {
+    "id": "hmOD4KzsFui3VBPGmiaG",
+    "title": "Blue Lock Legions",
+    "titleEn": "Blue Lock Legions",
+    "coverUrl": "https://uploads.mangadex.org/covers/e2f88804-6111-45c2-b2b2-24a9e6c18c45/a96a7242-be4f-49af-b236-35e2fd6c66f1.png.512.jpg",
+    "status": "ongoing",
+    "categories": [
+      "إثارة",
+      "أكشن",
+      "كوميدي",
+      "رياضة",
+      "Self-Published",
+      "School Life",
+      "Web Comic"
+    ],
+    "updatedAt": {
+      "seconds": 1781877746,
+      "nanoseconds": 756000000
+    }
+  },
+  {
+    "id": "JpFFVDGS7GeYWW6Fb7re",
+    "title": "Blue Lock",
+    "titleEn": "Blue Lock",
+    "coverUrl": "https://uploads.mangadex.org/covers/4141c5dc-c525-4df5-afd7-cc7d192a832f/1975ed85-c114-42d9-b0c3-75421ba87e5d.jpg.512.jpg",
+    "status": "ongoing",
+    "categories": [
+      "إثارة",
+      "Award Winning",
+      "نفسي",
+      "رياضة",
+      "دراما"
+    ],
+    "updatedAt": {
+      "seconds": 1781877711,
+      "nanoseconds": 695000000
+    }
+  },
+  {
     "id": "4FzFo8nnodL40VmgK4ug",
     "title": "Gokushufudou",
     "titleEn": "Gokushufudou",
