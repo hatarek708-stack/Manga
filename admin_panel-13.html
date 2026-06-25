@@ -1646,20 +1646,26 @@ async function testCorsProxy() {
 
     const btn = document.getElementById('test-proxy-btn');
     if (btn) { btn.disabled = true; btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> جاري الاختبار...'; }
-    toast('جاري اختبار البروكسي مع azoramoon...','i');
+    toast('جاري اختبار البروكسي مع روكس مانجا...','i');
 
     try {
-        // اختبار 1: Worker مباشر
+        // اختبار 1: Worker مباشر — ملاحظة: الـ Worker يرد 400 "Missing ?url=" عند عدم تمرير رابط،
+        // وهذا سلوك صحيح ويعني أنه يعمل. نفشل فقط عند انعدام الاستجابة (خطأ شبكة) أو 5xx.
         const workerBase = proxy.replace(/\?url=$|&url=$/, '');
-        const pingR = await fetch(workerBase, { signal: AbortSignal.timeout(8000) });
-        const pingText = await pingR.text();
-        if (!pingR.ok) {
-            toast('❌ Worker لا يستجيب — تحقق من Cloudflare Dashboard','e');
+        try {
+            const pingR = await fetch(workerBase, { signal: AbortSignal.timeout(8000) });
+            await pingR.text().catch(() => '');
+            if (pingR.status >= 500) {
+                toast(`❌ Worker يرد بخطأ خادم (${pingR.status}) — تحقق من Cloudflare Dashboard`,'e');
+                return;
+            }
+        } catch(pe) {
+            toast('❌ Worker لا يستجيب (خطأ شبكة) — تأكد من صحة الرابط','e');
             return;
         }
 
-        // اختبار 2: جلب موقع مانجا حقيقي
-        const testUrl = 'https://azoramoon.com/manga/?m_orderby=latest';
+        // اختبار 2: جلب موقع مانجا حقيقي (روكس مانجا — موقع نشِط ومستقر)
+        const testUrl = 'https://rocksmanga.com/manga/?m_orderby=latest';
         const target = proxy + encodeURIComponent(testUrl);
         const t0 = Date.now();
         const r = await fetch(target, { signal: AbortSignal.timeout(70000) });
