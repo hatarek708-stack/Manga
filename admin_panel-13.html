@@ -545,8 +545,8 @@
     } catch(e) {}
 
     try {
-      const res = await fetch(targetUrl, {
-        headers: {
+      // تمرير method و body كما هي (يدعم POST للبحث عبر admin-ajax)
+      const fwdHeaders = {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
           'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
           'Accept-Language': 'ar,en-US;q=0.9,en;q=0.8',
@@ -554,11 +554,21 @@
           'Referer': new URL(targetUrl).origin + '/',
           'Cache-Control': 'no-cache, no-store',
           'Pragma': 'no-cache',
-        },
+      };
+      const fetchInit = {
+        method: request.method,
+        headers: fwdHeaders,
         redirect: 'follow',
-        // منع Cloudflare CDN من تخزين الاستجابة
         cf: { cacheTtl: -1, cacheEverything: false, bypassCache: true },
-      });
+      };
+      // مرّر جسم الطلب وترويسة نوع المحتوى عند POST (مطلوب للبحث wp-manga-search-manga)
+      if (request.method === 'POST' || request.method === 'PUT') {
+        fetchInit.body = await request.text();
+        fwdHeaders['Content-Type'] = request.headers.get('Content-Type') || 'application/x-www-form-urlencoded; charset=UTF-8';
+        // طلبات admin-ajax تتطلب أحياناً ترويسة X-Requested-With
+        fwdHeaders['X-Requested-With'] = 'XMLHttpRequest';
+      }
+      const res = await fetch(targetUrl, fetchInit);
 
       const newHeaders = new Headers(res.headers);
       newHeaders.set('Access-Control-Allow-Origin', '*');
@@ -1659,9 +1669,30 @@ async function testCorsProxy() {
         if (r.ok && text.length > 500) {
             const hasManga = text.includes('manga') || text.includes('مانجا') || text.includes('مانهوا');
             if (hasManga) {
-                toast(`✅ البروكسي يعمل بشكل مثالي! (${elapsed}s) — تم جلب azoramoon بنجاح`,'s');
+                toast(`✅ البروكسي يعمل (${elapsed}s) — جاري فحص دعم البحث (POST)...`,'s');
             } else {
                 toast(`⚠️ Worker يعمل لكن الصفحة فارغة من المانجا (${elapsed}s)`,'w');
+            }
+
+            // اختبار 3: دعم POST (ضروري للبحث في مواقع مثل روكس مانجا)
+            try {
+                const searchTarget = proxy + encodeURIComponent('https://rocksmanga.com/wp-admin/admin-ajax.php');
+                const sr = await fetch(searchTarget, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' },
+                    body: 'action=wp-manga-search-manga&title=dandadan',
+                    signal: AbortSignal.timeout(30000),
+                });
+                const stext = await sr.text();
+                let ok = false;
+                try { const j = JSON.parse(stext); ok = j && j.success && Array.isArray(j.data) && j.data.length > 0; } catch {}
+                if (ok) {
+                    toast('✅ البحث (POST) يعمل! الـ Worker محدّث ويدعم كل الميزات 🎉','s');
+                } else {
+                    toast('⚠️ الـ Worker لا يدعم البحث (POST). انسخ كود الـ Worker الجديد من الشرح أعلاه وأعد نشره (Save and Deploy).','w');
+                }
+            } catch(se) {
+                toast('⚠️ تعذّر فحص البحث (POST) — قد يحتاج الـ Worker للتحديث. أعد نشر الكود الجديد.','w');
             }
         } else {
             toast(`❌ خطأ ${r.status} من البروكسي (${elapsed}s)`,'e');
