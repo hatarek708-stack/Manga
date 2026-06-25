@@ -1742,7 +1742,7 @@ function isCloudflareChallenged(text) {
 // proxyFetch — يستخدم Worker المخصص فقط (موثوق، بدون كاش)
 // البروكسيات العامة تخزّن كاش وتُرجع نتائج مغلوطة — محذوفة نهائياً
 // ═══════════════════════════════════════════════════════════════
-async function proxyFetch(url) {
+async function proxyFetch(url, opts = {}) {
     const customProxy = LS.g('cors_proxy');
     if (!customProxy) {
         throw new Error('⚠️ لم يتم إعداد البروكسي. اذهب للإعدادات وأضف رابط Cloudflare Worker الخاص بك.');
@@ -1753,10 +1753,18 @@ async function proxyFetch(url) {
     const noCacheUrl = url + sep + '_t=' + Date.now();
     const target = customProxy + encodeURIComponent(noCacheUrl);
 
+    // إعداد الطلب — يدعم POST (للبحث عبر admin-ajax) مع تمرير الـ body للـ Worker
+    const fetchOpts = { signal: AbortSignal.timeout(70000) };
+    if (opts.method === 'POST') {
+        fetchOpts.method = 'POST';
+        fetchOpts.body = opts.body || '';
+        fetchOpts.headers = { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' };
+    }
+
     // زيادة timeout إلى 70 ثانية لاستيعاب وقت FlareSolverr
     let r;
     try {
-        r = await fetch(target, { signal: AbortSignal.timeout(70000) });
+        r = await fetch(target, fetchOpts);
     } catch(e) {
         if (e.name === 'TimeoutError') {
             throw new Error('⏱️ انتهت المهلة (70 ثانية) — تأكد أن Termux وcloudflared يعملان');
@@ -2390,7 +2398,26 @@ function madaraParseCards(doc, base) {
 async function madaraSearch(baseUrl, query) {
     const base = baseUrl.replace(/\/$/,'');
 
-    // طريقة 1: wp-ajax
+    // طريقة 1: نقطة بحث Madara الرسمية wp-manga-search-manga (POST) — تُرجع JSON دقيق ومُفلتر
+    // هذه هي الطريقة الصحيحة لمواقع مثل rocksmanga التي لا يُفلتر فيها رابط ?s=
+    try {
+        const ajaxUrl = `${base}/wp-admin/admin-ajax.php`;
+        const r = await proxyFetch(ajaxUrl, {
+            method: 'POST',
+            body: `action=wp-manga-search-manga&title=${encodeURIComponent(query)}`
+        });
+        const txt = await r.text();
+        const json = JSON.parse(txt);
+        if (json && json.success && Array.isArray(json.data)) {
+            const res = json.data
+                .filter(it => it && it.url && it.title && it.type !== 'manga-author')
+                .map(it => ({ id: it.url, title: it.title, cover: '', status: 'ongoing', lang: 'ar' }))
+                .slice(0, 30);
+            if (res.length) return res;
+        }
+    } catch(e) { /* fallback للطرق التالية */ }
+
+    // طريقة 2: wp-ajax القديمة (madara_load_more) لبعض الثيمات
     try {
         const ajaxUrl = `${base}/wp-admin/admin-ajax.php?action=madara_load_more` +
             `&template=madara-core%2Fcontent%2Fcontent-search` +
@@ -2405,7 +2432,7 @@ async function madaraSearch(baseUrl, query) {
         }
     } catch(e) { /* fallback */ }
 
-    // طريقة 2: روابط بحث متعددة
+    // طريقة 3: روابط بحث HTML + فلترة من جهة العميل (لأن ?s= يرجع كل المانجا أحياناً)
     const searchUrls = [
         `${base}/?s=${encodeURIComponent(query)}&post_type=wp-manga`,
         `${base}/search/?s=${encodeURIComponent(query)}`,
@@ -2413,6 +2440,7 @@ async function madaraSearch(baseUrl, query) {
         `${base}/?s=${encodeURIComponent(query)}`,
     ];
 
+    const qWords = query.toLowerCase().split(/\s+/).filter(Boolean);
     let lastError = null;
     for (const u of searchUrls) {
         try {
@@ -2420,8 +2448,14 @@ async function madaraSearch(baseUrl, query) {
             const html = await r.text();
             if (!html || html.length < 100) continue;
             const doc = (new DOMParser()).parseFromString(html, 'text/html');
-            const res = madaraParseCards(doc, base);
-            if (res.length) return res;
+            let res = madaraParseCards(doc, base);
+            // فلترة العنوان حسب كلمات البحث (تجنّب إرجاع القائمة كاملة كنتائج خاطئة)
+            const filtered = res.filter(m => {
+                const t = (m.title || '').toLowerCase();
+                return qWords.some(w => t.includes(w));
+            });
+            if (filtered.length) return filtered;
+            // إن لم يطابق شيء لكن الصفحة فيها بطاقات، فالأرجح أنها قائمة غير مُفلترة — لا تُرجعها
         } catch(e) { lastError = e; }
     }
 
@@ -2433,38 +2467,52 @@ async function madaraGetInfo(mangaUrl) {
     const html = await r.text();
     const doc  = (new DOMParser()).parseFromString(html,'text/html');
 
-    // عنوان — selectors موسّعة لجميع ثيمات Madara
+    const meta = sel => doc.querySelector(`meta[property="${sel}"], meta[name="${sel}"]`)?.getAttribute('content')?.trim() || '';
+
+    // عنوان — selectors موسّعة + بنية rocksmanga (.info h1) ثم احتياطي من meta
     const title = doc.querySelector(
-        '.post-title h1, .manga-title h1, h1.entry-title, .series-title h1, h1.title, .profile-manga-chapter-header h1'
-    )?.textContent?.trim() || doc.querySelector('h1')?.textContent?.trim() || '';
+        '.post-title h1, .manga-title h1, h1.entry-title, .series-title h1, h1.title, .profile-manga-chapter-header h1, .info h1, .sertoinfo h1'
+    )?.textContent?.trim()
+    || meta('og:title').replace(/\s*[-|–]\s*روكس مانجا.*$/, '').replace(/\s*مترجم!?\s*$/, '').trim()
+    || doc.querySelector('main h1, article h1, .info h1')?.textContent?.trim()
+    || '';
 
-    // غلاف
+    // غلاف — أضِف بنية rocksmanga (img[alt="Manga Cover"]) و og:image
     const coverEl = doc.querySelector(
-        '.summary_image img, .manga-thumbnail img, .cover img, .thumb img, .series-thumb img, img.img-responsive'
+        '.summary_image img, .manga-thumbnail img, .cover img, .thumb img, .series-thumb img, img.img-responsive, ' +
+        '.poster img, img[alt="Manga Cover"], .thumb-manga img'
     );
-    const cover = coverEl?.getAttribute('data-src') || coverEl?.getAttribute('data-lazy-src') || coverEl?.getAttribute('src') || '';
+    let cover = coverEl?.getAttribute('data-src') || coverEl?.getAttribute('data-lazy-src') || coverEl?.getAttribute('src') || '';
+    if (!cover || /logo|placeholder/i.test(cover.split('/').pop() || '')) cover = meta('og:image') || cover;
 
-    // وصف
+    // وصف — من الحاوية ثم احتياطي من meta description (rocksmanga يضع الوصف في og:description)
     const desc = doc.querySelector(
-        '.summary__content p, .manga-description, .entry-content p, .description p, .synopsis p, [class*="description"] p'
-    )?.textContent?.trim() || '';
+        '.summary__content p, .manga-description, .entry-content p, .description p, .synopsis p, [class*="description"] p, ' +
+        '#synopsis p, .synopsis, .story p, [class*="story"] p'
+    )?.textContent?.trim()
+    || meta('og:description')
+    || meta('description')
+    || '';
 
-    // تصنيفات
-    const cats = [...doc.querySelectorAll(
-        '.genres-content a, .manga-genre a, .tags-content a, [class*="genre"] a, [class*="tag"] a'
+    // تصنيفات — مقيّدة بمنطقة التفاصيل لتفادي قائمة التنقل (nav) التي تحوي كل التصنيفات
+    let cats = [...doc.querySelectorAll(
+        '.genres-content a, .manga-genre a, .tags-content a, .meta a[href*="/manga-genre/"], ' +
+        '.sidebar a[href*="/manga-genre/"], .info a[href*="/manga-genre/"]'
     )].map(a => a.textContent.trim()).filter(Boolean);
+    // إزالة المكررات والحد الأقصى المعقول (تجنّب التقاط شريط التنقل كاملاً)
+    cats = [...new Set(cats)].slice(0, 15);
 
-    // حالة المانجا
-    const statusText = doc.querySelector(
-        '.post-status .summary-content, .manga-status, [class*="status"] .summary-content'
-    )?.textContent?.trim()?.toLowerCase() || '';
-    const status = statusText.includes('مكتمل') || statusText.includes('completed') ? 'completed'
-                 : statusText.includes('متوقف') || statusText.includes('hiatus') ? 'hiatus'
+    // حالة المانجا — أضِف بنية rocksmanga (.info > p تحوي: مستمر/مكتمل)
+    const statusText = (doc.querySelector(
+        '.post-status .summary-content, .manga-status, [class*="status"] .summary-content, .info > p, .sertostat'
+    )?.textContent?.trim()?.toLowerCase() || '');
+    const status = statusText.includes('مكتمل') || statusText.includes('completed') || statusText.includes('منتهي') ? 'completed'
+                 : statusText.includes('متوقف') || statusText.includes('hiatus') || statusText.includes('متوقفة') ? 'hiatus'
                  : 'ongoing';
 
-    // مؤلف
+    // مؤلف — أضِف رابط rocksmanga (manga-author)
     const author = doc.querySelector(
-        '.author-content a, .manga-author a, [class*="author"] a'
+        '.author-content a, .manga-author a, [class*="author"] a, a[href*="/manga-author/"]'
     )?.textContent?.trim() || '';
 
     // فصول — selectors موسّعة
@@ -2483,30 +2531,38 @@ async function madaraGetInfo(mangaUrl) {
     }
     const chapters = [];
     const seen = new Set();
+    const mangaBase = mangaUrl.replace(/\/$/, '');
     for (const el of chEls) {
         const href = el.getAttribute('href') || '';
         const url = resolveUrl(href, mangaUrl + '/');
         if (!url.startsWith('http') || seen.has(url)) continue;
+        // تجاهل الروابط التي ليست فصولاً فعلية (يجب أن تكون ضمن مسار المانجا نفسها)
+        if (!url.replace(/\/$/, '').startsWith(mangaBase + '/')) continue;
         seen.add(url);
 
         // عنوان الفصل: فضّل وسوم rocksmanga (zebi/contain-zeb) ثم نص الرابط كامل
         const zebi = el.querySelector('zebi, .contain-zeb');
-        let rawTitle = (zebi?.textContent || el.textContent || '').replace(/\s+/g, ' ').trim();
+        let rawTitle = (zebi?.textContent || el.getAttribute('title') || el.textContent || '').replace(/\s+/g, ' ').trim();
 
         // رقم الفصل: فضّل data-chapter (rocksmanga) ثم رقم من الرابط ثم من النص
-        const dataNum = el.closest('[data-chapter]')?.getAttribute('data-chapter');
-        const urlNum  = url.replace(/\/$/, '').split('/').pop().match(/[\d.]+/)?.[0];
+        const dataNum = el.closest('[data-chapter]')?.getAttribute('data-chapter')
+                     || el.getAttribute('data-chapter');
+        const slug    = url.replace(/\/$/, '').slice(mangaBase.length + 1);
+        const urlNum  = slug.replace(/-/g, '.').match(/[\d.]+/)?.[0];
         const num = dataNum || urlNum || rawTitle.match(/[\d.]+/)?.[0] || String(chapters.length + 1);
 
         if (!rawTitle) rawTitle = 'الفصل ' + num;
         chapters.push({ id: url, title: rawTitle, number: num, lang: 'ar' });
     }
 
+    // ترتيب تصاعدي مضمون حسب رقم الفصل (لا نعتمد على ترتيب الـ DOM المتغيّر بين المواقع)
+    chapters.sort((a, b) => (parseFloat(a.number) || 0) - (parseFloat(b.number) || 0));
+
     return {
         id: mangaUrl, title,
         cover: resolveUrl(cover, mangaUrl),
         desc, author, categories: cats, status,
-        chapters: chapters.reverse()
+        chapters
     };
 }
 
